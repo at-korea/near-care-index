@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<title>CARE.INDEX — NEAR v0.7 (Hi-Fi)</title>
+<meta name="viewport" content="width=1280" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Gowun+Batang:wght@400;700&family=IBM+Plex+Serif:wght@300;400;500&family=Pretendard:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  .display, h1.display, h2.display { font-weight: 300 !important; }
+</style>
+<style>
+  :root {
+    --paper: #FAF7F0;
+    --c-red: #FF5A4E;
+    --c-yellow: #FFD23F;
+    --c-blue: #4E8CFF;
+    --c-green: #5CC97A;
+    --c-pink: #FF8FB1;
+    --c-purple: #B383E8;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--paper); font-family: 'Pretendard', system-ui, sans-serif; color: #1a1a1a; }
+  body { min-height: 100vh; }
+  button { font-family: inherit; }
+  body[data-palette="riso"] { --paper: #FFF8E7; --c-red: #E64545; --c-yellow: #F5C518; --c-blue: #2E5BFF; --c-green: #34A853; --c-pink: #F472B6; --c-purple: #8B5CF6; }
+  body[data-palette="pastel"] { --paper: #FFFBF2; --c-red: #FF9C8E; --c-yellow: #FFE38A; --c-blue: #9CC0FF; --c-green: #A8E0B5; --c-pink: #FFC2D6; --c-purple: #D9C2F0; }
+  body[data-palette="govt"] { --paper: #F0F4F8; --c-red: #DC2626; --c-yellow: #EAB308; --c-blue: #1E3A8A; --c-green: #047857; --c-pink: #BE185D; --c-purple: #6D28D9; }
+  body[data-palette="mono"] { --paper: #F5F5F0; --c-red: #1a1a1a; --c-yellow: #cccccc; --c-blue: #555555; --c-green: #888888; --c-pink: #aaaaaa; --c-purple: #2a2a2a; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script src="hifi/data.js"></script>
+<script type="text/babel" src="hifi/ui.jsx"></script>
+<script type="text/babel" src="hifi/tweaks-panel.jsx"></script>
+<script type="text/babel" src="hifi/home.jsx"></script>
+<script type="text/babel" src="hifi/diagnose.jsx"></script>
+<script type="text/babel" src="hifi/detail-rank.jsx"></script>
+<script type="text/babel" src="hifi/compare.jsx"></script>
+<script type="text/babel" src="hifi/govt.jsx"></script>
+
+<script type="text/babel">
+const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+  "palette": "pastel",
+  "useCustomWeights": false,
+  "w_N": 25,
+  "w_E": 25,
+  "w_A": 25,
+  "w_R": 25
+}/*EDITMODE-END*/;
+
+const PALETTE_OPTIONS = [
+  { value: "klaci", label: "Klaci (밝고 컬러풀)" },
+  { value: "riso", label: "Riso (잉크 진한)" },
+  { value: "pastel", label: "Pastel (부드러운)" },
+  { value: "govt", label: "Govt (공공 신뢰)" },
+  { value: "mono", label: "Mono (흑백)" },
+];
+
+function App() {
+  const [tweaks, setTweak] = window.useTweaks ? window.useTweaks(TWEAK_DEFAULTS) : [TWEAK_DEFAULTS, () => {}];
+  const [route, setRoute] = React.useState({ name: "home" });
+  const [diag, setDiag] = React.useState(null);
+  const [dataLoaded, setDataLoaded] = React.useState(window.CARE_DATA.loaded);
+
+  React.useEffect(() => {
+    document.body.dataset.palette = tweaks.palette;
+  }, [tweaks.palette]);
+
+  React.useEffect(() => {
+    if (!dataLoaded) {
+      window.CARE_DATA._load().then(() => setDataLoaded(true));
+    }
+  }, []);
+
+  const goto = (name, params = {}) => {
+    setRoute({ name, ...params });
+    window.scrollTo(0, 0);
+  };
+
+  const onComplete = (answers) => {
+    const result = window.CARE_DATA.diagnose(answers);
+    setDiag(result);
+    goto("result");
+  };
+
+  if (!dataLoaded) {
+    return (
+      <div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Pretendard', sans-serif", flexDirection: "column", gap: 12 }}>
+        <div style={{ fontSize: 14, color: "#666" }}>NEAR v0.7 데이터 로딩 중...</div>
+        <div style={{ width: 200, height: 4, background: "#e8e3d8", borderRadius: 2, overflow: "hidden" }}>
+          <div style={{ width: "40%", height: "100%", background: "#FFD23F", animation: "slide 1.2s ease-in-out infinite" }} />
+        </div>
+        <style>{`@keyframes slide { 0% { transform: translateX(-100%); } 100% { transform: translateX(500%); } }`}</style>
+      </div>
+    );
+  }
+
+  let screen = null;
+  if (route.name === "home") screen = <window.HomeScreen goto={goto} />;
+  else if (route.name === "diagnose") screen = <window.DiagnoseScreen onComplete={onComplete} goto={goto} />;
+  else if (route.name === "result" && diag) screen = <window.ResultScreen result={diag} goto={goto} />;
+  else if (route.name === "detail") screen = <window.DetailScreen regionId={route.id} goto={goto} />;
+  else if (route.name === "ranking") screen = <window.RankingScreen goto={goto} />;
+  else if (route.name === "compare") screen = <window.CompareScreen initialIds={route.ids} goto={goto} />;
+  else if (route.name === "govt") screen = <window.GovtScreen goto={goto} />;
+  else screen = <window.HomeScreen goto={goto} />;
+
+  const { Topbar } = window.UI;
+
+  return (
+    <>
+      <Topbar goto={goto} current={route.name} hasDiagnosis={!!diag} />
+      {screen}
+      {window.TweaksPanel && (
+        <window.TweaksPanel title="Tweaks">
+          <window.TweakSection title="색상 팔레트">
+            <window.TweakSelect label="팔레트" value={tweaks.palette} options={PALETTE_OPTIONS} onChange={(v) => setTweak("palette", v)} />
+          </window.TweakSection>
+          <window.TweakSection title="화면 이동">
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 6 }}>
+              <window.TweakButton onClick={() => goto("home")}>홈</window.TweakButton>
+              <window.TweakButton onClick={() => goto("diagnose")}>진단</window.TweakButton>
+              <window.TweakButton onClick={() => goto("ranking")}>전국순위</window.TweakButton>
+              <window.TweakButton onClick={() => goto("compare")}>비교 (3-up)</window.TweakButton>
+              <window.TweakButton onClick={() => goto("govt")}>지자체 콘솔</window.TweakButton>
+              <window.TweakButton onClick={() => { const all = window.CARE_DATA.rank(); goto("detail", { id: all[0].code }); }}>지역상세</window.TweakButton>
+            </div>
+          </window.TweakSection>
+          <window.TweakSection title="진단 결과">
+            <window.TweakToggle label="진단 결과 사용" checked={!!diag} onChange={(v) => { if (!v) setDiag(null); else goto("diagnose"); }} />
+            {diag && (
+              <div style={{ fontSize: 12, color: "#666", marginTop: 6, fontFamily: "Pretendard" }}>
+                현재 성향: <b>{diag.persona.name}</b> ({diag.code})
+              </div>
+            )}
+          </window.TweakSection>
+        </window.TweaksPanel>
+      )}
+    </>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
+</script>
+</body>
+</html>

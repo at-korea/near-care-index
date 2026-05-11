@@ -1,0 +1,269 @@
+[
+  {
+    "code": "D1",
+    "pillar": "N",
+    "name": "65세 이상 인구 비율",
+    "unit": "%",
+    "source": "KOSIS",
+    "tableId": "DT_1YL20631",
+    "direction": "forward"
+  },
+  {
+    "code": "D3",
+    "pillar": "N",
+    "name": "65+ 독거노인 가구 비율",
+    "unit": "%",
+    "source": "KOSIS",
+    "tableId": "DT_1YL12701",
+    "direction": "forward"
+  },
+  {
+    "code": "D4",
+    "pillar": "N",
+    "name": "등록 장애인 수",
+    "unit": "명",
+    "source": "KOSIS",
+    "tableId": "DT_1YL202003E",
+    "direction": "forward"
+  },
+  {
+    "code": "Dx",
+    "pillar": "N",
+    "name": "1인 가구 비율",
+    "unit": "%",
+    "source": "KOSIS",
+    "tableId": "DT_1YL21161",
+    "direction": "forward"
+  },
+  {
+    "code": "D6",
+    "pillar": "N",
+    "name": "장기요양 등급자 수",
+    "unit": "명",
+    "source": "NHIS",
+    "tableId": "DT_35006_N007",
+    "direction": "forward",
+    "isNew": true
+  },
+  {
+    "code": "D7",
+    "pillar": "N",
+    "name": "2025/2030/2040 65+ 추계비율",
+    "unit": "%",
+    "source": "KOSIS",
+    "tableId": "DT_1BPB003",
+    "direction": "forward",
+    "isNew": true
+  },
+  {
+    "code": "D8",
+    "pillar": "N",
+    "name": "2025/2030/2040 75+ 추계비율",
+    "unit": "%",
+    "source": "KOSIS",
+    "tableId": "DT_1BPB003",
+    "direction": "forward",
+    "isNew": true
+  },
+  {
+    "code": "S2",
+    "pillar": "R",
+    "sub": "formal",
+    "name": "인구 10만명당 사회복지시설",
+    "unit": "개",
+    "source": "KOSIS",
+    "tableId": "DT_1YL20941",
+    "direction": "forward"
+  },
+  {
+    "code": "S4",
+    "pillar": "R",
+    "sub": "formal",
+    "name": "인구 천명당 의사 수",
+    "unit": "명",
+    "source": "KOSIS",
+    "tableId": "DT_1YL20981",
+    "direction": "forward"
+  },
+  {
+    "code": "Sx",
+    "pillar": "R",
+    "sub": "formal",
+    "name": "노인 천명당 노인여가복지시설",
+    "unit": "개",
+    "source": "KOSIS",
+    "tableId": "DT_1YL20961",
+    "direction": "forward"
+  },
+  {
+    "code": "S6",
+    "pillar": "R",
+    "sub": "formal",
+    "name": "장기요양기관 수",
+    "unit": "개",
+    "source": "NHIS",
+    "tableId": "DT_35006_N021",
+    "direction": "forward",
+    "isNew": true
+  },
+  {
+    "code": "IC",
+    "pillar": "R",
+    "sub": "integratedCare",
+    "name": "보건복지부 통합돌봄 사업 수",
+    "unit": "건",
+    "source": "MOHW",
+    "tableId": "integratedcare/stats.json",
+    "direction": "forward",
+    "isNew": true
+  },
+  {
+    "code": "R6",
+    "pillar": "R",
+    "sub": "informal",
+    "name": "가족돌봄 가능 비율",
+    "unit": "%",
+    "source": "Nemotron",
+    "tableId": "persona stats",
+    "direction": "forward"
+  },
+  {
+    "code": "R7",
+    "pillar": "R",
+    "sub": "informal",
+    "name": "자녀·배우자 동거 비율",
+    "unit": "%",
+    "source": "Nemotron",
+    "tableId": "persona stats",
+    "direction": "forward"
+  },
+  {
+    "code": "R8",
+    "pillar": "R",
+    "sub": "informal",
+    "name": "기초생활보장 수급률",
+    "unit": "%",
+    "source": "NABIS",
+    "tableId": "DT_1YL13801E",
+    "direction": "reverse"
+  },
+  {
+    "code": "R9",
+    "pillar": "R",
+    "sub": "informal",
+    "name": "합계 출산율",
+    "unit": "명",
+    "source": "NABIS",
+    "tableId": "INH_1B81A17",
+    "direction": "forward"
+  },
+  {
+    "code": "R10",
+    "pillar": "R",
+    "sub": "informal",
+    "name": "청년층 순이동률",
+    "unit": "%",
+    "source": "NABIS",
+    "tableId": "DT_1YL20642",
+    "direction": "forward"
+  },
+  {
+    "code": "A1",
+    "pillar": "A",
+    "name": "119안전센터 부담주민수",
+    "unit": "명",
+    "source": "KOSIS",
+    "tableId": "DT_1YL21091",
+    "direction": "reverse"
+  },
+  {
+    "code": "A2",
+    "pillar": "A",
+    "name": "소방서 접근거리",
+    "unit": "km",
+    "source": "KOSIS",
+    "tableId": "DT_1YL21071",
+    "direction": "reverse"
+  },
+  {
+    "code": "A4",
+    "pillar": "A",
+    "name": "노후주택 비율 (30년+)",
+    "unit": "%",
+    "source": "KOSIS",
+    "tableId": "DT_1YL202004",
+    "direction": "reverse"
+  },
+  {
+    "code": "A6",
+    "pillar": "A",
+    "name": "65+ 디지털 정보화수준",
+    "unit": "점",
+    "source": "NIA",
+    "tableId": "디지털정보격차실태조사 2024",
+    "direction": "forward",
+    "isNew": true
+  },
+  {
+    "code": "E1",
+    "pillar": "E",
+    "name": "사회적 신뢰",
+    "unit": "점",
+    "source": "KIPA",
+    "tableId": "사회통합실태조사 DT_417001_0036",
+    "direction": "forward",
+    "isNew": true
+  },
+  {
+    "code": "E2",
+    "pillar": "E",
+    "name": "시민 참여·자치",
+    "unit": "%",
+    "source": "KIPA",
+    "tableId": "사회통합실태조사 DT_417001_0021",
+    "direction": "forward",
+    "isNew": true
+  },
+  {
+    "code": "E3a",
+    "pillar": "E",
+    "sub": "localEconomy",
+    "name": "비영리·협동조합 사업체 비율",
+    "unit": "%",
+    "source": "한국도시통계",
+    "tableId": "DT_110001_A016",
+    "direction": "forward",
+    "isNew": true
+  },
+  {
+    "code": "E3b",
+    "pillar": "E",
+    "sub": "localEconomy",
+    "name": "지역사랑상품권 발행",
+    "unit": "binary",
+    "source": "행안부",
+    "tableId": "mois.go.kr/localVoucher",
+    "direction": "forward",
+    "isNew": true
+  },
+  {
+    "code": "E4",
+    "pillar": "E",
+    "name": "외국인주민 비율 (포용성)",
+    "unit": "%",
+    "source": "행안부",
+    "tableId": "TX_11025_A001_A",
+    "direction": "forward",
+    "isNew": true
+  },
+  {
+    "code": "E5",
+    "pillar": "E",
+    "name": "ESG·민관협력 (시도 broadcast)",
+    "unit": "점",
+    "source": "K-ESG",
+    "tableId": "estimate",
+    "direction": "forward",
+    "isNew": true
+  }
+]

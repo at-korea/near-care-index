@@ -1,0 +1,73 @@
+{
+  "name": "NEAR Care Index",
+  "fullName": "Korea Community Care Capacity Index",
+  "version": "v0.7",
+  "generatedAt": "2026-05-04",
+  "license": "MIT",
+  "spatialUnit": "시군구 (basic local government)",
+  "regionCount": 229,
+  "sidoCount": 17,
+  "pillars": [
+    "N",
+    "R",
+    "A",
+    "E"
+  ],
+  "composite": {
+    "formula": "NEAR_A = clip(0.45*R + 0.30*A + 0.25*E - 0.6*N + 50, 0, 100)",
+    "rSubWeights": {
+      "R_KCCI": 0.5,
+      "R3_integratedCare": 0.5
+    },
+    "sensitivity": "±15% 가중치 변동 시 분류 안정성 96.4%"
+  },
+  "sources": [
+    {
+      "name": "KOSIS",
+      "url": "https://kosis.kr",
+      "usage": "D1~D8, S2·S4·Sx·S6, A1·A2·A4, R3·R4·R5"
+    },
+    {
+      "name": "국민건강보험공단",
+      "usage": "장기요양 등급자(D6), 장기요양기관(S6)"
+    },
+    {
+      "name": "한국행정연구원",
+      "usage": "사회통합실태조사 (E1·E2)"
+    },
+    {
+      "name": "행정안전부",
+      "usage": "외국인주민(E4), 지역사랑상품권(E3b)"
+    },
+    {
+      "name": "NIA",
+      "usage": "디지털정보화수준(A6)"
+    },
+    {
+      "name": "보건복지부",
+      "usage": "통합돌봄 사업 시군구별 (R3, v0.7 강화)"
+    }
+  ],
+  "changeLog": [
+    {
+      "version": "v0.6",
+      "change": "DSAR→NEAR rebrand, E pillar 신설 (5지표)"
+    },
+    {
+      "version": "v0.6.1",
+      "change": "E3 sub-pillar (E3a 비영리법인 시군구단위 + E3b 시도 broadcast)"
+    },
+    {
+      "version": "v0.6.2",
+      "change": "E3b 시군구 단위 교체 (지역사랑상품권 발행 시군구)"
+    },
+    {
+      "version": "v0.6.3",
+      "change": "R pillar 통합돌봄 결합 (R = 0.6×R_KCCI + 0.4×IC_total norm)"
+    },
+    {
+      "version": "v0.7",
+      "change": "가중치판 (R sub 0.5/0.5, Composite 0.45/0.30/0.25, N 페널티 -0.6)"
+    }
+  ]
+}

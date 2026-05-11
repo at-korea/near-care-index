@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>통합돌봄 비교 사이트 — 와이어프레임 탐색</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Gowun+Dodum&family=Archivo+Black&family=Black+Han+Sans&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --paper: #FAF7F0;
+    --c-red: #FF5A4E;
+    --c-yellow: #FFD23F;
+    --c-blue: #4E8CFF;
+    --c-green: #5CC97A;
+    --c-pink: #FF8FB1;
+    --c-purple: #B383E8;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #E8E4DA;
+    font-family: 'Gowun Dodum', sans-serif;
+    color: #1a1a1a;
+  }
+  * { box-sizing: border-box; }
+</style>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel" src="design-canvas.jsx"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="wireframes.jsx"></script>
+<script type="text/babel" src="erd.jsx"></script>
+
+<script type="text/babel">
+  const W = window.WIREFRAMES;
+  const PALETTES = W.PALETTES;
+
+  const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+    "palette": "klaci"
+  }/*EDITMODE-END*/;
+
+  function App() {
+    const [tweaks, setTweak] = useTweaks(TWEAK_DEFAULTS);
+
+    React.useEffect(() => {
+      const p = PALETTES[tweaks.palette] || PALETTES.klaci;
+      const root = document.documentElement;
+      root.style.setProperty("--paper", p.paper);
+      root.style.setProperty("--c-red", p.red);
+      root.style.setProperty("--c-yellow", p.yellow);
+      root.style.setProperty("--c-blue", p.blue);
+      root.style.setProperty("--c-green", p.green);
+      root.style.setProperty("--c-pink", p.pink);
+      root.style.setProperty("--c-purple", p.purple);
+    }, [tweaks.palette]);
+
+    return (
+      <React.Fragment>
+        <DesignCanvas
+          title="통합돌봄 비교 — 와이어프레임 탐색"
+          subtitle="4개 화면 × 4개 접근법. 큰 타이포 중심 + 손그림 sketchy 톤. 더미 데이터."
+        >
+          <DCSection id="home" title="① 홈 / 랜딩" subtitle="첫 인상 — 어떻게 들어오게 할까?">
+            <DCArtboard id="home-bigtype" label="A. 빅 타이포 히어로" width={1200} height={760}>
+              <W.Home_BigType />
+            </DCArtboard>
+            <DCArtboard id="home-dashboard" label="B. 대시보드형 (정보 밀도)" width={1200} height={760}>
+              <W.Home_Dashboard />
+            </DCArtboard>
+            <DCArtboard id="home-map" label="C. 지도 진입형" width={1200} height={760}>
+              <W.Home_Map />
+            </DCArtboard>
+            <DCArtboard id="home-quiz" label="D. 가중치 퀴즈 진입" width={1200} height={760}>
+              <W.Home_QuizStart />
+            </DCArtboard>
+          </DCSection>
+
+          <DCSection id="detail" title="② 지역 상세 (klaci 결과 페이지 느낌)" subtitle="여기가 klaci스러움이 가장 강하게 드러나야 하는 화면">
+            <DCArtboard id="detail-big" label="A. 거대한 점수" width={1200} height={760}>
+              <W.Detail_BigScore />
+            </DCArtboard>
+            <DCArtboard id="detail-type" label="B. 4글자 유형 카드 (S F H R)" width={1200} height={760}>
+              <W.Detail_TypeCard />
+            </DCArtboard>
+            <DCArtboard id="detail-story" label="C. 스크롤 스토리텔링" width={1200} height={760}>
+              <W.Detail_Story />
+            </DCArtboard>
+            <DCArtboard id="detail-receipt" label="D. 영수증 메타포" width={1200} height={760}>
+              <W.Detail_Receipt />
+            </DCArtboard>
+          </DCSection>
+
+          <DCSection id="compare" title="③ 지역 비교" subtitle="2-4개 지역을 나란히 / 차이를 어떻게 보여줄까?">
+            <DCArtboard id="compare-side" label="A. 3-up 사이드 바이 사이드" width={1200} height={760}>
+              <W.Compare_SideBySide />
+            </DCArtboard>
+            <DCArtboard id="compare-vs" label="B. 헤드 투 헤드 (VS)" width={1200} height={760}>
+              <W.Compare_VS />
+            </DCArtboard>
+            <DCArtboard id="compare-table" label="C. 컬러 표 (밀도 ↑)" width={1200} height={760}>
+              <W.Compare_Table />
+            </DCArtboard>
+            <DCArtboard id="compare-radar" label="D. 모양으로 보기 (레이더)" width={1200} height={760}>
+              <W.Compare_Radar />
+            </DCArtboard>
+          </DCSection>
+
+          <DCSection id="erd" title="⑨ 데이터 모델 ERD (NEW)" subtitle="6개 도메인 · 14개 엔티티. region 이 모든 점수·시설·시뮬의 허브.">
+            <DCArtboard id="erd-overview" label="A. 전체 ERD (도메인별 색상)" width={1600} height={1000}>
+              <window.ERD.ERD_Overview />
+            </DCArtboard>
+            <DCArtboard id="erd-score" label="B. 점수 산출 흐름 (raw → snapshot)" width={1600} height={1000}>
+              <window.ERD.ERD_ScoreFlow />
+            </DCArtboard>
+            <DCArtboard id="erd-stakeholder" label="C. 이해당사자별 R/W + 황금경로 3종" width={1600} height={1000}>
+              <window.ERD.ERD_Stakeholder />
+            </DCArtboard>
+          </DCSection>
+
+          <DCSection id="auth" title="⑥ 로그인 / 역할 선택 (NEW)" subtitle="시민 / 지자체(인증) / 공급자(인증) — 셋의 진입점">
+            <DCArtboard id="auth-role" label="A. 역할 선택 — 3-up 카드" width={1200} height={760}>
+              <W.Auth_RoleSelect />
+            </DCArtboard>
+            <DCArtboard id="auth-login" label="B. 로그인 (소셜 + 정부24)" width={1200} height={760}>
+              <W.Auth_Login />
+            </DCArtboard>
+          </DCSection>
+
+          <DCSection id="gov" title="⑦ 지자체 컨설팅 (NEW)" subtitle="우리 시 강·약점 진단 + 정책 시뮬레이션 + AI 컨설팅">
+            <DCArtboard id="gov-diag" label="A. 강·약점 진단 + AI 처방" width={1200} height={760}>
+              <W.Gov_Diagnosis />
+            </DCArtboard>
+            <DCArtboard id="gov-sim" label="B. 예산 시뮬레이터 (점수 예측)" width={1200} height={760}>
+              <W.Gov_Simulator />
+            </DCArtboard>
+          </DCSection>
+
+          <DCSection id="provider" title="⑧ 공급자 허브 (NEW)" subtitle="사회기관 · 사회연대경제 · 돌봄기업 활동 공간">
+            <DCArtboard id="prov-hub" label="A. 공급자 대시보드 (수요 매칭 + 임팩트)" width={1200} height={760}>
+              <W.Provider_Hub />
+            </DCArtboard>
+            <DCArtboard id="prov-map" label="B. 전국 공급자 지도" width={1200} height={760}>
+              <W.Provider_Map />
+            </DCArtboard>
+          </DCSection>
+
+          <DCSection id="match" title="⑤ 내 성향 매칭" subtitle="내 돌봄성향 진단 → 가장 잘 맞는 시군구 추천. klaci 톤이 가장 진하게 살아나는 화면.">
+            <DCArtboard id="match-quiz" label="A. 진단 퀴즈 (8문항)" width={1200} height={760}>
+              <W.Match_Quiz />
+            </DCArtboard>
+            <DCArtboard id="match-result" label="B. 결과 + TOP5 매칭" width={1200} height={760}>
+              <W.Match_Result />
+            </DCArtboard>
+            <DCArtboard id="match-sliders" label="C. 슬라이더 즉시 매칭" width={1200} height={760}>
+              <W.Match_Sliders />
+            </DCArtboard>
+            <DCArtboard id="match-swipe" label="D. A vs B 스와이프" width={1200} height={760}>
+              <W.Match_Swipe />
+            </DCArtboard>
+          </DCSection>
+
+          <DCSection id="rank" title="④ 전국 순위" subtitle="229개 시군구를 어떻게 줄세울까?">
+            <DCArtboard id="rank-list" label="A. 큰 리스트" width={1200} height={760}>
+              <W.Rank_BigList />
+            </DCArtboard>
+            <DCArtboard id="rank-tiers" label="B. 티어 그룹핑" width={1200} height={760}>
+              <W.Rank_Tiers />
+            </DCArtboard>
+            <DCArtboard id="rank-swarm" label="C. 분포 (비스웜)" width={1200} height={760}>
+              <W.Rank_BeeSwarm />
+            </DCArtboard>
+            <DCArtboard id="rank-map" label="D. 지도 히트맵" width={1200} height={760}>
+              <W.Rank_MapHeat />
+            </DCArtboard>
+          </DCSection>
+        </DesignCanvas>
+
+        <TweaksPanel title="Tweaks">
+          <TweakSection title="컬러 팔레트">
+            <TweakRadio
+              label="팔레트"
+              value={tweaks.palette}
+              options={[
+                { value: "klaci", label: "Klaci" },
+                { value: "pastel", label: "Pastel" },
+                { value: "riso", label: "Riso" },
+                { value: "govt", label: "Govt" },
+                { value: "mono", label: "Mono" },
+              ]}
+              onChange={(v) => setTweak("palette", v)}
+            />
+            <div style={{ marginTop: 10, display: "flex", gap: 6 }}>
+              {["red", "yellow", "blue", "green", "pink", "purple"].map((k) => (
+                <div key={k} style={{
+                  width: 22, height: 22, borderRadius: 4,
+                  border: "1.5px solid #1a1a1a",
+                  background: PALETTES[tweaks.palette]?.[k] || "#ccc",
+                }} />
+              ))}
+            </div>
+          </TweakSection>
+        </TweaksPanel>
+      </React.Fragment>
+    );
+  }
+
+  ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>

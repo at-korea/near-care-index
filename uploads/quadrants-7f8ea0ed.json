@@ -1,0 +1,1643 @@
+{
+  "thresholds": {
+    "N_median": 45.27315023390747,
+    "Resource_median": 37.83297537125309
+  },
+  "quadrants": {
+    "I": {
+      "label": "균형돌봄선진형 (고욕구·풍부자원)",
+      "count": 26,
+      "percentage": 11.4,
+      "avg_NEAR_A": 64.26,
+      "regions": [
+        {
+          "region_code": "21100",
+          "region_name": "사하구",
+          "sido": "부산",
+          "NEAR_A": 68.2054164922801,
+          "rank_NEAR_A": 98
+        },
+        {
+          "region_code": "36590",
+          "region_name": "강진군",
+          "sido": "전남",
+          "NEAR_A": 68.13323871813752,
+          "rank_NEAR_A": 99
+        },
+        {
+          "region_code": "35520",
+          "region_name": "진안군",
+          "sido": "전북",
+          "NEAR_A": 67.70684970793086,
+          "rank_NEAR_A": 102
+        },
+        {
+          "region_code": "22050",
+          "region_name": "북구",
+          "sido": "대구",
+          "NEAR_A": 67.39134119348626,
+          "rank_NEAR_A": 104
+        },
+        {
+          "region_code": "36580",
+          "region_name": "장흥군",
+          "sido": "전남",
+          "NEAR_A": 66.29266541281392,
+          "rank_NEAR_A": 112
+        },
+        {
+          "region_code": "35550",
+          "region_name": "임실군",
+          "sido": "전북",
+          "NEAR_A": 66.06452126654789,
+          "rank_NEAR_A": 114
+        },
+        {
+          "region_code": "21130",
+          "region_name": "연제구",
+          "sido": "부산",
+          "NEAR_A": 65.66807751911273,
+          "rank_NEAR_A": 117
+        },
+        {
+          "region_code": "35580",
+          "region_name": "부안군",
+          "sido": "전북",
+          "NEAR_A": 65.51769760829143,
+          "rank_NEAR_A": 118
+        },
+        {
+          "region_code": "21060",
+          "region_name": "동래구",
+          "sido": "부산",
+          "NEAR_A": 65.46803804693864,
+          "rank_NEAR_A": 119
+        },
+        {
+          "region_code": "35560",
+          "region_name": "순창군",
+          "sido": "전북",
+          "NEAR_A": 64.53713033005239,
+          "rank_NEAR_A": 120
+        },
+        {
+          "region_code": "35310",
+          "region_name": "완주군",
+          "sido": "전북",
+          "NEAR_A": 64.53131952234766,
+          "rank_NEAR_A": 121
+        },
+        {
+          "region_code": "36600",
+          "region_name": "해남군",
+          "sido": "전남",
+          "NEAR_A": 64.33964797378852,
+          "rank_NEAR_A": 122
+        },
+        {
+          "region_code": "35020",
+          "region_name": "군산시",
+          "sido": "전북",
+          "NEAR_A": 64.2516778097939,
+          "rank_NEAR_A": 123
+        },
+        {
+          "region_code": "22070",
+          "region_name": "달서구",
+          "sido": "대구",
+          "NEAR_A": 63.87513364502634,
+          "rank_NEAR_A": 124
+        },
+        {
+          "region_code": "36370",
+          "region_name": "화순군",
+          "sido": "전남",
+          "NEAR_A": 63.77157500732318,
+          "rank_NEAR_A": 125
+        },
+        {
+          "region_code": "22020",
+          "region_name": "동구",
+          "sido": "대구",
+          "NEAR_A": 63.67596287450648,
+          "rank_NEAR_A": 126
+        },
+        {
+          "region_code": "35570",
+          "region_name": "고창군",
+          "sido": "전북",
+          "NEAR_A": 63.27270318554959,
+          "rank_NEAR_A": 130
+        },
+        {
+          "region_code": "21020",
+          "region_name": "서구",
+          "sido": "부산",
+          "NEAR_A": 62.77851594152624,
+          "rank_NEAR_A": 133
+        },
+        {
+          "region_code": "36670",
+          "region_name": "진도군",
+          "sido": "전남",
+          "NEAR_A": 62.57598806168564,
+          "rank_NEAR_A": 135
+        },
+        {
+          "region_code": "21090",
+          "region_name": "해운대구",
+          "sido": "부산",
+          "NEAR_A": 62.27111492250167,
+          "rank_NEAR_A": 139
+        },
+        {
+          "region_code": "36650",
+          "region_name": "장성군",
+          "sido": "전남",
+          "NEAR_A": 61.97209885863965,
+          "rank_NEAR_A": 144
+        },
+        {
+          "region_code": "36520",
+          "region_name": "곡성군",
+          "sido": "전남",
+          "NEAR_A": 61.96422573006936,
+          "rank_NEAR_A": 145
+        },
+        {
+          "region_code": "36680",
+          "region_name": "신안군",
+          "sido": "전남",
+          "NEAR_A": 61.96402300738346,
+          "rank_NEAR_A": 146
+        },
+        {
+          "region_code": "36640",
+          "region_name": "영광군",
+          "sido": "전남",
+          "NEAR_A": 61.7195792794946,
+          "rank_NEAR_A": 148
+        },
+        {
+          "region_code": "36660",
+          "region_name": "완도군",
+          "sido": "전남",
+          "NEAR_A": 61.493422631208,
+          "rank_NEAR_A": 152
+        },
+        {
+          "region_code": "36510",
+          "region_name": "담양군",
+          "sido": "전남",
+          "NEAR_A": 61.44520560108632,
+          "rank_NEAR_A": 154
+        }
+      ]
+    },
+    "II": {
+      "label": "안정자원풍부형 (저욕구·풍부자원)",
+      "count": 89,
+      "percentage": 38.9,
+      "avg_NEAR_A": 80.13,
+      "regions": [
+        {
+          "region_code": "31150",
+          "region_name": "시흥시",
+          "sido": "경기",
+          "NEAR_A": 92.36489019732105,
+          "rank_NEAR_A": 1
+        },
+        {
+          "region_code": "31110",
+          "region_name": "과천시",
+          "sido": "경기",
+          "NEAR_A": 90.56577133016752,
+          "rank_NEAR_A": 2
+        },
+        {
+          "region_code": "31140",
+          "region_name": "오산시",
+          "sido": "경기",
+          "NEAR_A": 89.2732287952949,
+          "rank_NEAR_A": 3
+        },
+        {
+          "region_code": "31190",
+          "region_name": "용인시",
+          "sido": "경기",
+          "NEAR_A": 89.07373719480167,
+          "rank_NEAR_A": 4
+        },
+        {
+          "region_code": "31260",
+          "region_name": "양주시",
+          "sido": "경기",
+          "NEAR_A": 88.42035459072208,
+          "rank_NEAR_A": 5
+        },
+        {
+          "region_code": "31010",
+          "region_name": "수원시",
+          "sido": "경기",
+          "NEAR_A": 88.35311052464675,
+          "rank_NEAR_A": 6
+        },
+        {
+          "region_code": "31170",
+          "region_name": "의왕시",
+          "sido": "경기",
+          "NEAR_A": 87.39608928834242,
+          "rank_NEAR_A": 7
+        },
+        {
+          "region_code": "31270",
+          "region_name": "포천시",
+          "sido": "경기",
+          "NEAR_A": 87.35047498582293,
+          "rank_NEAR_A": 8
+        },
+        {
+          "region_code": "31220",
+          "region_name": "안성시",
+          "sido": "경기",
+          "NEAR_A": 87.24698919951513,
+          "rank_NEAR_A": 9
+        },
+        {
+          "region_code": "31230",
+          "region_name": "김포시",
+          "sido": "경기",
+          "NEAR_A": 86.65335545771305,
+          "rank_NEAR_A": 10
+        },
+        {
+          "region_code": "31120",
+          "region_name": "구리시",
+          "sido": "경기",
+          "NEAR_A": 86.49040815230086,
+          "rank_NEAR_A": 11
+        },
+        {
+          "region_code": "31090",
+          "region_name": "안산시",
+          "sido": "경기",
+          "NEAR_A": 86.46031754332418,
+          "rank_NEAR_A": 12
+        },
+        {
+          "region_code": "31200",
+          "region_name": "파주시",
+          "sido": "경기",
+          "NEAR_A": 86.4026719528371,
+          "rank_NEAR_A": 13
+        },
+        {
+          "region_code": "31180",
+          "region_name": "하남시",
+          "sido": "경기",
+          "NEAR_A": 86.28484887793833,
+          "rank_NEAR_A": 14
+        },
+        {
+          "region_code": "31250",
+          "region_name": "광주시",
+          "sido": "경기",
+          "NEAR_A": 86.10825299735966,
+          "rank_NEAR_A": 15
+        },
+        {
+          "region_code": "31210",
+          "region_name": "이천시",
+          "sido": "경기",
+          "NEAR_A": 85.95403675247653,
+          "rank_NEAR_A": 16
+        },
+        {
+          "region_code": "31100",
+          "region_name": "고양시",
+          "sido": "경기",
+          "NEAR_A": 85.58501173228836,
+          "rank_NEAR_A": 17
+        },
+        {
+          "region_code": "11220",
+          "region_name": "서초구",
+          "sido": "서울",
+          "NEAR_A": 85.48625787568807,
+          "rank_NEAR_A": 18
+        },
+        {
+          "region_code": "31240",
+          "region_name": "화성시",
+          "sido": "경기",
+          "NEAR_A": 85.34783841164803,
+          "rank_NEAR_A": 19
+        },
+        {
+          "region_code": "25040",
+          "region_name": "유성구",
+          "sido": "대전",
+          "NEAR_A": 84.93532142709131,
+          "rank_NEAR_A": 20
+        },
+        {
+          "region_code": "31550",
+          "region_name": "연천군",
+          "sido": "경기",
+          "NEAR_A": 84.92257296427344,
+          "rank_NEAR_A": 21
+        },
+        {
+          "region_code": "11040",
+          "region_name": "성동구",
+          "sido": "서울",
+          "NEAR_A": 84.25392276014131,
+          "rank_NEAR_A": 22
+        },
+        {
+          "region_code": "24050",
+          "region_name": "광산구",
+          "sido": "광주",
+          "NEAR_A": 84.21051595871886,
+          "rank_NEAR_A": 23
+        },
+        {
+          "region_code": "31060",
+          "region_name": "광명시",
+          "sido": "경기",
+          "NEAR_A": 83.99108712451137,
+          "rank_NEAR_A": 24
+        },
+        {
+          "region_code": "11240",
+          "region_name": "송파구",
+          "sido": "서울",
+          "NEAR_A": 83.95492034016013,
+          "rank_NEAR_A": 25
+        },
+        {
+          "region_code": "11010",
+          "region_name": "종로구",
+          "sido": "서울",
+          "NEAR_A": 83.94763566507382,
+          "rank_NEAR_A": 26
+        },
+        {
+          "region_code": "11230",
+          "region_name": "강남구",
+          "sido": "서울",
+          "NEAR_A": 83.07452630070063,
+          "rank_NEAR_A": 27
+        },
+        {
+          "region_code": "31380",
+          "region_name": "양평군",
+          "sido": "경기",
+          "NEAR_A": 83.03250763203035,
+          "rank_NEAR_A": 28
+        },
+        {
+          "region_code": "31030",
+          "region_name": "의정부시",
+          "sido": "경기",
+          "NEAR_A": 82.88469284470975,
+          "rank_NEAR_A": 29
+        },
+        {
+          "region_code": "31370",
+          "region_name": "가평군",
+          "sido": "경기",
+          "NEAR_A": 82.64464710883321,
+          "rank_NEAR_A": 30
+        },
+        {
+          "region_code": "11070",
+          "region_name": "중랑구",
+          "sido": "서울",
+          "NEAR_A": 82.28800865221919,
+          "rank_NEAR_A": 31
+        },
+        {
+          "region_code": "11030",
+          "region_name": "용산구",
+          "sido": "서울",
+          "NEAR_A": 82.24456633155083,
+          "rank_NEAR_A": 32
+        },
+        {
+          "region_code": "31280",
+          "region_name": "여주시",
+          "sido": "경기",
+          "NEAR_A": 82.23463265991298,
+          "rank_NEAR_A": 33
+        },
+        {
+          "region_code": "31040",
+          "region_name": "안양시",
+          "sido": "경기",
+          "NEAR_A": 82.08853739340621,
+          "rank_NEAR_A": 34
+        },
+        {
+          "region_code": "31130",
+          "region_name": "남양주시",
+          "sido": "경기",
+          "NEAR_A": 81.9583492321219,
+          "rank_NEAR_A": 35
+        },
+        {
+          "region_code": "11050",
+          "region_name": "광진구",
+          "sido": "서울",
+          "NEAR_A": 81.91911316338104,
+          "rank_NEAR_A": 36
+        },
+        {
+          "region_code": "11250",
+          "region_name": "강동구",
+          "sido": "서울",
+          "NEAR_A": 81.89507822408368,
+          "rank_NEAR_A": 37
+        },
+        {
+          "region_code": "23080",
+          "region_name": "서구",
+          "sido": "인천",
+          "NEAR_A": 81.85119444368448,
+          "rank_NEAR_A": 38
+        },
+        {
+          "region_code": "11200",
+          "region_name": "동작구",
+          "sido": "서울",
+          "NEAR_A": 81.84454193715783,
+          "rank_NEAR_A": 39
+        },
+        {
+          "region_code": "11060",
+          "region_name": "동대문구",
+          "sido": "서울",
+          "NEAR_A": 81.74900043888272,
+          "rank_NEAR_A": 40
+        },
+        {
+          "region_code": "31070",
+          "region_name": "평택시",
+          "sido": "경기",
+          "NEAR_A": 81.55940282946038,
+          "rank_NEAR_A": 41
+        },
+        {
+          "region_code": "11020",
+          "region_name": "중구",
+          "sido": "서울",
+          "NEAR_A": 81.55895047068178,
+          "rank_NEAR_A": 42
+        },
+        {
+          "region_code": "11180",
+          "region_name": "금천구",
+          "sido": "서울",
+          "NEAR_A": 81.52337603877822,
+          "rank_NEAR_A": 43
+        },
+        {
+          "region_code": "11190",
+          "region_name": "영등포구",
+          "sido": "서울",
+          "NEAR_A": 81.49230526316327,
+          "rank_NEAR_A": 44
+        },
+        {
+          "region_code": "11140",
+          "region_name": "마포구",
+          "sido": "서울",
+          "NEAR_A": 81.41265743255705,
+          "rank_NEAR_A": 45
+        },
+        {
+          "region_code": "11080",
+          "region_name": "성북구",
+          "sido": "서울",
+          "NEAR_A": 81.40468466523276,
+          "rank_NEAR_A": 46
+        },
+        {
+          "region_code": "31080",
+          "region_name": "동두천시",
+          "sido": "경기",
+          "NEAR_A": 81.20149162659884,
+          "rank_NEAR_A": 47
+        },
+        {
+          "region_code": "31160",
+          "region_name": "군포시",
+          "sido": "경기",
+          "NEAR_A": 81.11100575435653,
+          "rank_NEAR_A": 48
+        },
+        {
+          "region_code": "26040",
+          "region_name": "북구",
+          "sido": "울산",
+          "NEAR_A": 80.40811179101811,
+          "rank_NEAR_A": 49
+        },
+        {
+          "region_code": "11170",
+          "region_name": "구로구",
+          "sido": "서울",
+          "NEAR_A": 80.26641508484656,
+          "rank_NEAR_A": 50
+        },
+        {
+          "region_code": "23010",
+          "region_name": "중구",
+          "sido": "인천",
+          "NEAR_A": 80.11745762687482,
+          "rank_NEAR_A": 51
+        },
+        {
+          "region_code": "31020",
+          "region_name": "성남시",
+          "sido": "경기",
+          "NEAR_A": 80.03296123011347,
+          "rank_NEAR_A": 52
+        },
+        {
+          "region_code": "00029",
+          "region_name": "세종특별자치시",
+          "sido": "세종",
+          "NEAR_A": 80.0194407358674,
+          "rank_NEAR_A": 53
+        },
+        {
+          "region_code": "11130",
+          "region_name": "서대문구",
+          "sido": "서울",
+          "NEAR_A": 79.34685230959275,
+          "rank_NEAR_A": 54
+        },
+        {
+          "region_code": "23040",
+          "region_name": "연수구",
+          "sido": "인천",
+          "NEAR_A": 78.91949516522959,
+          "rank_NEAR_A": 55
+        },
+        {
+          "region_code": "11150",
+          "region_name": "양천구",
+          "sido": "서울",
+          "NEAR_A": 78.82073075383508,
+          "rank_NEAR_A": 56
+        },
+        {
+          "region_code": "11120",
+          "region_name": "은평구",
+          "sido": "서울",
+          "NEAR_A": 78.29118623798581,
+          "rank_NEAR_A": 57
+        },
+        {
+          "region_code": "11160",
+          "region_name": "강서구",
+          "sido": "서울",
+          "NEAR_A": 78.26775438365586,
+          "rank_NEAR_A": 58
+        },
+        {
+          "region_code": "22310",
+          "region_name": "달성군",
+          "sido": "대구",
+          "NEAR_A": 77.80834747138692,
+          "rank_NEAR_A": 59
+        },
+        {
+          "region_code": "31050",
+          "region_name": "부천시",
+          "sido": "경기",
+          "NEAR_A": 77.49743611807831,
+          "rank_NEAR_A": 60
+        },
+        {
+          "region_code": "21120",
+          "region_name": "강서구",
+          "sido": "부산",
+          "NEAR_A": 75.80883606196302,
+          "rank_NEAR_A": 61
+        },
+        {
+          "region_code": "11210",
+          "region_name": "관악구",
+          "sido": "서울",
+          "NEAR_A": 75.76954939260855,
+          "rank_NEAR_A": 62
+        },
+        {
+          "region_code": "25030",
+          "region_name": "서구",
+          "sido": "대전",
+          "NEAR_A": 75.51270734749363,
+          "rank_NEAR_A": 63
+        },
+        {
+          "region_code": "26310",
+          "region_name": "울주군",
+          "sido": "울산",
+          "NEAR_A": 75.22024681741975,
+          "rank_NEAR_A": 64
+        },
+        {
+          "region_code": "24020",
+          "region_name": "서구",
+          "sido": "광주",
+          "NEAR_A": 75.19695499662915,
+          "rank_NEAR_A": 65
+        },
+        {
+          "region_code": "23320",
+          "region_name": "옹진군",
+          "sido": "인천",
+          "NEAR_A": 75.1387989201384,
+          "rank_NEAR_A": 66
+        },
+        {
+          "region_code": "22320",
+          "region_name": "군위군",
+          "sido": "대구",
+          "NEAR_A": 75.1274999010634,
+          "rank_NEAR_A": 67
+        },
+        {
+          "region_code": "23070",
+          "region_name": "계양구",
+          "sido": "인천",
+          "NEAR_A": 74.65392791435875,
+          "rank_NEAR_A": 68
+        },
+        {
+          "region_code": "11100",
+          "region_name": "도봉구",
+          "sido": "서울",
+          "NEAR_A": 74.5713396826205,
+          "rank_NEAR_A": 69
+        },
+        {
+          "region_code": "25050",
+          "region_name": "대덕구",
+          "sido": "대전",
+          "NEAR_A": 74.55553034379605,
+          "rank_NEAR_A": 70
+        },
+        {
+          "region_code": "11110",
+          "region_name": "노원구",
+          "sido": "서울",
+          "NEAR_A": 74.44225430903943,
+          "rank_NEAR_A": 71
+        },
+        {
+          "region_code": "24010",
+          "region_name": "동구",
+          "sido": "광주",
+          "NEAR_A": 74.36421930177845,
+          "rank_NEAR_A": 72
+        },
+        {
+          "region_code": "23310",
+          "region_name": "강화군",
+          "sido": "인천",
+          "NEAR_A": 74.18527803257025,
+          "rank_NEAR_A": 73
+        },
+        {
+          "region_code": "21310",
+          "region_name": "기장군",
+          "sido": "부산",
+          "NEAR_A": 73.82894228873067,
+          "rank_NEAR_A": 74
+        },
+        {
+          "region_code": "33350",
+          "region_name": "진천군",
+          "sido": "충북",
+          "NEAR_A": 73.78193954968508,
+          "rank_NEAR_A": 75
+        },
+        {
+          "region_code": "25010",
+          "region_name": "동구",
+          "sido": "대전",
+          "NEAR_A": 73.31416663776281,
+          "rank_NEAR_A": 76
+        },
+        {
+          "region_code": "34040",
+          "region_name": "아산시",
+          "sido": "충남",
+          "NEAR_A": 73.21471453486056,
+          "rank_NEAR_A": 78
+        },
+        {
+          "region_code": "22010",
+          "region_name": "중구",
+          "sido": "대구",
+          "NEAR_A": 73.05146733080433,
+          "rank_NEAR_A": 79
+        },
+        {
+          "region_code": "23050",
+          "region_name": "남동구",
+          "sido": "인천",
+          "NEAR_A": 72.8566444923087,
+          "rank_NEAR_A": 80
+        },
+        {
+          "region_code": "25020",
+          "region_name": "중구",
+          "sido": "대전",
+          "NEAR_A": 72.77411265293073,
+          "rank_NEAR_A": 81
+        },
+        {
+          "region_code": "33370",
+          "region_name": "음성군",
+          "sido": "충북",
+          "NEAR_A": 72.25345061722965,
+          "rank_NEAR_A": 82
+        },
+        {
+          "region_code": "23060",
+          "region_name": "부평구",
+          "sido": "인천",
+          "NEAR_A": 72.11099773430196,
+          "rank_NEAR_A": 83
+        },
+        {
+          "region_code": "11090",
+          "region_name": "강북구",
+          "sido": "서울",
+          "NEAR_A": 72.03606546401434,
+          "rank_NEAR_A": 84
+        },
+        {
+          "region_code": "33040",
+          "region_name": "청주시",
+          "sido": "충북",
+          "NEAR_A": 71.56310011557802,
+          "rank_NEAR_A": 87
+        },
+        {
+          "region_code": "23030",
+          "region_name": "미추홀구",
+          "sido": "인천",
+          "NEAR_A": 71.52707659891992,
+          "rank_NEAR_A": 88
+        },
+        {
+          "region_code": "39010",
+          "region_name": "제주시",
+          "sido": "제주",
+          "NEAR_A": 71.52618963071463,
+          "rank_NEAR_A": 89
+        },
+        {
+          "region_code": "24040",
+          "region_name": "북구",
+          "sido": "광주",
+          "NEAR_A": 71.0817947739204,
+          "rank_NEAR_A": 91
+        },
+        {
+          "region_code": "34550",
+          "region_name": "청양군",
+          "sido": "충남",
+          "NEAR_A": 69.5666858878228,
+          "rank_NEAR_A": 96
+        },
+        {
+          "region_code": "34540",
+          "region_name": "서천군",
+          "sido": "충남",
+          "NEAR_A": 68.95931556830797,
+          "rank_NEAR_A": 97
+        }
+      ]
+    },
+    "III": {
+      "label": "일반저욕구형 (저욕구·자원부족)",
+      "count": 25,
+      "percentage": 10.9,
+      "avg_NEAR_A": 67.6,
+      "regions": [
+        {
+          "region_code": "24030",
+          "region_name": "남구",
+          "sido": "광주",
+          "NEAR_A": 73.2675471770643,
+          "rank_NEAR_A": 77
+        },
+        {
+          "region_code": "39020",
+          "region_name": "서귀포시",
+          "sido": "제주",
+          "NEAR_A": 71.93160188723841,
+          "rank_NEAR_A": 85
+        },
+        {
+          "region_code": "34070",
+          "region_name": "계룡시",
+          "sido": "충남",
+          "NEAR_A": 71.867595858166,
+          "rank_NEAR_A": 86
+        },
+        {
+          "region_code": "26030",
+          "region_name": "동구",
+          "sido": "울산",
+          "NEAR_A": 71.27327871492099,
+          "rank_NEAR_A": 90
+        },
+        {
+          "region_code": "23020",
+          "region_name": "동구",
+          "sido": "인천",
+          "NEAR_A": 70.84331391832586,
+          "rank_NEAR_A": 92
+        },
+        {
+          "region_code": "26010",
+          "region_name": "중구",
+          "sido": "울산",
+          "NEAR_A": 70.24711087615984,
+          "rank_NEAR_A": 93
+        },
+        {
+          "region_code": "26020",
+          "region_name": "남구",
+          "sido": "울산",
+          "NEAR_A": 70.02099133475662,
+          "rank_NEAR_A": 94
+        },
+        {
+          "region_code": "34010",
+          "region_name": "천안시",
+          "sido": "충남",
+          "NEAR_A": 69.83614289624245,
+          "rank_NEAR_A": 95
+        },
+        {
+          "region_code": "33520",
+          "region_name": "보은군",
+          "sido": "충북",
+          "NEAR_A": 68.12681497337596,
+          "rank_NEAR_A": 100
+        },
+        {
+          "region_code": "33390",
+          "region_name": "증평군",
+          "sido": "충북",
+          "NEAR_A": 67.91481491323268,
+          "rank_NEAR_A": 101
+        },
+        {
+          "region_code": "34580",
+          "region_name": "태안군",
+          "sido": "충남",
+          "NEAR_A": 67.6066056404532,
+          "rank_NEAR_A": 103
+        },
+        {
+          "region_code": "34570",
+          "region_name": "예산군",
+          "sido": "충남",
+          "NEAR_A": 67.35570229369402,
+          "rank_NEAR_A": 105
+        },
+        {
+          "region_code": "33540",
+          "region_name": "영동군",
+          "sido": "충북",
+          "NEAR_A": 67.27417385913402,
+          "rank_NEAR_A": 106
+        },
+        {
+          "region_code": "33560",
+          "region_name": "괴산군",
+          "sido": "충북",
+          "NEAR_A": 67.0921711413137,
+          "rank_NEAR_A": 107
+        },
+        {
+          "region_code": "34080",
+          "region_name": "당진시",
+          "sido": "충남",
+          "NEAR_A": 67.01344125069494,
+          "rank_NEAR_A": 108
+        },
+        {
+          "region_code": "33530",
+          "region_name": "옥천군",
+          "sido": "충북",
+          "NEAR_A": 66.7648223235345,
+          "rank_NEAR_A": 109
+        },
+        {
+          "region_code": "34510",
+          "region_name": "금산군",
+          "sido": "충남",
+          "NEAR_A": 66.66675838519092,
+          "rank_NEAR_A": 110
+        },
+        {
+          "region_code": "33580",
+          "region_name": "단양군",
+          "sido": "충북",
+          "NEAR_A": 66.40710583254535,
+          "rank_NEAR_A": 111
+        },
+        {
+          "region_code": "34530",
+          "region_name": "부여군",
+          "sido": "충남",
+          "NEAR_A": 66.22302689923757,
+          "rank_NEAR_A": 113
+        },
+        {
+          "region_code": "22060",
+          "region_name": "수성구",
+          "sido": "대구",
+          "NEAR_A": 65.98808536067158,
+          "rank_NEAR_A": 115
+        },
+        {
+          "region_code": "34360",
+          "region_name": "홍성군",
+          "sido": "충남",
+          "NEAR_A": 65.73723369308348,
+          "rank_NEAR_A": 116
+        },
+        {
+          "region_code": "34050",
+          "region_name": "서산시",
+          "sido": "충남",
+          "NEAR_A": 63.29276565498768,
+          "rank_NEAR_A": 129
+        },
+        {
+          "region_code": "38510",
+          "region_name": "의령군",
+          "sido": "경남",
+          "NEAR_A": 62.85981467009783,
+          "rank_NEAR_A": 132
+        },
+        {
+          "region_code": "38090",
+          "region_name": "거제시",
+          "sido": "경남",
+          "NEAR_A": 62.70775785653352,
+          "rank_NEAR_A": 134
+        },
+        {
+          "region_code": "33020",
+          "region_name": "충주시",
+          "sido": "충북",
+          "NEAR_A": 61.724874805145575,
+          "rank_NEAR_A": 147
+        }
+      ]
+    },
+    "IV": {
+      "label": "돌봄위기형 ★ (고욕구·자원부족)",
+      "count": 89,
+      "percentage": 38.9,
+      "avg_NEAR_A": 56.77,
+      "regions": [
+        {
+          "region_code": "38560",
+          "region_name": "하동군",
+          "sido": "경남",
+          "NEAR_A": 63.66276505641446,
+          "rank_NEAR_A": 127
+        },
+        {
+          "region_code": "35540",
+          "region_name": "장수군",
+          "sido": "전북",
+          "NEAR_A": 63.53959374099277,
+          "rank_NEAR_A": 128
+        },
+        {
+          "region_code": "38520",
+          "region_name": "함안군",
+          "sido": "경남",
+          "NEAR_A": 63.02920242354144,
+          "rank_NEAR_A": 131
+        },
+        {
+          "region_code": "35530",
+          "region_name": "무주군",
+          "sido": "전북",
+          "NEAR_A": 62.439755947471845,
+          "rank_NEAR_A": 136
+        },
+        {
+          "region_code": "32570",
+          "region_name": "화천군",
+          "sido": "강원",
+          "NEAR_A": 62.42298313423686,
+          "rank_NEAR_A": 137
+        },
+        {
+          "region_code": "21140",
+          "region_name": "수영구",
+          "sido": "부산",
+          "NEAR_A": 62.40277638784572,
+          "rank_NEAR_A": 138
+        },
+        {
+          "region_code": "38540",
+          "region_name": "고성군",
+          "sido": "경남",
+          "NEAR_A": 62.22362035196807,
+          "rank_NEAR_A": 140
+        },
+        {
+          "region_code": "21070",
+          "region_name": "남구",
+          "sido": "부산",
+          "NEAR_A": 62.17530756251723,
+          "rank_NEAR_A": 141
+        },
+        {
+          "region_code": "38580",
+          "region_name": "함양군",
+          "sido": "경남",
+          "NEAR_A": 62.07652693444559,
+          "rank_NEAR_A": 142
+        },
+        {
+          "region_code": "38550",
+          "region_name": "남해군",
+          "sido": "경남",
+          "NEAR_A": 62.030155255605735,
+          "rank_NEAR_A": 143
+        },
+        {
+          "region_code": "38570",
+          "region_name": "산청군",
+          "sido": "경남",
+          "NEAR_A": 61.63198181790388,
+          "rank_NEAR_A": 149
+        },
+        {
+          "region_code": "21080",
+          "region_name": "북구",
+          "sido": "부산",
+          "NEAR_A": 61.56554374867689,
+          "rank_NEAR_A": 150
+        },
+        {
+          "region_code": "38600",
+          "region_name": "합천군",
+          "sido": "경남",
+          "NEAR_A": 61.50506201116492,
+          "rank_NEAR_A": 151
+        },
+        {
+          "region_code": "36630",
+          "region_name": "함평군",
+          "sido": "전남",
+          "NEAR_A": 61.471846832063335,
+          "rank_NEAR_A": 153
+        },
+        {
+          "region_code": "38530",
+          "region_name": "창녕군",
+          "sido": "경남",
+          "NEAR_A": 61.41739896444618,
+          "rank_NEAR_A": 155
+        },
+        {
+          "region_code": "32590",
+          "region_name": "인제군",
+          "sido": "강원",
+          "NEAR_A": 61.25941117405041,
+          "rank_NEAR_A": 156
+        },
+        {
+          "region_code": "22030",
+          "region_name": "서구",
+          "sido": "대구",
+          "NEAR_A": 61.13678238708623,
+          "rank_NEAR_A": 157
+        },
+        {
+          "region_code": "36610",
+          "region_name": "영암군",
+          "sido": "전남",
+          "NEAR_A": 61.12984642840419,
+          "rank_NEAR_A": 158
+        },
+        {
+          "region_code": "34020",
+          "region_name": "공주시",
+          "sido": "충남",
+          "NEAR_A": 61.1281644675765,
+          "rank_NEAR_A": 159
+        },
+        {
+          "region_code": "38110",
+          "region_name": "창원시",
+          "sido": "경남",
+          "NEAR_A": 61.10401906493309,
+          "rank_NEAR_A": 160
+        },
+        {
+          "region_code": "21150",
+          "region_name": "사상구",
+          "sido": "부산",
+          "NEAR_A": 61.06967423314484,
+          "rank_NEAR_A": 161
+        },
+        {
+          "region_code": "36420",
+          "region_name": "무안군",
+          "sido": "전남",
+          "NEAR_A": 60.93871918805061,
+          "rank_NEAR_A": 162
+        },
+        {
+          "region_code": "22040",
+          "region_name": "남구",
+          "sido": "대구",
+          "NEAR_A": 60.92792980998745,
+          "rank_NEAR_A": 163
+        },
+        {
+          "region_code": "36560",
+          "region_name": "보성군",
+          "sido": "전남",
+          "NEAR_A": 60.856296248818495,
+          "rank_NEAR_A": 164
+        },
+        {
+          "region_code": "38590",
+          "region_name": "거창군",
+          "sido": "경남",
+          "NEAR_A": 60.79610283633871,
+          "rank_NEAR_A": 165
+        },
+        {
+          "region_code": "36530",
+          "region_name": "구례군",
+          "sido": "전남",
+          "NEAR_A": 60.76593595262609,
+          "rank_NEAR_A": 166
+        },
+        {
+          "region_code": "32560",
+          "region_name": "철원군",
+          "sido": "강원",
+          "NEAR_A": 60.73038266907109,
+          "rank_NEAR_A": 167
+        },
+        {
+          "region_code": "32580",
+          "region_name": "양구군",
+          "sido": "강원",
+          "NEAR_A": 60.63121029414536,
+          "rank_NEAR_A": 168
+        },
+        {
+          "region_code": "32550",
+          "region_name": "정선군",
+          "sido": "강원",
+          "NEAR_A": 60.6279950079269,
+          "rank_NEAR_A": 169
+        },
+        {
+          "region_code": "32600",
+          "region_name": "고성군",
+          "sido": "강원",
+          "NEAR_A": 60.38092377842688,
+          "rank_NEAR_A": 170
+        },
+        {
+          "region_code": "32540",
+          "region_name": "평창군",
+          "sido": "강원",
+          "NEAR_A": 60.28337399153169,
+          "rank_NEAR_A": 171
+        },
+        {
+          "region_code": "38070",
+          "region_name": "김해시",
+          "sido": "경남",
+          "NEAR_A": 60.13236495755352,
+          "rank_NEAR_A": 172
+        },
+        {
+          "region_code": "35010",
+          "region_name": "전주시",
+          "sido": "전북",
+          "NEAR_A": 60.056377906405146,
+          "rank_NEAR_A": 173
+        },
+        {
+          "region_code": "36550",
+          "region_name": "고흥군",
+          "sido": "전남",
+          "NEAR_A": 60.00832111561986,
+          "rank_NEAR_A": 174
+        },
+        {
+          "region_code": "21110",
+          "region_name": "금정구",
+          "sido": "부산",
+          "NEAR_A": 59.61727946745413,
+          "rank_NEAR_A": 175
+        },
+        {
+          "region_code": "34030",
+          "region_name": "보령시",
+          "sido": "충남",
+          "NEAR_A": 59.50574896921151,
+          "rank_NEAR_A": 176
+        },
+        {
+          "region_code": "38100",
+          "region_name": "양산시",
+          "sido": "경남",
+          "NEAR_A": 59.475406061366805,
+          "rank_NEAR_A": 177
+        },
+        {
+          "region_code": "32610",
+          "region_name": "양양군",
+          "sido": "강원",
+          "NEAR_A": 59.4715149558424,
+          "rank_NEAR_A": 178
+        },
+        {
+          "region_code": "21030",
+          "region_name": "동구",
+          "sido": "부산",
+          "NEAR_A": 59.292795417155496,
+          "rank_NEAR_A": 179
+        },
+        {
+          "region_code": "32510",
+          "region_name": "홍천군",
+          "sido": "강원",
+          "NEAR_A": 59.21722616555794,
+          "rank_NEAR_A": 180
+        },
+        {
+          "region_code": "32530",
+          "region_name": "영월군",
+          "sido": "강원",
+          "NEAR_A": 59.1313708777966,
+          "rank_NEAR_A": 181
+        },
+        {
+          "region_code": "34060",
+          "region_name": "논산시",
+          "sido": "충남",
+          "NEAR_A": 59.04528142741134,
+          "rank_NEAR_A": 182
+        },
+        {
+          "region_code": "36060",
+          "region_name": "광양시",
+          "sido": "전남",
+          "NEAR_A": 58.74385359498911,
+          "rank_NEAR_A": 183
+        },
+        {
+          "region_code": "21050",
+          "region_name": "부산진구",
+          "sido": "부산",
+          "NEAR_A": 58.48695598069466,
+          "rank_NEAR_A": 184
+        },
+        {
+          "region_code": "36040",
+          "region_name": "나주시",
+          "sido": "전남",
+          "NEAR_A": 58.01939852929182,
+          "rank_NEAR_A": 185
+        },
+        {
+          "region_code": "33030",
+          "region_name": "제천시",
+          "sido": "충북",
+          "NEAR_A": 57.886475665368266,
+          "rank_NEAR_A": 186
+        },
+        {
+          "region_code": "37560",
+          "region_name": "청도군",
+          "sido": "경북",
+          "NEAR_A": 57.4664342389161,
+          "rank_NEAR_A": 187
+        },
+        {
+          "region_code": "37600",
+          "region_name": "예천군",
+          "sido": "경북",
+          "NEAR_A": 56.985661090241535,
+          "rank_NEAR_A": 188
+        },
+        {
+          "region_code": "37610",
+          "region_name": "봉화군",
+          "sido": "경북",
+          "NEAR_A": 56.7904082293676,
+          "rank_NEAR_A": 189
+        },
+        {
+          "region_code": "37390",
+          "region_name": "칠곡군",
+          "sido": "경북",
+          "NEAR_A": 56.78225608374473,
+          "rank_NEAR_A": 190
+        },
+        {
+          "region_code": "37530",
+          "region_name": "청송군",
+          "sido": "경북",
+          "NEAR_A": 56.74732797261908,
+          "rank_NEAR_A": 191
+        },
+        {
+          "region_code": "21010",
+          "region_name": "중구",
+          "sido": "부산",
+          "NEAR_A": 56.71803488660407,
+          "rank_NEAR_A": 192
+        },
+        {
+          "region_code": "38030",
+          "region_name": "진주시",
+          "sido": "경남",
+          "NEAR_A": 56.65352304360852,
+          "rank_NEAR_A": 193
+        },
+        {
+          "region_code": "37540",
+          "region_name": "영양군",
+          "sido": "경북",
+          "NEAR_A": 56.40982787526176,
+          "rank_NEAR_A": 194
+        },
+        {
+          "region_code": "32320",
+          "region_name": "횡성군",
+          "sido": "강원",
+          "NEAR_A": 56.14382036381379,
+          "rank_NEAR_A": 195
+        },
+        {
+          "region_code": "38050",
+          "region_name": "통영시",
+          "sido": "경남",
+          "NEAR_A": 56.06330610664657,
+          "rank_NEAR_A": 196
+        },
+        {
+          "region_code": "35040",
+          "region_name": "정읍시",
+          "sido": "전북",
+          "NEAR_A": 55.94280853594974,
+          "rank_NEAR_A": 197
+        },
+        {
+          "region_code": "37050",
+          "region_name": "구미시",
+          "sido": "경북",
+          "NEAR_A": 55.71983068651488,
+          "rank_NEAR_A": 198
+        },
+        {
+          "region_code": "38060",
+          "region_name": "사천시",
+          "sido": "경남",
+          "NEAR_A": 55.47182119614296,
+          "rank_NEAR_A": 199
+        },
+        {
+          "region_code": "32010",
+          "region_name": "춘천시",
+          "sido": "강원",
+          "NEAR_A": 55.46805802953156,
+          "rank_NEAR_A": 200
+        },
+        {
+          "region_code": "37520",
+          "region_name": "의성군",
+          "sido": "경북",
+          "NEAR_A": 55.400463730567694,
+          "rank_NEAR_A": 201
+        },
+        {
+          "region_code": "32020",
+          "region_name": "원주시",
+          "sido": "강원",
+          "NEAR_A": 55.34310895520477,
+          "rank_NEAR_A": 202
+        },
+        {
+          "region_code": "37630",
+          "region_name": "울릉군",
+          "sido": "경북",
+          "NEAR_A": 55.15056589852371,
+          "rank_NEAR_A": 203
+        },
+        {
+          "region_code": "37620",
+          "region_name": "울진군",
+          "sido": "경북",
+          "NEAR_A": 55.068852580375975,
+          "rank_NEAR_A": 204
+        },
+        {
+          "region_code": "32060",
+          "region_name": "속초시",
+          "sido": "강원",
+          "NEAR_A": 54.69706983690891,
+          "rank_NEAR_A": 205
+        },
+        {
+          "region_code": "37550",
+          "region_name": "영덕군",
+          "sido": "경북",
+          "NEAR_A": 54.461366516700025,
+          "rank_NEAR_A": 206
+        },
+        {
+          "region_code": "32040",
+          "region_name": "동해시",
+          "sido": "강원",
+          "NEAR_A": 54.378410352614175,
+          "rank_NEAR_A": 207
+        },
+        {
+          "region_code": "37570",
+          "region_name": "고령군",
+          "sido": "경북",
+          "NEAR_A": 54.17307832524887,
+          "rank_NEAR_A": 208
+        },
+        {
+          "region_code": "36030",
+          "region_name": "순천시",
+          "sido": "전남",
+          "NEAR_A": 54.06336335061055,
+          "rank_NEAR_A": 209
+        },
+        {
+          "region_code": "37580",
+          "region_name": "성주군",
+          "sido": "경북",
+          "NEAR_A": 53.82661561004242,
+          "rank_NEAR_A": 210
+        },
+        {
+          "region_code": "32030",
+          "region_name": "강릉시",
+          "sido": "강원",
+          "NEAR_A": 53.7707329869118,
+          "rank_NEAR_A": 211
+        },
+        {
+          "region_code": "35050",
+          "region_name": "남원시",
+          "sido": "전북",
+          "NEAR_A": 52.866677827199055,
+          "rank_NEAR_A": 212
+        },
+        {
+          "region_code": "35030",
+          "region_name": "익산시",
+          "sido": "전북",
+          "NEAR_A": 52.75619767066612,
+          "rank_NEAR_A": 213
+        },
+        {
+          "region_code": "37100",
+          "region_name": "경산시",
+          "sido": "경북",
+          "NEAR_A": 52.49424179581577,
+          "rank_NEAR_A": 214
+        },
+        {
+          "region_code": "21040",
+          "region_name": "영도구",
+          "sido": "부산",
+          "NEAR_A": 52.27813552375481,
+          "rank_NEAR_A": 215
+        },
+        {
+          "region_code": "35060",
+          "region_name": "김제시",
+          "sido": "전북",
+          "NEAR_A": 52.17145444657301,
+          "rank_NEAR_A": 216
+        },
+        {
+          "region_code": "36010",
+          "region_name": "목포시",
+          "sido": "전남",
+          "NEAR_A": 51.86701585941047,
+          "rank_NEAR_A": 217
+        },
+        {
+          "region_code": "32070",
+          "region_name": "삼척시",
+          "sido": "강원",
+          "NEAR_A": 50.614281974307104,
+          "rank_NEAR_A": 218
+        },
+        {
+          "region_code": "38080",
+          "region_name": "밀양시",
+          "sido": "경남",
+          "NEAR_A": 49.82087379166929,
+          "rank_NEAR_A": 219
+        },
+        {
+          "region_code": "36020",
+          "region_name": "여수시",
+          "sido": "전남",
+          "NEAR_A": 49.11882230032337,
+          "rank_NEAR_A": 220
+        },
+        {
+          "region_code": "32050",
+          "region_name": "태백시",
+          "sido": "강원",
+          "NEAR_A": 48.33440932683661,
+          "rank_NEAR_A": 221
+        },
+        {
+          "region_code": "37010",
+          "region_name": "포항시",
+          "sido": "경북",
+          "NEAR_A": 47.910203934840425,
+          "rank_NEAR_A": 222
+        },
+        {
+          "region_code": "37030",
+          "region_name": "김천시",
+          "sido": "경북",
+          "NEAR_A": 47.34889869190265,
+          "rank_NEAR_A": 223
+        },
+        {
+          "region_code": "37060",
+          "region_name": "영주시",
+          "sido": "경북",
+          "NEAR_A": 44.303044673331215,
+          "rank_NEAR_A": 224
+        },
+        {
+          "region_code": "37090",
+          "region_name": "문경시",
+          "sido": "경북",
+          "NEAR_A": 43.98638031566736,
+          "rank_NEAR_A": 225
+        },
+        {
+          "region_code": "37020",
+          "region_name": "경주시",
+          "sido": "경북",
+          "NEAR_A": 43.87323146582782,
+          "rank_NEAR_A": 226
+        },
+        {
+          "region_code": "37070",
+          "region_name": "영천시",
+          "sido": "경북",
+          "NEAR_A": 43.01207003543193,
+          "rank_NEAR_A": 227
+        },
+        {
+          "region_code": "37040",
+          "region_name": "안동시",
+          "sido": "경북",
+          "NEAR_A": 42.6536759492317,
+          "rank_NEAR_A": 228
+        },
+        {
+          "region_code": "37080",
+          "region_name": "상주시",
+          "sido": "경북",
+          "NEAR_A": 42.12033487722702,
+          "rank_NEAR_A": 229
+        }
+      ]
+    }
+  }
+}

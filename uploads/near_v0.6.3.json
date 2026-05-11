@@ -1,0 +1,6275 @@
+{
+  "version": "v0.6.3",
+  "generatedAt": "2026-05-04",
+  "count": 216,
+  "thresholds": {
+    "N_median": 43.38,
+    "Resource_median": 35.7
+  },
+  "regions": [
+    {
+      "regionCode": "31150",
+      "regionName": "시흥시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 26.05,
+        "R": 37.4,
+        "A": 86.2,
+        "E": 55.61,
+        "resource": 59.74,
+        "NEAR_A": 96.71
+      },
+      "subPillars": {
+        "R_KCCI": 32.17,
+        "R3_integratedCare": 45.24,
+        "E3": 48.95,
+        "E3b_localCurrency": 84.5
+      },
+      "integratedCare": {
+        "totalServices": 89,
+        "per10k": 1.75,
+        "specialPrograms": 0
+      },
+      "rank": 1,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31260",
+      "regionName": "양주시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 27.51,
+        "R": 30.26,
+        "A": 87.13,
+        "E": 47.63,
+        "resource": 55.01,
+        "NEAR_A": 91.25
+      },
+      "subPillars": {
+        "R_KCCI": 36.16,
+        "R3_integratedCare": 21.43,
+        "E3": 45.13,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 49,
+        "per10k": 1.74,
+        "specialPrograms": 3
+      },
+      "rank": 2,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31240",
+      "regionName": "화성시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 28.34,
+        "R": 28.14,
+        "A": 88.9,
+        "E": 48.92,
+        "resource": 55.32,
+        "NEAR_A": 91.15
+      },
+      "subPillars": {
+        "R_KCCI": 33.01,
+        "R3_integratedCare": 20.83,
+        "E3": 38.91,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 48,
+        "per10k": 0.5,
+        "specialPrograms": 18
+      },
+      "rank": 3,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31230",
+      "regionName": "김포시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 26.71,
+        "R": 23.06,
+        "A": 89.13,
+        "E": 50.43,
+        "resource": 54.21,
+        "NEAR_A": 90.85
+      },
+      "subPillars": {
+        "R_KCCI": 26.53,
+        "R3_integratedCare": 17.86,
+        "E3": 48.59,
+        "E3b_localCurrency": 84.5
+      },
+      "integratedCare": {
+        "totalServices": 43,
+        "per10k": 0.88,
+        "specialPrograms": 12
+      },
+      "rank": 4,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31140",
+      "regionName": "오산시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 23.14,
+        "R": 20.41,
+        "A": 85.2,
+        "E": 50.78,
+        "resource": 52.13,
+        "NEAR_A": 90.56
+      },
+      "subPillars": {
+        "R_KCCI": 24.49,
+        "R3_integratedCare": 14.29,
+        "E3": 43.93,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 37,
+        "per10k": 1.61,
+        "specialPrograms": 17
+      },
+      "rank": 5,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31200",
+      "regionName": "파주시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 29.7,
+        "R": 34.33,
+        "A": 84.96,
+        "E": 46.43,
+        "resource": 55.24,
+        "NEAR_A": 90.39
+      },
+      "subPillars": {
+        "R_KCCI": 32.22,
+        "R3_integratedCare": 37.5,
+        "E3": 41.49,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 76,
+        "per10k": 1.51,
+        "specialPrograms": 20
+      },
+      "rank": 6,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31250",
+      "regionName": "광주시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 26.06,
+        "R": 21.54,
+        "A": 89.29,
+        "E": 47.37,
+        "resource": 52.73,
+        "NEAR_A": 89.7
+      },
+      "subPillars": {
+        "R_KCCI": 25.58,
+        "R3_integratedCare": 15.48,
+        "E3": 40.25,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 39,
+        "per10k": 0.95,
+        "specialPrograms": 1
+      },
+      "rank": 7,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31110",
+      "regionName": "과천시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 15.21,
+        "R": 18.87,
+        "A": 78.95,
+        "E": 44.09,
+        "resource": 47.3,
+        "NEAR_A": 89.7
+      },
+      "subPillars": {
+        "R_KCCI": 21.92,
+        "R3_integratedCare": 14.29,
+        "E3": 48.34,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 37,
+        "per10k": 4.62,
+        "specialPrograms": 24
+      },
+      "rank": 8,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31180",
+      "regionName": "하남시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 24.04,
+        "R": 20.33,
+        "A": 87.36,
+        "E": 43.5,
+        "resource": 50.4,
+        "NEAR_A": 88.38
+      },
+      "subPillars": {
+        "R_KCCI": 23.17,
+        "R3_integratedCare": 16.07,
+        "E3": 40.49,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 40,
+        "per10k": 1.2,
+        "specialPrograms": 11
+      },
+      "rank": 9,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31270",
+      "regionName": "포천시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 34.35,
+        "R": 37.0,
+        "A": 74.01,
+        "E": 55.5,
+        "resource": 55.5,
+        "NEAR_A": 88.33
+      },
+      "subPillars": {
+        "R_KCCI": 37.45,
+        "R3_integratedCare": 36.31,
+        "E3": 43.05,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 74,
+        "per10k": 5.14,
+        "specialPrograms": 5
+      },
+      "rank": 10,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11240",
+      "regionName": "송파구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 31.56,
+        "R": 38.78,
+        "A": 78.13,
+        "E": 44.51,
+        "resource": 53.81,
+        "NEAR_A": 88.03
+      },
+      "subPillars": {
+        "R_KCCI": 26.94,
+        "R3_integratedCare": 56.55,
+        "E3": 10.29,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 108,
+        "per10k": 1.66,
+        "specialPrograms": 56
+      },
+      "rank": 11,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31220",
+      "regionName": "안성시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 30.94,
+        "R": 28.35,
+        "A": 77.79,
+        "E": 53.94,
+        "resource": 53.36,
+        "NEAR_A": 87.89
+      },
+      "subPillars": {
+        "R_KCCI": 30.98,
+        "R3_integratedCare": 24.4,
+        "E3": 46.52,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 54,
+        "per10k": 2.81,
+        "specialPrograms": 0
+      },
+      "rank": 12,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11220",
+      "regionName": "서초구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 26.47,
+        "R": 26.53,
+        "A": 80.75,
+        "E": 45.65,
+        "resource": 50.98,
+        "NEAR_A": 87.74
+      },
+      "subPillars": {
+        "R_KCCI": 26.35,
+        "R3_integratedCare": 26.79,
+        "E3": 16.36,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 58,
+        "per10k": 1.42,
+        "specialPrograms": 29
+      },
+      "rank": 13,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31170",
+      "regionName": "의왕시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 20.88,
+        "R": 19.84,
+        "A": 78.17,
+        "E": 44.58,
+        "resource": 47.53,
+        "NEAR_A": 87.09
+      },
+      "subPillars": {
+        "R_KCCI": 23.15,
+        "R3_integratedCare": 14.88,
+        "E3": 47.85,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 38,
+        "per10k": 2.39,
+        "specialPrograms": 4
+      },
+      "rank": 14,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31130",
+      "regionName": "남양주시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 34.22,
+        "R": 32.82,
+        "A": 84.5,
+        "E": 44.3,
+        "resource": 53.87,
+        "NEAR_A": 86.76
+      },
+      "subPillars": {
+        "R_KCCI": 36.05,
+        "R3_integratedCare": 27.98,
+        "E3": 41.91,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 60,
+        "per10k": 0.81,
+        "specialPrograms": 26
+      },
+      "rank": 15,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11070",
+      "regionName": "중랑구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 37.7,
+        "R": 40.55,
+        "A": 80.6,
+        "E": 45.46,
+        "resource": 55.54,
+        "NEAR_A": 86.69
+      },
+      "subPillars": {
+        "R_KCCI": 28.3,
+        "R3_integratedCare": 58.93,
+        "E3": 11.23,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 112,
+        "per10k": 2.95,
+        "specialPrograms": 58
+      },
+      "rank": 16,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11040",
+      "regionName": "성동구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 30.7,
+        "R": 28.68,
+        "A": 80.45,
+        "E": 46.57,
+        "resource": 51.9,
+        "NEAR_A": 86.55
+      },
+      "subPillars": {
+        "R_KCCI": 26.77,
+        "R3_integratedCare": 31.55,
+        "E3": 9.76,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 66,
+        "per10k": 2.35,
+        "specialPrograms": 18
+      },
+      "rank": 17,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11250",
+      "regionName": "강동구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 31.73,
+        "R": 27.8,
+        "A": 84.23,
+        "E": 44.78,
+        "resource": 52.27,
+        "NEAR_A": 86.4
+      },
+      "subPillars": {
+        "R_KCCI": 29.66,
+        "R3_integratedCare": 25.0,
+        "E3": 11.67,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 55,
+        "per10k": 1.2,
+        "specialPrograms": 18
+      },
+      "rank": 18,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31120",
+      "regionName": "구리시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 24.39,
+        "R": 25.67,
+        "A": 76.17,
+        "E": 43.79,
+        "resource": 48.54,
+        "NEAR_A": 86.35
+      },
+      "subPillars": {
+        "R_KCCI": 22.54,
+        "R3_integratedCare": 30.36,
+        "E3": 42.41,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 64,
+        "per10k": 3.4,
+        "specialPrograms": 8
+      },
+      "rank": 19,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31210",
+      "regionName": "이천시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 26.68,
+        "R": 23.57,
+        "A": 74.86,
+        "E": 49.12,
+        "resource": 49.18,
+        "NEAR_A": 85.84
+      },
+      "subPillars": {
+        "R_KCCI": 27.77,
+        "R3_integratedCare": 17.26,
+        "E3": 45.81,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 42,
+        "per10k": 1.88,
+        "specialPrograms": 11
+      },
+      "rank": 20,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11230",
+      "regionName": "강남구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 30.01,
+        "R": 33.59,
+        "A": 72.73,
+        "E": 44.93,
+        "resource": 50.42,
+        "NEAR_A": 85.41
+      },
+      "subPillars": {
+        "R_KCCI": 29.79,
+        "R3_integratedCare": 39.29,
+        "E3": 12.75,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 79,
+        "per10k": 1.5,
+        "specialPrograms": 44
+      },
+      "rank": 21,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11200",
+      "regionName": "동작구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 33.89,
+        "R": 31.75,
+        "A": 76.97,
+        "E": 48.11,
+        "resource": 52.28,
+        "NEAR_A": 85.33
+      },
+      "subPillars": {
+        "R_KCCI": 27.52,
+        "R3_integratedCare": 38.1,
+        "E3": 16.14,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 77,
+        "per10k": 2.03,
+        "specialPrograms": 42
+      },
+      "rank": 22,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "23080",
+      "regionName": "서구",
+      "sido": "인천",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 29.64,
+        "R": 43.03,
+        "A": 74.27,
+        "E": 33.09,
+        "resource": 50.13,
+        "NEAR_A": 85.31
+      },
+      "subPillars": {
+        "R_KCCI": 35.21,
+        "R3_integratedCare": 54.76,
+        "E3": 20.74,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 105,
+        "per10k": 1.68,
+        "specialPrograms": 7
+      },
+      "rank": 23,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31070",
+      "regionName": "평택시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 30.98,
+        "R": 23.4,
+        "A": 79.79,
+        "E": 49.2,
+        "resource": 50.8,
+        "NEAR_A": 85.31
+      },
+      "subPillars": {
+        "R_KCCI": 30.67,
+        "R3_integratedCare": 12.5,
+        "E3": 41.89,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 34,
+        "per10k": 0.58,
+        "specialPrograms": 4
+      },
+      "rank": 24,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31030",
+      "regionName": "의정부시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 33.9,
+        "R": 32.46,
+        "A": 78.87,
+        "E": 45.15,
+        "resource": 52.16,
+        "NEAR_A": 85.21
+      },
+      "subPillars": {
+        "R_KCCI": 31.09,
+        "R3_integratedCare": 34.52,
+        "E3": 45.29,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 71,
+        "per10k": 1.54,
+        "specialPrograms": 36
+      },
+      "rank": 25,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31380",
+      "regionName": "양평군",
+      "sido": "경기",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 36.42,
+        "R": 25.56,
+        "A": 79.49,
+        "E": 55.13,
+        "resource": 53.39,
+        "NEAR_A": 85.18
+      },
+      "subPillars": {
+        "R_KCCI": 33.48,
+        "R3_integratedCare": 13.69,
+        "E3": 53.22,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 36,
+        "per10k": 2.77,
+        "specialPrograms": 1
+      },
+      "rank": 26,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "25040",
+      "regionName": "유성구",
+      "sido": "대전",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 27.19,
+        "R": 28.2,
+        "A": 78.62,
+        "E": 39.43,
+        "resource": 48.75,
+        "NEAR_A": 85.15
+      },
+      "subPillars": {
+        "R_KCCI": 33.51,
+        "R3_integratedCare": 20.24,
+        "E3": 31.61,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 47,
+        "per10k": 1.29,
+        "specialPrograms": 9
+      },
+      "rank": 27,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11050",
+      "regionName": "광진구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 32.91,
+        "R": 26.58,
+        "A": 78.28,
+        "E": 49.26,
+        "resource": 51.38,
+        "NEAR_A": 84.92
+      },
+      "subPillars": {
+        "R_KCCI": 25.26,
+        "R3_integratedCare": 28.57,
+        "E3": 11.2,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 61,
+        "per10k": 1.8,
+        "specialPrograms": 18
+      },
+      "rank": 28,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11080",
+      "regionName": "성북구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 34.91,
+        "R": 26.77,
+        "A": 82.76,
+        "E": 47.24,
+        "resource": 52.26,
+        "NEAR_A": 84.8
+      },
+      "subPillars": {
+        "R_KCCI": 25.96,
+        "R3_integratedCare": 27.98,
+        "E3": 14.71,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 60,
+        "per10k": 1.43,
+        "specialPrograms": 31
+      },
+      "rank": 29,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11180",
+      "regionName": "금천구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 35.84,
+        "R": 25.3,
+        "A": 78.44,
+        "E": 53.89,
+        "resource": 52.54,
+        "NEAR_A": 84.62
+      },
+      "subPillars": {
+        "R_KCCI": 22.72,
+        "R3_integratedCare": 29.17,
+        "E3": 8.38,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 62,
+        "per10k": 2.74,
+        "specialPrograms": 20
+      },
+      "rank": 30,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11060",
+      "regionName": "동대문구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 35.94,
+        "R": 27.16,
+        "A": 80.99,
+        "E": 49.3,
+        "resource": 52.48,
+        "NEAR_A": 84.52
+      },
+      "subPillars": {
+        "R_KCCI": 27.01,
+        "R3_integratedCare": 27.38,
+        "E3": 10.61,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 59,
+        "per10k": 1.78,
+        "specialPrograms": 23
+      },
+      "rank": 31,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11010",
+      "regionName": "종로구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 33.6,
+        "R": 30.76,
+        "A": 70.8,
+        "E": 51.84,
+        "resource": 51.14,
+        "NEAR_A": 84.33
+      },
+      "subPillars": {
+        "R_KCCI": 33.02,
+        "R3_integratedCare": 27.38,
+        "E3": 15.58,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 59,
+        "per10k": 4.31,
+        "specialPrograms": 24
+      },
+      "rank": 32,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11140",
+      "regionName": "마포구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 31.76,
+        "R": 22.45,
+        "A": 81.6,
+        "E": 46.37,
+        "resource": 50.14,
+        "NEAR_A": 84.26
+      },
+      "subPillars": {
+        "R_KCCI": 21.95,
+        "R3_integratedCare": 23.21,
+        "E3": 11.05,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 52,
+        "per10k": 1.42,
+        "specialPrograms": 28
+      },
+      "rank": 33,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11170",
+      "regionName": "구로구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 34.65,
+        "R": 21.25,
+        "A": 79.13,
+        "E": 54.03,
+        "resource": 51.47,
+        "NEAR_A": 84.15
+      },
+      "subPillars": {
+        "R_KCCI": 29.47,
+        "R3_integratedCare": 8.93,
+        "E3": 10.22,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 28,
+        "per10k": 0.72,
+        "specialPrograms": 21
+      },
+      "rank": 34,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11120",
+      "regionName": "은평구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 36.44,
+        "R": 28.81,
+        "A": 82.07,
+        "E": 45.1,
+        "resource": 51.99,
+        "NEAR_A": 83.77
+      },
+      "subPillars": {
+        "R_KCCI": 25.79,
+        "R3_integratedCare": 33.33,
+        "E3": 13.96,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 69,
+        "per10k": 1.49,
+        "specialPrograms": 34
+      },
+      "rank": 35,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31370",
+      "regionName": "가평군",
+      "sido": "경기",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 39.38,
+        "R": 30.34,
+        "A": 74.01,
+        "E": 55.93,
+        "resource": 53.43,
+        "NEAR_A": 83.74
+      },
+      "subPillars": {
+        "R_KCCI": 31.12,
+        "R3_integratedCare": 29.17,
+        "E3": 51.31,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 62,
+        "per10k": 10.0,
+        "specialPrograms": 8
+      },
+      "rank": 36,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "24050",
+      "regionName": "광산구",
+      "sido": "광주",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 27.33,
+        "R": 32.16,
+        "A": 64.88,
+        "E": 44.9,
+        "resource": 47.31,
+        "NEAR_A": 83.65
+      },
+      "subPillars": {
+        "R_KCCI": 30.98,
+        "R3_integratedCare": 33.93,
+        "E3": 23.89,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 70,
+        "per10k": 1.67,
+        "specialPrograms": 14
+      },
+      "rank": 37,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11190",
+      "regionName": "영등포구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 34.15,
+        "R": 24.12,
+        "A": 73.73,
+        "E": 54.08,
+        "resource": 50.64,
+        "NEAR_A": 83.57
+      },
+      "subPillars": {
+        "R_KCCI": 29.89,
+        "R3_integratedCare": 15.48,
+        "E3": 11.45,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 39,
+        "per10k": 1.04,
+        "specialPrograms": 13
+      },
+      "rank": 38,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11020",
+      "regionName": "중구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 35.01,
+        "R": 21.08,
+        "A": 81.14,
+        "E": 51.0,
+        "resource": 51.07,
+        "NEAR_A": 83.56
+      },
+      "subPillars": {
+        "R_KCCI": 26.8,
+        "R3_integratedCare": 12.5,
+        "E3": 7.33,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 34,
+        "per10k": 2.86,
+        "specialPrograms": 8
+      },
+      "rank": 39,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11030",
+      "regionName": "용산구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 31.42,
+        "R": 24.98,
+        "A": 72.42,
+        "E": 50.04,
+        "resource": 49.15,
+        "NEAR_A": 83.44
+      },
+      "subPillars": {
+        "R_KCCI": 23.38,
+        "R3_integratedCare": 27.38,
+        "E3": 16.07,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 59,
+        "per10k": 2.72,
+        "specialPrograms": 25
+      },
+      "rank": 40,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31550",
+      "regionName": "연천군",
+      "sido": "경기",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 32.4,
+        "R": 23.83,
+        "A": 66.27,
+        "E": 57.83,
+        "resource": 49.31,
+        "NEAR_A": 83.11
+      },
+      "subPillars": {
+        "R_KCCI": 28.61,
+        "R3_integratedCare": 16.67,
+        "E3": 54.09,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 41,
+        "per10k": 10.0,
+        "specialPrograms": 5
+      },
+      "rank": 41,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31280",
+      "regionName": "여주시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 32.21,
+        "R": 24.87,
+        "A": 73.24,
+        "E": 48.32,
+        "resource": 48.81,
+        "NEAR_A": 82.7
+      },
+      "subPillars": {
+        "R_KCCI": 29.93,
+        "R3_integratedCare": 17.26,
+        "E3": 47.02,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 42,
+        "per10k": 3.62,
+        "specialPrograms": 15
+      },
+      "rank": 42,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31060",
+      "regionName": "광명시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 24.29,
+        "R": 28.67,
+        "A": 60.89,
+        "E": 44.87,
+        "resource": 44.81,
+        "NEAR_A": 82.67
+      },
+      "subPillars": {
+        "R_KCCI": 24.38,
+        "R3_integratedCare": 35.12,
+        "E3": 44.06,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 72,
+        "per10k": 2.56,
+        "specialPrograms": 46
+      },
+      "rank": 43,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11160",
+      "regionName": "강서구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 39.44,
+        "R": 32.71,
+        "A": 79.21,
+        "E": 45.07,
+        "resource": 52.33,
+        "NEAR_A": 82.61
+      },
+      "subPillars": {
+        "R_KCCI": 28.33,
+        "R3_integratedCare": 39.29,
+        "E3": 11.97,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 79,
+        "per10k": 1.43,
+        "specialPrograms": 40
+      },
+      "rank": 44,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11130",
+      "regionName": "서대문구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 33.25,
+        "R": 18.96,
+        "A": 78.28,
+        "E": 49.13,
+        "resource": 48.79,
+        "NEAR_A": 82.17
+      },
+      "subPillars": {
+        "R_KCCI": 26.84,
+        "R3_integratedCare": 7.14,
+        "E3": 16.46,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 25,
+        "per10k": 0.82,
+        "specialPrograms": 18
+      },
+      "rank": 45,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31080",
+      "regionName": "동두천시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 34.48,
+        "R": 23.27,
+        "A": 73.7,
+        "E": 50.52,
+        "resource": 49.16,
+        "NEAR_A": 81.92
+      },
+      "subPillars": {
+        "R_KCCI": 28.86,
+        "R3_integratedCare": 14.88,
+        "E3": 54.07,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 38,
+        "per10k": 4.22,
+        "specialPrograms": 5
+      },
+      "rank": 46,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "26040",
+      "regionName": "북구",
+      "sido": "울산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 24.57,
+        "R": 27.51,
+        "A": 72.95,
+        "E": 31.49,
+        "resource": 43.98,
+        "NEAR_A": 81.7
+      },
+      "subPillars": {
+        "R_KCCI": 28.78,
+        "R3_integratedCare": 25.6,
+        "E3": 21.13,
+        "E3b_localCurrency": 17.5
+      },
+      "integratedCare": {
+        "totalServices": 56,
+        "per10k": 2.52,
+        "specialPrograms": 8
+      },
+      "rank": 47,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11150",
+      "regionName": "양천구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 30.61,
+        "R": 24.35,
+        "A": 69.72,
+        "E": 44.92,
+        "resource": 46.33,
+        "NEAR_A": 81.03
+      },
+      "subPillars": {
+        "R_KCCI": 29.07,
+        "R3_integratedCare": 17.26,
+        "E3": 13.09,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 42,
+        "per10k": 0.97,
+        "specialPrograms": 18
+      },
+      "rank": 48,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11210",
+      "regionName": "관악구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 40.22,
+        "R": 27.08,
+        "A": 76.59,
+        "E": 48.65,
+        "resource": 50.77,
+        "NEAR_A": 80.67
+      },
+      "subPillars": {
+        "R_KCCI": 28.47,
+        "R3_integratedCare": 25.0,
+        "E3": 13.19,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 55,
+        "per10k": 1.12,
+        "specialPrograms": 23
+      },
+      "rank": 49,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "31160",
+      "regionName": "군포시",
+      "sido": "경기",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 26.9,
+        "R": 25.23,
+        "A": 57.42,
+        "E": 47.04,
+        "resource": 43.23,
+        "NEAR_A": 79.78
+      },
+      "subPillars": {
+        "R_KCCI": 25.78,
+        "R3_integratedCare": 24.4,
+        "E3": 44.35,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 54,
+        "per10k": 2.05,
+        "specialPrograms": 26
+      },
+      "rank": 50,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "22310",
+      "regionName": "달성군",
+      "sido": "대구",
+      "type": "군",
+      "issuer": false,
+      "scores": {
+        "N": 33.61,
+        "R": 36.92,
+        "A": 65.18,
+        "E": 37.42,
+        "resource": 46.5,
+        "NEAR_A": 79.7
+      },
+      "subPillars": {
+        "R_KCCI": 27.4,
+        "R3_integratedCare": 51.19,
+        "E3": 17.58,
+        "E3b_localCurrency": 12.5
+      },
+      "integratedCare": {
+        "totalServices": 99,
+        "per10k": 3.61,
+        "specialPrograms": 0
+      },
+      "rank": 51,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "23010",
+      "regionName": "중구",
+      "sido": "인천",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 29.39,
+        "R": 23.33,
+        "A": 75.9,
+        "E": 33.89,
+        "resource": 44.37,
+        "NEAR_A": 79.68
+      },
+      "subPillars": {
+        "R_KCCI": 29.76,
+        "R3_integratedCare": 13.69,
+        "E3": 21.52,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 36,
+        "per10k": 2.48,
+        "specialPrograms": 8
+      },
+      "rank": 52,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "23040",
+      "regionName": "연수구",
+      "sido": "인천",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 24.17,
+        "R": 21.07,
+        "A": 64.94,
+        "E": 35.95,
+        "resource": 40.65,
+        "NEAR_A": 78.57
+      },
+      "subPillars": {
+        "R_KCCI": 28.38,
+        "R3_integratedCare": 10.12,
+        "E3": 23.12,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 30,
+        "per10k": 0.77,
+        "specialPrograms": 3
+      },
+      "rank": 53,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11110",
+      "regionName": "노원구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 37.37,
+        "R": 38.89,
+        "A": 57.22,
+        "E": 45.09,
+        "resource": 47.07,
+        "NEAR_A": 78.38
+      },
+      "subPillars": {
+        "R_KCCI": 30.69,
+        "R3_integratedCare": 51.19,
+        "E3": 15.2,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 99,
+        "per10k": 2.02,
+        "specialPrograms": 18
+      },
+      "rank": 54,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "21120",
+      "regionName": "강서구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 32.03,
+        "R": 22.12,
+        "A": 72.86,
+        "E": 37.18,
+        "resource": 44.05,
+        "NEAR_A": 78.04
+      },
+      "subPillars": {
+        "R_KCCI": 24.96,
+        "R3_integratedCare": 17.86,
+        "E3": 12.74,
+        "E3b_localCurrency": 15.0
+      },
+      "integratedCare": {
+        "totalServices": 43,
+        "per10k": 2.99,
+        "specialPrograms": 0
+      },
+      "rank": 55,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11100",
+      "regionName": "도봉구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 35.88,
+        "R": 26.61,
+        "A": 64.47,
+        "E": 45.0,
+        "resource": 45.36,
+        "NEAR_A": 77.42
+      },
+      "subPillars": {
+        "R_KCCI": 30.06,
+        "R3_integratedCare": 21.43,
+        "E3": 14.29,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 49,
+        "per10k": 1.66,
+        "specialPrograms": 27
+      },
+      "rank": 56,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "21310",
+      "regionName": "기장군",
+      "sido": "부산",
+      "type": "군",
+      "issuer": false,
+      "scores": {
+        "N": 39.82,
+        "R": 27.45,
+        "A": 69.93,
+        "E": 43.57,
+        "resource": 46.98,
+        "NEAR_A": 77.07
+      },
+      "subPillars": {
+        "R_KCCI": 28.29,
+        "R3_integratedCare": 26.19,
+        "E3": 20.92,
+        "E3b_localCurrency": 15.0
+      },
+      "integratedCare": {
+        "totalServices": 57,
+        "per10k": 3.2,
+        "specialPrograms": 0
+      },
+      "rank": 57,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "26310",
+      "regionName": "울주군",
+      "sido": "울산",
+      "type": "군",
+      "issuer": false,
+      "scores": {
+        "N": 34.51,
+        "R": 23.52,
+        "A": 65.62,
+        "E": 43.38,
+        "resource": 44.17,
+        "NEAR_A": 76.92
+      },
+      "subPillars": {
+        "R_KCCI": 32.05,
+        "R3_integratedCare": 10.71,
+        "E3": 23.04,
+        "E3b_localCurrency": 17.5
+      },
+      "integratedCare": {
+        "totalServices": 31,
+        "per10k": 1.4,
+        "specialPrograms": 4
+      },
+      "rank": 58,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "11090",
+      "regionName": "강북구",
+      "sido": "서울",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 39.48,
+        "R": 20.31,
+        "A": 69.8,
+        "E": 46.13,
+        "resource": 45.41,
+        "NEAR_A": 75.67
+      },
+      "subPillars": {
+        "R_KCCI": 23.93,
+        "R3_integratedCare": 14.88,
+        "E3": 13.0,
+        "E3b_localCurrency": 5.0
+      },
+      "integratedCare": {
+        "totalServices": 38,
+        "per10k": 1.29,
+        "specialPrograms": 19
+      },
+      "rank": 59,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "23320",
+      "regionName": "옹진군",
+      "sido": "인천",
+      "type": "군",
+      "issuer": false,
+      "scores": {
+        "N": 46.01,
+        "R": 29.29,
+        "A": 70.42,
+        "E": 45.64,
+        "resource": 48.45,
+        "NEAR_A": 75.44
+      },
+      "subPillars": {
+        "R_KCCI": 38.89,
+        "R3_integratedCare": 14.88,
+        "E3": 47.28,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 38,
+        "per10k": 18.1,
+        "specialPrograms": 13
+      },
+      "rank": 60,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "23050",
+      "regionName": "남동구",
+      "sido": "인천",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 37.76,
+        "R": 33.39,
+        "A": 64.32,
+        "E": 33.89,
+        "resource": 43.87,
+        "NEAR_A": 74.99
+      },
+      "subPillars": {
+        "R_KCCI": 37.4,
+        "R3_integratedCare": 27.38,
+        "E3": 22.21,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 59,
+        "per10k": 1.17,
+        "specialPrograms": 0
+      },
+      "rank": 61,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "23310",
+      "regionName": "강화군",
+      "sido": "인천",
+      "type": "군",
+      "issuer": false,
+      "scores": {
+        "N": 42.54,
+        "R": 33.25,
+        "A": 62.24,
+        "E": 42.41,
+        "resource": 45.97,
+        "NEAR_A": 74.7
+      },
+      "subPillars": {
+        "R_KCCI": 40.34,
+        "R3_integratedCare": 22.62,
+        "E3": 33.97,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 51,
+        "per10k": 7.29,
+        "specialPrograms": 10
+      },
+      "rank": 62,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "23060",
+      "regionName": "부평구",
+      "sido": "인천",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 36.5,
+        "R": 32.58,
+        "A": 60.15,
+        "E": 35.92,
+        "resource": 42.89,
+        "NEAR_A": 74.63
+      },
+      "subPillars": {
+        "R_KCCI": 31.28,
+        "R3_integratedCare": 34.52,
+        "E3": 22.53,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 71,
+        "per10k": 1.45,
+        "specialPrograms": 50
+      },
+      "rank": 63,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "34040",
+      "regionName": "아산시",
+      "sido": "충남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 35.83,
+        "R": 33.42,
+        "A": 54.46,
+        "E": 37.73,
+        "resource": 41.87,
+        "NEAR_A": 73.96
+      },
+      "subPillars": {
+        "R_KCCI": 26.34,
+        "R3_integratedCare": 44.05,
+        "E3": 36.6,
+        "E3b_localCurrency": 45.0
+      },
+      "integratedCare": {
+        "totalServices": 87,
+        "per10k": 2.54,
+        "specialPrograms": 8
+      },
+      "rank": 64,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "25030",
+      "regionName": "서구",
+      "sido": "대전",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 33.88,
+        "R": 27.39,
+        "A": 56.24,
+        "E": 38.39,
+        "resource": 40.67,
+        "NEAR_A": 73.73
+      },
+      "subPillars": {
+        "R_KCCI": 32.55,
+        "R3_integratedCare": 19.64,
+        "E3": 31.53,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 46,
+        "per10k": 0.96,
+        "specialPrograms": 9
+      },
+      "rank": 65,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "23070",
+      "regionName": "계양구",
+      "sido": "인천",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 30.81,
+        "R": 27.01,
+        "A": 57.38,
+        "E": 32.28,
+        "resource": 38.89,
+        "NEAR_A": 73.49
+      },
+      "subPillars": {
+        "R_KCCI": 30.33,
+        "R3_integratedCare": 22.02,
+        "E3": 24.52,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 50,
+        "per10k": 1.74,
+        "specialPrograms": 20
+      },
+      "rank": 66,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "24020",
+      "regionName": "서구",
+      "sido": "광주",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 33.19,
+        "R": 23.52,
+        "A": 55.24,
+        "E": 40.98,
+        "resource": 39.91,
+        "NEAR_A": 73.32
+      },
+      "subPillars": {
+        "R_KCCI": 28.49,
+        "R3_integratedCare": 16.07,
+        "E3": 25.83,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 40,
+        "per10k": 1.4,
+        "specialPrograms": 18
+      },
+      "rank": 67,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "25010",
+      "regionName": "동구",
+      "sido": "대전",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 38.2,
+        "R": 28.6,
+        "A": 57.71,
+        "E": 40.73,
+        "resource": 42.34,
+        "NEAR_A": 73.24
+      },
+      "subPillars": {
+        "R_KCCI": 34.18,
+        "R3_integratedCare": 20.24,
+        "E3": 32.8,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 47,
+        "per10k": 2.1,
+        "specialPrograms": 9
+      },
+      "rank": 68,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "25020",
+      "regionName": "중구",
+      "sido": "대전",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 37.02,
+        "R": 28.62,
+        "A": 54.08,
+        "E": 41.55,
+        "resource": 41.42,
+        "NEAR_A": 72.91
+      },
+      "subPillars": {
+        "R_KCCI": 33.82,
+        "R3_integratedCare": 20.83,
+        "E3": 51.8,
+        "E3b_localCurrency": 70.0
+      },
+      "integratedCare": {
+        "totalServices": 48,
+        "per10k": 2.14,
+        "specialPrograms": 10
+      },
+      "rank": 69,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "25050",
+      "regionName": "대덕구",
+      "sido": "대전",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 32.76,
+        "R": 27.18,
+        "A": 50.68,
+        "E": 39.33,
+        "resource": 39.07,
+        "NEAR_A": 72.68
+      },
+      "subPillars": {
+        "R_KCCI": 31.81,
+        "R3_integratedCare": 20.24,
+        "E3": 29.29,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 47,
+        "per10k": 2.72,
+        "specialPrograms": 10
+      },
+      "rank": 70,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "22010",
+      "regionName": "중구",
+      "sido": "대구",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 36.54,
+        "R": 41.27,
+        "A": 55.3,
+        "E": 25.38,
+        "resource": 40.65,
+        "NEAR_A": 72.38
+      },
+      "subPillars": {
+        "R_KCCI": 34.27,
+        "R3_integratedCare": 51.79,
+        "E3": 14.47,
+        "E3b_localCurrency": 12.5
+      },
+      "integratedCare": {
+        "totalServices": 100,
+        "per10k": 11.24,
+        "specialPrograms": 0
+      },
+      "rank": 71,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "24010",
+      "regionName": "동구",
+      "sido": "광주",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 34.73,
+        "R": 21.45,
+        "A": 50.99,
+        "E": 46.08,
+        "resource": 39.5,
+        "NEAR_A": 72.14
+      },
+      "subPillars": {
+        "R_KCCI": 35.74,
+        "R3_integratedCare": 0.0,
+        "E3": 51.33,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 13,
+        "per10k": 1.24,
+        "specialPrograms": 11
+      },
+      "rank": 72,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "34070",
+      "regionName": "계룡시",
+      "sido": "충남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 31.95,
+        "R": 20.58,
+        "A": 56.01,
+        "E": 36.7,
+        "resource": 37.76,
+        "NEAR_A": 71.79
+      },
+      "subPillars": {
+        "R_KCCI": 22.01,
+        "R3_integratedCare": 18.45,
+        "E3": 52.75,
+        "E3b_localCurrency": 45.0
+      },
+      "integratedCare": {
+        "totalServices": 44,
+        "per10k": 10.0,
+        "specialPrograms": 7
+      },
+      "rank": 73,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "22320",
+      "regionName": "군위군",
+      "sido": "대구",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 40.33,
+        "R": 38.87,
+        "A": 48.41,
+        "E": 37.74,
+        "resource": 41.67,
+        "NEAR_A": 71.51
+      },
+      "subPillars": {
+        "R_KCCI": 27.88,
+        "R3_integratedCare": 55.36,
+        "E3": 23.25,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 106,
+        "per10k": 46.09,
+        "specialPrograms": 0
+      },
+      "rank": 74,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "23030",
+      "regionName": "미추홀구",
+      "sido": "인천",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 42.75,
+        "R": 31.82,
+        "A": 61.98,
+        "E": 34.73,
+        "resource": 42.84,
+        "NEAR_A": 71.47
+      },
+      "subPillars": {
+        "R_KCCI": 32.8,
+        "R3_integratedCare": 30.36,
+        "E3": 24.42,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 64,
+        "per10k": 1.64,
+        "specialPrograms": 9
+      },
+      "rank": 75,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "33350",
+      "regionName": "진천군",
+      "sido": "충북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 37.53,
+        "R": 21.47,
+        "A": 50.77,
+        "E": 48.15,
+        "resource": 40.13,
+        "NEAR_A": 71.36
+      },
+      "subPillars": {
+        "R_KCCI": 25.07,
+        "R3_integratedCare": 16.07,
+        "E3": 41.82,
+        "E3b_localCurrency": 50.0
+      },
+      "integratedCare": {
+        "totalServices": 40,
+        "per10k": 4.65,
+        "specialPrograms": 18
+      },
+      "rank": 76,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "39010",
+      "regionName": "제주시",
+      "sido": "제주",
+      "type": "시",
+      "issuer": false,
+      "scores": {
+        "N": 33.65,
+        "R": 25.91,
+        "A": 53.06,
+        "E": 35.52,
+        "resource": 38.16,
+        "NEAR_A": 71.34
+      },
+      "subPillars": {
+        "R_KCCI": 24.92,
+        "R3_integratedCare": 27.38,
+        "E3": 8.44,
+        "E3b_localCurrency": 17.5
+      },
+      "integratedCare": {
+        "totalServices": 59,
+        "per10k": 0.88,
+        "specialPrograms": 27
+      },
+      "rank": 77,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "23020",
+      "regionName": "동구",
+      "sido": "인천",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 34.54,
+        "R": 19.42,
+        "A": 60.08,
+        "E": 35.87,
+        "resource": 38.45,
+        "NEAR_A": 71.19
+      },
+      "subPillars": {
+        "R_KCCI": 25.61,
+        "R3_integratedCare": 10.12,
+        "E3": 41.28,
+        "E3b_localCurrency": 65.0
+      },
+      "integratedCare": {
+        "totalServices": 30,
+        "per10k": 5.0,
+        "specialPrograms": 12
+      },
+      "rank": 78,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "26020",
+      "regionName": "남구",
+      "sido": "울산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 33.3,
+        "R": 23.4,
+        "A": 58.52,
+        "E": 31.37,
+        "resource": 37.76,
+        "NEAR_A": 71.11
+      },
+      "subPillars": {
+        "R_KCCI": 29.07,
+        "R3_integratedCare": 14.88,
+        "E3": 20.28,
+        "E3b_localCurrency": 17.5
+      },
+      "integratedCare": {
+        "totalServices": 38,
+        "per10k": 1.23,
+        "specialPrograms": 7
+      },
+      "rank": 79,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "26010",
+      "regionName": "중구",
+      "sido": "울산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 35.15,
+        "R": 29.18,
+        "A": 54.89,
+        "E": 31.7,
+        "resource": 38.59,
+        "NEAR_A": 71.01
+      },
+      "subPillars": {
+        "R_KCCI": 27.6,
+        "R3_integratedCare": 31.55,
+        "E3": 25.44,
+        "E3b_localCurrency": 17.5
+      },
+      "integratedCare": {
+        "totalServices": 66,
+        "per10k": 3.13,
+        "specialPrograms": 12
+      },
+      "rank": 80,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "21100",
+      "regionName": "사하구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 47.86,
+        "R": 53.81,
+        "A": 45.62,
+        "E": 35.29,
+        "resource": 44.91,
+        "NEAR_A": 70.98
+      },
+      "subPillars": {
+        "R_KCCI": 23.02,
+        "R3_integratedCare": 100.0,
+        "E3": 19.45,
+        "E3b_localCurrency": 15.0
+      },
+      "integratedCare": {
+        "totalServices": 181,
+        "per10k": 6.09,
+        "specialPrograms": 0
+      },
+      "rank": 81,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "24040",
+      "regionName": "북구",
+      "sido": "광주",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 37.54,
+        "R": 28.23,
+        "A": 48.91,
+        "E": 41.83,
+        "resource": 39.65,
+        "NEAR_A": 70.88
+      },
+      "subPillars": {
+        "R_KCCI": 34.34,
+        "R3_integratedCare": 19.05,
+        "E3": 27.83,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 45,
+        "per10k": 1.06,
+        "specialPrograms": 20
+      },
+      "rank": 82,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "33370",
+      "regionName": "음성군",
+      "sido": "충북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 43.71,
+        "R": 29.32,
+        "A": 46.22,
+        "E": 52.03,
+        "resource": 42.52,
+        "NEAR_A": 70.67
+      },
+      "subPillars": {
+        "R_KCCI": 25.85,
+        "R3_integratedCare": 34.52,
+        "E3": 39.11,
+        "E3b_localCurrency": 50.0
+      },
+      "integratedCare": {
+        "totalServices": 71,
+        "per10k": 7.8,
+        "specialPrograms": 0
+      },
+      "rank": 83,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "24030",
+      "regionName": "남구",
+      "sido": "광주",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 32.46,
+        "R": 18.59,
+        "A": 47.21,
+        "E": 44.44,
+        "resource": 36.75,
+        "NEAR_A": 70.52
+      },
+      "subPillars": {
+        "R_KCCI": 27.42,
+        "R3_integratedCare": 5.36,
+        "E3": 46.98,
+        "E3b_localCurrency": 50.0
+      },
+      "integratedCare": {
+        "totalServices": 22,
+        "per10k": 1.1,
+        "specialPrograms": 12
+      },
+      "rank": 84,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "39020",
+      "regionName": "서귀포시",
+      "sido": "제주",
+      "type": "시",
+      "issuer": false,
+      "scores": {
+        "N": 33.3,
+        "R": 23.1,
+        "A": 51.14,
+        "E": 36.66,
+        "resource": 36.97,
+        "NEAR_A": 70.32
+      },
+      "subPillars": {
+        "R_KCCI": 20.24,
+        "R3_integratedCare": 27.38,
+        "E3": 6.29,
+        "E3b_localCurrency": 17.5
+      },
+      "integratedCare": {
+        "totalServices": 59,
+        "per10k": 0.88,
+        "specialPrograms": 27
+      },
+      "rank": 85,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "26030",
+      "regionName": "동구",
+      "sido": "울산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 31.37,
+        "R": 20.83,
+        "A": 50.11,
+        "E": 36.56,
+        "resource": 35.83,
+        "NEAR_A": 70.15
+      },
+      "subPillars": {
+        "R_KCCI": 26.39,
+        "R3_integratedCare": 12.5,
+        "E3": 23.9,
+        "E3b_localCurrency": 17.5
+      },
+      "integratedCare": {
+        "totalServices": 34,
+        "per10k": 2.24,
+        "specialPrograms": 7
+      },
+      "rank": 86,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "22050",
+      "regionName": "북구",
+      "sido": "대구",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 41.75,
+        "R": 38.44,
+        "A": 56.61,
+        "E": 26.32,
+        "resource": 40.46,
+        "NEAR_A": 69.58
+      },
+      "subPillars": {
+        "R_KCCI": 29.15,
+        "R3_integratedCare": 52.38,
+        "E3": 14.42,
+        "E3b_localCurrency": 12.5
+      },
+      "integratedCare": {
+        "totalServices": 101,
+        "per10k": 2.38,
+        "specialPrograms": 0
+      },
+      "rank": 87,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "21060",
+      "regionName": "동래구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 42.41,
+        "R": 27.14,
+        "A": 57.66,
+        "E": 33.2,
+        "resource": 39.33,
+        "NEAR_A": 68.13
+      },
+      "subPillars": {
+        "R_KCCI": 26.58,
+        "R3_integratedCare": 27.98,
+        "E3": 18.01,
+        "E3b_localCurrency": 15.0
+      },
+      "integratedCare": {
+        "totalServices": 60,
+        "per10k": 2.24,
+        "specialPrograms": 0
+      },
+      "rank": 88,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "21130",
+      "regionName": "연제구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 43.19,
+        "R": 27.48,
+        "A": 56.81,
+        "E": 33.82,
+        "resource": 39.37,
+        "NEAR_A": 67.77
+      },
+      "subPillars": {
+        "R_KCCI": 23.97,
+        "R3_integratedCare": 32.74,
+        "E3": 21.36,
+        "E3b_localCurrency": 15.0
+      },
+      "integratedCare": {
+        "totalServices": 68,
+        "per10k": 3.45,
+        "specialPrograms": 0
+      },
+      "rank": 89,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "22070",
+      "regionName": "달서구",
+      "sido": "대구",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 43.47,
+        "R": 38.82,
+        "A": 52.22,
+        "E": 27.24,
+        "resource": 39.43,
+        "NEAR_A": 67.69
+      },
+      "subPillars": {
+        "R_KCCI": 28.19,
+        "R3_integratedCare": 54.76,
+        "E3": 14.15,
+        "E3b_localCurrency": 12.5
+      },
+      "integratedCare": {
+        "totalServices": 105,
+        "per10k": 2.02,
+        "specialPrograms": 0
+      },
+      "rank": 90,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "22060",
+      "regionName": "수성구",
+      "sido": "대구",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 39.29,
+        "R": 36.57,
+        "A": 48.28,
+        "E": 25.46,
+        "resource": 36.77,
+        "NEAR_A": 67.12
+      },
+      "subPillars": {
+        "R_KCCI": 25.23,
+        "R3_integratedCare": 53.57,
+        "E3": 18.12,
+        "E3b_localCurrency": 12.5
+      },
+      "integratedCare": {
+        "totalServices": 103,
+        "per10k": 2.54,
+        "specialPrograms": 0
+      },
+      "rank": 91,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "22020",
+      "regionName": "동구",
+      "sido": "대구",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 45.83,
+        "R": 39.16,
+        "A": 53.84,
+        "E": 26.3,
+        "resource": 39.77,
+        "NEAR_A": 66.85
+      },
+      "subPillars": {
+        "R_KCCI": 29.95,
+        "R3_integratedCare": 52.98,
+        "E3": 20.33,
+        "E3b_localCurrency": 12.5
+      },
+      "integratedCare": {
+        "totalServices": 102,
+        "per10k": 3.06,
+        "specialPrograms": 0
+      },
+      "rank": 92,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "21090",
+      "regionName": "해운대구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 46.09,
+        "R": 24.23,
+        "A": 60.44,
+        "E": 33.94,
+        "resource": 39.54,
+        "NEAR_A": 66.49
+      },
+      "subPillars": {
+        "R_KCCI": 24.11,
+        "R3_integratedCare": 24.4,
+        "E3": 17.51,
+        "E3b_localCurrency": 15.0
+      },
+      "integratedCare": {
+        "totalServices": 54,
+        "per10k": 1.42,
+        "specialPrograms": 0
+      },
+      "rank": 93,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "34080",
+      "regionName": "당진시",
+      "sido": "충남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 39.31,
+        "R": 24.25,
+        "A": 48.91,
+        "E": 34.68,
+        "resource": 35.95,
+        "NEAR_A": 66.29
+      },
+      "subPillars": {
+        "R_KCCI": 24.55,
+        "R3_integratedCare": 23.81,
+        "E3": 40.68,
+        "E3b_localCurrency": 45.0
+      },
+      "integratedCare": {
+        "totalServices": 53,
+        "per10k": 3.17,
+        "specialPrograms": 7
+      },
+      "rank": 94,
+      "quadrant": "II",
+      "quadrantLabel": "안정자원풍부형 (저욕구·풍부자원)"
+    },
+    {
+      "regionCode": "21070",
+      "regionName": "남구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 45.36,
+        "R": 20.58,
+        "A": 57.81,
+        "E": 37.26,
+        "resource": 38.55,
+        "NEAR_A": 65.87
+      },
+      "subPillars": {
+        "R_KCCI": 23.98,
+        "R3_integratedCare": 15.48,
+        "E3": 26.08,
+        "E3b_localCurrency": 30.0
+      },
+      "integratedCare": {
+        "totalServices": 39,
+        "per10k": 1.52,
+        "specialPrograms": 0
+      },
+      "rank": 95,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "36590",
+      "regionName": "강진군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.04,
+        "R": 40.61,
+        "A": 28.77,
+        "E": 51.64,
+        "resource": 40.34,
+        "NEAR_A": 65.82
+      },
+      "subPillars": {
+        "R_KCCI": 25.22,
+        "R3_integratedCare": 63.69,
+        "E3": 70.99,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 120,
+        "per10k": 38.71,
+        "specialPrograms": 19
+      },
+      "rank": 96,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "34550",
+      "regionName": "청양군",
+      "sido": "충남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 39.9,
+        "R": 19.04,
+        "A": 37.69,
+        "E": 49.59,
+        "resource": 35.44,
+        "NEAR_A": 65.49
+      },
+      "subPillars": {
+        "R_KCCI": 20.63,
+        "R3_integratedCare": 16.67,
+        "E3": 80.13,
+        "E3b_localCurrency": 45.0
+      },
+      "integratedCare": {
+        "totalServices": 41,
+        "per10k": 13.67,
+        "specialPrograms": 11
+      },
+      "rank": 97,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "21080",
+      "regionName": "북구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 45.49,
+        "R": 24.18,
+        "A": 55.42,
+        "E": 34.45,
+        "resource": 38.02,
+        "NEAR_A": 65.27
+      },
+      "subPillars": {
+        "R_KCCI": 23.63,
+        "R3_integratedCare": 25.0,
+        "E3": 21.06,
+        "E3b_localCurrency": 15.0
+      },
+      "integratedCare": {
+        "totalServices": 55,
+        "per10k": 2.03,
+        "specialPrograms": 0
+      },
+      "rank": 98,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "34540",
+      "regionName": "서천군",
+      "sido": "충남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 41.37,
+        "R": 23.81,
+        "A": 37.69,
+        "E": 45.21,
+        "resource": 35.57,
+        "NEAR_A": 64.89
+      },
+      "subPillars": {
+        "R_KCCI": 22.62,
+        "R3_integratedCare": 25.6,
+        "E3": 53.83,
+        "E3b_localCurrency": 45.0
+      },
+      "integratedCare": {
+        "totalServices": 56,
+        "per10k": 11.43,
+        "specialPrograms": 8
+      },
+      "rank": 99,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "21020",
+      "regionName": "서구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 50.01,
+        "R": 31.96,
+        "A": 49.56,
+        "E": 37.34,
+        "resource": 39.62,
+        "NEAR_A": 64.61
+      },
+      "subPillars": {
+        "R_KCCI": 28.26,
+        "R3_integratedCare": 37.5,
+        "E3": 27.46,
+        "E3b_localCurrency": 15.0
+      },
+      "integratedCare": {
+        "totalServices": 76,
+        "per10k": 7.45,
+        "specialPrograms": 0
+      },
+      "rank": 100,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "33390",
+      "regionName": "증평군",
+      "sido": "충북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 40.77,
+        "R": 20.82,
+        "A": 42.59,
+        "E": 41.53,
+        "resource": 34.98,
+        "NEAR_A": 64.6
+      },
+      "subPillars": {
+        "R_KCCI": 24.38,
+        "R3_integratedCare": 15.48,
+        "E3": 47.56,
+        "E3b_localCurrency": 50.0
+      },
+      "integratedCare": {
+        "totalServices": 39,
+        "per10k": 10.83,
+        "specialPrograms": 8
+      },
+      "rank": 101,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "33520",
+      "regionName": "보은군",
+      "sido": "충북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 40.3,
+        "R": 20.1,
+        "A": 39.48,
+        "E": 44.13,
+        "resource": 34.57,
+        "NEAR_A": 64.42
+      },
+      "subPillars": {
+        "R_KCCI": 21.2,
+        "R3_integratedCare": 18.45,
+        "E3": 57.85,
+        "E3b_localCurrency": 50.0
+      },
+      "integratedCare": {
+        "totalServices": 44,
+        "per10k": 14.19,
+        "specialPrograms": 8
+      },
+      "rank": 102,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "38070",
+      "regionName": "김해시",
+      "sido": "경남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 42.0,
+        "R": 25.04,
+        "A": 51.3,
+        "E": 29.61,
+        "resource": 35.32,
+        "NEAR_A": 64.32
+      },
+      "subPillars": {
+        "R_KCCI": 26.66,
+        "R3_integratedCare": 22.62,
+        "E3": 21.5,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 51,
+        "per10k": 0.94,
+        "specialPrograms": 1
+      },
+      "rank": 103,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "21140",
+      "regionName": "수영구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 46.43,
+        "R": 23.66,
+        "A": 54.19,
+        "E": 33.93,
+        "resource": 37.26,
+        "NEAR_A": 64.04
+      },
+      "subPillars": {
+        "R_KCCI": 22.37,
+        "R3_integratedCare": 25.6,
+        "E3": 18.25,
+        "E3b_localCurrency": 15.0
+      },
+      "integratedCare": {
+        "totalServices": 56,
+        "per10k": 3.33,
+        "specialPrograms": 0
+      },
+      "rank": 104,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "35520",
+      "regionName": "진안군",
+      "sido": "전북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.91,
+        "R": 26.89,
+        "A": 26.98,
+        "E": 56.83,
+        "resource": 36.9,
+        "NEAR_A": 63.95
+      },
+      "subPillars": {
+        "R_KCCI": 19.82,
+        "R3_integratedCare": 37.5,
+        "E3": 72.59,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 76,
+        "per10k": 31.67,
+        "specialPrograms": 21
+      },
+      "rank": 105,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "34360",
+      "regionName": "홍성군",
+      "sido": "충남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 43.21,
+        "R": 19.87,
+        "A": 43.04,
+        "E": 43.73,
+        "resource": 35.55,
+        "NEAR_A": 63.94
+      },
+      "subPillars": {
+        "R_KCCI": 23.6,
+        "R3_integratedCare": 14.29,
+        "E3": 49.08,
+        "E3b_localCurrency": 45.0
+      },
+      "integratedCare": {
+        "totalServices": 37,
+        "per10k": 3.85,
+        "specialPrograms": 6
+      },
+      "rank": 106,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "36580",
+      "regionName": "장흥군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.31,
+        "R": 33.1,
+        "A": 28.77,
+        "E": 53.36,
+        "resource": 38.41,
+        "NEAR_A": 63.75
+      },
+      "subPillars": {
+        "R_KCCI": 19.85,
+        "R3_integratedCare": 52.98,
+        "E3": 81.31,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 102,
+        "per10k": 32.9,
+        "specialPrograms": 20
+      },
+      "rank": 107,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "34580",
+      "regionName": "태안군",
+      "sido": "충남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 40.89,
+        "R": 20.64,
+        "A": 37.69,
+        "E": 43.85,
+        "resource": 34.06,
+        "NEAR_A": 63.62
+      },
+      "subPillars": {
+        "R_KCCI": 22.49,
+        "R3_integratedCare": 17.86,
+        "E3": 45.7,
+        "E3b_localCurrency": 45.0
+      },
+      "integratedCare": {
+        "totalServices": 43,
+        "per10k": 7.17,
+        "specialPrograms": 7
+      },
+      "rank": 108,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "33540",
+      "regionName": "영동군",
+      "sido": "충북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 40.98,
+        "R": 17.43,
+        "A": 39.48,
+        "E": 45.12,
+        "resource": 34.01,
+        "NEAR_A": 63.52
+      },
+      "subPillars": {
+        "R_KCCI": 20.72,
+        "R3_integratedCare": 12.5,
+        "E3": 63.8,
+        "E3b_localCurrency": 50.0
+      },
+      "integratedCare": {
+        "totalServices": 34,
+        "per10k": 7.91,
+        "specialPrograms": 6
+      },
+      "rank": 109,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "35020",
+      "regionName": "군산시",
+      "sido": "전북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 50.18,
+        "R": 43.99,
+        "A": 25.93,
+        "E": 45.48,
+        "resource": 38.47,
+        "NEAR_A": 63.38
+      },
+      "subPillars": {
+        "R_KCCI": 18.55,
+        "R3_integratedCare": 82.14,
+        "E3": 56.27,
+        "E3b_localCurrency": 78.0
+      },
+      "integratedCare": {
+        "totalServices": 151,
+        "per10k": 5.94,
+        "specialPrograms": 0
+      },
+      "rank": 110,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "33560",
+      "regionName": "괴산군",
+      "sido": "충북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 40.19,
+        "R": 15.88,
+        "A": 39.48,
+        "E": 44.96,
+        "resource": 33.44,
+        "NEAR_A": 63.34
+      },
+      "subPillars": {
+        "R_KCCI": 20.51,
+        "R3_integratedCare": 8.93,
+        "E3": 62.8,
+        "E3b_localCurrency": 50.0
+      },
+      "integratedCare": {
+        "totalServices": 28,
+        "per10k": 7.78,
+        "specialPrograms": 7
+      },
+      "rank": 111,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "34570",
+      "regionName": "예산군",
+      "sido": "충남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 41.88,
+        "R": 20.51,
+        "A": 37.69,
+        "E": 44.54,
+        "resource": 34.25,
+        "NEAR_A": 63.31
+      },
+      "subPillars": {
+        "R_KCCI": 25.06,
+        "R3_integratedCare": 13.69,
+        "E3": 49.82,
+        "E3b_localCurrency": 45.0
+      },
+      "integratedCare": {
+        "totalServices": 36,
+        "per10k": 4.74,
+        "specialPrograms": 7
+      },
+      "rank": 112,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "38090",
+      "regionName": "거제시",
+      "sido": "경남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 37.62,
+        "R": 16.83,
+        "A": 47.06,
+        "E": 31.78,
+        "resource": 31.89,
+        "NEAR_A": 63.08
+      },
+      "subPillars": {
+        "R_KCCI": 20.91,
+        "R3_integratedCare": 10.71,
+        "E3": 29.74,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 31,
+        "per10k": 1.32,
+        "specialPrograms": 0
+      },
+      "rank": 113,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "35310",
+      "regionName": "완주군",
+      "sido": "전북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 47.8,
+        "R": 18.88,
+        "A": 36.73,
+        "E": 55.28,
+        "resource": 36.97,
+        "NEAR_A": 63.07
+      },
+      "subPillars": {
+        "R_KCCI": 20.76,
+        "R3_integratedCare": 16.07,
+        "E3": 56.79,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 40,
+        "per10k": 4.17,
+        "specialPrograms": 7
+      },
+      "rank": 114,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "33530",
+      "regionName": "옥천군",
+      "sido": "충북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 40.83,
+        "R": 17.93,
+        "A": 39.48,
+        "E": 42.79,
+        "resource": 33.4,
+        "NEAR_A": 62.98
+      },
+      "subPillars": {
+        "R_KCCI": 20.35,
+        "R3_integratedCare": 14.29,
+        "E3": 49.82,
+        "E3b_localCurrency": 50.0
+      },
+      "integratedCare": {
+        "totalServices": 37,
+        "per10k": 7.55,
+        "specialPrograms": 10
+      },
+      "rank": 115,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "36370",
+      "regionName": "화순군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 56.77,
+        "R": 47.15,
+        "A": 28.48,
+        "E": 47.72,
+        "resource": 41.12,
+        "NEAR_A": 62.73
+      },
+      "subPillars": {
+        "R_KCCI": 27.0,
+        "R3_integratedCare": 77.38,
+        "E3": 61.16,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 143,
+        "per10k": 23.83,
+        "specialPrograms": 84
+      },
+      "rank": 116,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "34510",
+      "regionName": "금산군",
+      "sido": "충남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 40.97,
+        "R": 17.29,
+        "A": 37.69,
+        "E": 44.19,
+        "resource": 33.06,
+        "NEAR_A": 62.57
+      },
+      "subPillars": {
+        "R_KCCI": 21.67,
+        "R3_integratedCare": 10.71,
+        "E3": 47.72,
+        "E3b_localCurrency": 45.0
+      },
+      "integratedCare": {
+        "totalServices": 31,
+        "per10k": 6.33,
+        "specialPrograms": 10
+      },
+      "rank": 117,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "33580",
+      "regionName": "단양군",
+      "sido": "충북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 39.52,
+        "R": 13.63,
+        "A": 39.48,
+        "E": 43.88,
+        "resource": 32.33,
+        "NEAR_A": 62.57
+      },
+      "subPillars": {
+        "R_KCCI": 18.74,
+        "R3_integratedCare": 5.95,
+        "E3": 56.33,
+        "E3b_localCurrency": 50.0
+      },
+      "integratedCare": {
+        "totalServices": 23,
+        "per10k": 8.52,
+        "specialPrograms": 10
+      },
+      "rank": 118,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "35550",
+      "regionName": "임실군",
+      "sido": "전북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 46.24,
+        "R": 22.87,
+        "A": 26.98,
+        "E": 56.55,
+        "resource": 35.47,
+        "NEAR_A": 62.35
+      },
+      "subPillars": {
+        "R_KCCI": 20.27,
+        "R3_integratedCare": 26.79,
+        "E3": 70.94,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 58,
+        "per10k": 23.2,
+        "specialPrograms": 7
+      },
+      "rank": 119,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "21150",
+      "regionName": "사상구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 46.28,
+        "R": 28.87,
+        "A": 41.53,
+        "E": 35.98,
+        "resource": 35.46,
+        "NEAR_A": 62.32
+      },
+      "subPillars": {
+        "R_KCCI": 21.13,
+        "R3_integratedCare": 40.48,
+        "E3": 12.82,
+        "E3b_localCurrency": 15.0
+      },
+      "integratedCare": {
+        "totalServices": 81,
+        "per10k": 4.07,
+        "specialPrograms": 0
+      },
+      "rank": 120,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "21110",
+      "regionName": "금정구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 48.19,
+        "R": 20.59,
+        "A": 53.11,
+        "E": 35.41,
+        "resource": 36.37,
+        "NEAR_A": 62.27
+      },
+      "subPillars": {
+        "R_KCCI": 22.41,
+        "R3_integratedCare": 17.86,
+        "E3": 19.61,
+        "E3b_localCurrency": 15.0
+      },
+      "integratedCare": {
+        "totalServices": 43,
+        "per10k": 2.0,
+        "specialPrograms": 0
+      },
+      "rank": 121,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "21050",
+      "regionName": "부산진구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 49.2,
+        "R": 21.43,
+        "A": 55.58,
+        "E": 33.6,
+        "resource": 36.87,
+        "NEAR_A": 62.27
+      },
+      "subPillars": {
+        "R_KCCI": 24.61,
+        "R3_integratedCare": 16.67,
+        "E3": 17.03,
+        "E3b_localCurrency": 15.0
+      },
+      "integratedCare": {
+        "totalServices": 41,
+        "per10k": 1.23,
+        "specialPrograms": 0
+      },
+      "rank": 122,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "34530",
+      "regionName": "부여군",
+      "sido": "충남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 41.62,
+        "R": 15.88,
+        "A": 37.69,
+        "E": 45.16,
+        "resource": 32.91,
+        "NEAR_A": 62.1
+      },
+      "subPillars": {
+        "R_KCCI": 20.13,
+        "R3_integratedCare": 9.52,
+        "E3": 53.54,
+        "E3b_localCurrency": 45.0
+      },
+      "integratedCare": {
+        "totalServices": 29,
+        "per10k": 4.83,
+        "specialPrograms": 6
+      },
+      "rank": 123,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "34050",
+      "regionName": "서산시",
+      "sido": "충남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 40.13,
+        "R": 17.77,
+        "A": 44.05,
+        "E": 33.86,
+        "resource": 31.89,
+        "NEAR_A": 61.83
+      },
+      "subPillars": {
+        "R_KCCI": 24.85,
+        "R3_integratedCare": 7.14,
+        "E3": 41.46,
+        "E3b_localCurrency": 45.0
+      },
+      "integratedCare": {
+        "totalServices": 25,
+        "per10k": 1.43,
+        "specialPrograms": 6
+      },
+      "rank": 124,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "36600",
+      "regionName": "해남군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 50.46,
+        "R": 31.23,
+        "A": 28.77,
+        "E": 51.15,
+        "resource": 37.05,
+        "NEAR_A": 61.82
+      },
+      "subPillars": {
+        "R_KCCI": 21.5,
+        "R3_integratedCare": 45.83,
+        "E3": 68.07,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 90,
+        "per10k": 14.29,
+        "specialPrograms": 12
+      },
+      "rank": 125,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "38100",
+      "regionName": "양산시",
+      "sido": "경남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 42.33,
+        "R": 21.37,
+        "A": 50.3,
+        "E": 27.2,
+        "resource": 32.95,
+        "NEAR_A": 61.79
+      },
+      "subPillars": {
+        "R_KCCI": 22.92,
+        "R3_integratedCare": 19.05,
+        "E3": 23.55,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 45,
+        "per10k": 1.27,
+        "specialPrograms": 14
+      },
+      "rank": 126,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "35580",
+      "regionName": "부안군",
+      "sido": "전북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 47.16,
+        "R": 24.05,
+        "A": 26.98,
+        "E": 54.68,
+        "resource": 35.24,
+        "NEAR_A": 61.66
+      },
+      "subPillars": {
+        "R_KCCI": 18.26,
+        "R3_integratedCare": 32.74,
+        "E3": 59.72,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 68,
+        "per10k": 13.88,
+        "specialPrograms": 6
+      },
+      "rank": 127,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "38560",
+      "regionName": "하동군",
+      "sido": "경남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.96,
+        "R": 24.35,
+        "A": 37.69,
+        "E": 41.02,
+        "resource": 34.35,
+        "NEAR_A": 61.37
+      },
+      "subPillars": {
+        "R_KCCI": 22.32,
+        "R3_integratedCare": 27.38,
+        "E3": 46.43,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 59,
+        "per10k": 14.39,
+        "specialPrograms": 22
+      },
+      "rank": 128,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "22030",
+      "regionName": "서구",
+      "sido": "대구",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 45.8,
+        "R": 37.16,
+        "A": 38.17,
+        "E": 27.02,
+        "resource": 34.12,
+        "NEAR_A": 61.22
+      },
+      "subPillars": {
+        "R_KCCI": 27.02,
+        "R3_integratedCare": 52.38,
+        "E3": 14.33,
+        "E3b_localCurrency": 12.5
+      },
+      "integratedCare": {
+        "totalServices": 101,
+        "per10k": 6.35,
+        "specialPrograms": 0
+      },
+      "rank": 129,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "21030",
+      "regionName": "동구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": true,
+      "scores": {
+        "N": 50.57,
+        "R": 26.5,
+        "A": 43.23,
+        "E": 38.75,
+        "resource": 36.16,
+        "NEAR_A": 60.88
+      },
+      "subPillars": {
+        "R_KCCI": 24.33,
+        "R3_integratedCare": 29.76,
+        "E3": 35.96,
+        "E3b_localCurrency": 39.0
+      },
+      "integratedCare": {
+        "totalServices": 63,
+        "per10k": 7.5,
+        "specialPrograms": 0
+      },
+      "rank": 130,
+      "quadrant": "I",
+      "quadrantLabel": "균형돌봄선진형 (고욕구·풍부자원)"
+    },
+    {
+      "regionCode": "35560",
+      "regionName": "순창군",
+      "sido": "전북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 46.1,
+        "R": 15.57,
+        "A": 26.98,
+        "E": 58.92,
+        "resource": 33.82,
+        "NEAR_A": 60.77
+      },
+      "subPillars": {
+        "R_KCCI": 19.2,
+        "R3_integratedCare": 10.12,
+        "E3": 85.17,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 30,
+        "per10k": 11.54,
+        "specialPrograms": 5
+      },
+      "rank": 131,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "38510",
+      "regionName": "의령군",
+      "sido": "경남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 44.48,
+        "R": 18.45,
+        "A": 37.69,
+        "E": 42.72,
+        "resource": 32.95,
+        "NEAR_A": 60.71
+      },
+      "subPillars": {
+        "R_KCCI": 24.0,
+        "R3_integratedCare": 10.12,
+        "E3": 56.62,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 30,
+        "per10k": 12.0,
+        "specialPrograms": 19
+      },
+      "rank": 132,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "38520",
+      "regionName": "함안군",
+      "sido": "경남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.64,
+        "R": 24.19,
+        "A": 37.69,
+        "E": 38.67,
+        "resource": 33.52,
+        "NEAR_A": 60.7
+      },
+      "subPillars": {
+        "R_KCCI": 21.27,
+        "R3_integratedCare": 28.57,
+        "E3": 32.35,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 61,
+        "per10k": 10.17,
+        "specialPrograms": 10
+      },
+      "rank": 133,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "33020",
+      "regionName": "충주시",
+      "sido": "충북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 42.95,
+        "R": 25.37,
+        "A": 38.5,
+        "E": 31.65,
+        "resource": 31.84,
+        "NEAR_A": 60.36
+      },
+      "subPillars": {
+        "R_KCCI": 25.61,
+        "R3_integratedCare": 25.0,
+        "E3": 44.34,
+        "E3b_localCurrency": 50.0
+      },
+      "integratedCare": {
+        "totalServices": 55,
+        "per10k": 2.63,
+        "specialPrograms": 9
+      },
+      "rank": 134,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "36670",
+      "regionName": "진도군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 48.55,
+        "R": 19.85,
+        "A": 28.77,
+        "E": 54.0,
+        "resource": 34.21,
+        "NEAR_A": 59.94
+      },
+      "subPillars": {
+        "R_KCCI": 18.8,
+        "R3_integratedCare": 21.43,
+        "E3": 85.19,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 49,
+        "per10k": 17.5,
+        "specialPrograms": 14
+      },
+      "rank": 135,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "38540",
+      "regionName": "고성군",
+      "sido": "경남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.45,
+        "R": 18.03,
+        "A": 37.69,
+        "E": 42.12,
+        "resource": 32.61,
+        "NEAR_A": 59.89
+      },
+      "subPillars": {
+        "R_KCCI": 20.13,
+        "R3_integratedCare": 14.88,
+        "E3": 53.03,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 38,
+        "per10k": 8.09,
+        "specialPrograms": 14
+      },
+      "rank": 136,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32570",
+      "regionName": "화천군",
+      "sido": "강원",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.46,
+        "R": 28.69,
+        "A": 30.55,
+        "E": 38.31,
+        "resource": 32.52,
+        "NEAR_A": 59.79
+      },
+      "subPillars": {
+        "R_KCCI": 27.19,
+        "R3_integratedCare": 30.95,
+        "E3": 62.49,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 65,
+        "per10k": 28.26,
+        "specialPrograms": 8
+      },
+      "rank": 137,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "38550",
+      "regionName": "남해군",
+      "sido": "경남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 46.05,
+        "R": 19.21,
+        "A": 37.69,
+        "E": 41.46,
+        "resource": 32.79,
+        "NEAR_A": 59.76
+      },
+      "subPillars": {
+        "R_KCCI": 21.3,
+        "R3_integratedCare": 16.07,
+        "E3": 49.08,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 40,
+        "per10k": 10.0,
+        "specialPrograms": 5
+      },
+      "rank": 138,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "22040",
+      "regionName": "남구",
+      "sido": "대구",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 48.19,
+        "R": 39.34,
+        "A": 34.78,
+        "E": 27.31,
+        "resource": 33.81,
+        "NEAR_A": 59.72
+      },
+      "subPillars": {
+        "R_KCCI": 28.66,
+        "R3_integratedCare": 55.36,
+        "E3": 22.28,
+        "E3b_localCurrency": 12.5
+      },
+      "integratedCare": {
+        "totalServices": 106,
+        "per10k": 7.68,
+        "specialPrograms": 0
+      },
+      "rank": 139,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "35540",
+      "regionName": "장수군",
+      "sido": "전북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.45,
+        "R": 14.69,
+        "A": 26.98,
+        "E": 55.66,
+        "resource": 32.44,
+        "NEAR_A": 59.71
+      },
+      "subPillars": {
+        "R_KCCI": 17.73,
+        "R3_integratedCare": 10.12,
+        "E3": 65.57,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 30,
+        "per10k": 14.29,
+        "specialPrograms": 2
+      },
+      "rank": 140,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "38580",
+      "regionName": "함양군",
+      "sido": "경남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.11,
+        "R": 16.87,
+        "A": 37.69,
+        "E": 42.23,
+        "resource": 32.27,
+        "NEAR_A": 59.71
+      },
+      "subPillars": {
+        "R_KCCI": 19.39,
+        "R3_integratedCare": 13.1,
+        "E3": 53.68,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 35,
+        "per10k": 9.72,
+        "specialPrograms": 12
+      },
+      "rank": 141,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36640",
+      "regionName": "영광군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.54,
+        "R": 23.98,
+        "A": 28.77,
+        "E": 50.2,
+        "resource": 34.32,
+        "NEAR_A": 59.54
+      },
+      "subPillars": {
+        "R_KCCI": 26.87,
+        "R3_integratedCare": 19.64,
+        "E3": 62.38,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 46,
+        "per10k": 9.2,
+        "specialPrograms": 14
+      },
+      "rank": 142,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36650",
+      "regionName": "장성군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.31,
+        "R": 24.83,
+        "A": 28.77,
+        "E": 48.94,
+        "resource": 34.18,
+        "NEAR_A": 59.52
+      },
+      "subPillars": {
+        "R_KCCI": 22.33,
+        "R3_integratedCare": 28.57,
+        "E3": 54.82,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 61,
+        "per10k": 14.88,
+        "specialPrograms": 9
+      },
+      "rank": 143,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "35570",
+      "regionName": "고창군",
+      "sido": "전북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 48.0,
+        "R": 15.57,
+        "A": 26.98,
+        "E": 57.63,
+        "resource": 33.39,
+        "NEAR_A": 59.4
+      },
+      "subPillars": {
+        "R_KCCI": 18.81,
+        "R3_integratedCare": 10.71,
+        "E3": 77.43,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 31,
+        "per10k": 6.08,
+        "specialPrograms": 5
+      },
+      "rank": 144,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36520",
+      "regionName": "곡성군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 48.76,
+        "R": 20.86,
+        "A": 28.77,
+        "E": 51.61,
+        "resource": 33.75,
+        "NEAR_A": 59.37
+      },
+      "subPillars": {
+        "R_KCCI": 19.69,
+        "R3_integratedCare": 22.62,
+        "E3": 70.84,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 51,
+        "per10k": 19.62,
+        "specialPrograms": 14
+      },
+      "rank": 145,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "38570",
+      "regionName": "산청군",
+      "sido": "경남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.42,
+        "R": 16.85,
+        "A": 37.69,
+        "E": 41.65,
+        "resource": 32.06,
+        "NEAR_A": 59.35
+      },
+      "subPillars": {
+        "R_KCCI": 21.34,
+        "R3_integratedCare": 10.12,
+        "E3": 50.19,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 30,
+        "per10k": 9.38,
+        "specialPrograms": 8
+      },
+      "rank": 146,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "38600",
+      "regionName": "합천군",
+      "sido": "경남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.38,
+        "R": 16.19,
+        "A": 37.69,
+        "E": 42.15,
+        "resource": 32.01,
+        "NEAR_A": 59.32
+      },
+      "subPillars": {
+        "R_KCCI": 23.01,
+        "R3_integratedCare": 5.95,
+        "E3": 53.22,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 23,
+        "per10k": 5.61,
+        "specialPrograms": 11
+      },
+      "rank": 147,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36680",
+      "regionName": "신안군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.17,
+        "R": 19.5,
+        "A": 28.77,
+        "E": 53.36,
+        "resource": 33.88,
+        "NEAR_A": 59.29
+      },
+      "subPillars": {
+        "R_KCCI": 17.43,
+        "R3_integratedCare": 22.62,
+        "E3": 81.32,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 51,
+        "per10k": 14.17,
+        "specialPrograms": 5
+      },
+      "rank": 148,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "38530",
+      "regionName": "창녕군",
+      "sido": "경남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 46.1,
+        "R": 18.89,
+        "A": 37.69,
+        "E": 40.42,
+        "resource": 32.33,
+        "NEAR_A": 59.28
+      },
+      "subPillars": {
+        "R_KCCI": 23.94,
+        "R3_integratedCare": 11.31,
+        "E3": 42.82,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 32,
+        "per10k": 5.52,
+        "specialPrograms": 13
+      },
+      "rank": 149,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36660",
+      "regionName": "완도군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.89,
+        "R": 21.48,
+        "A": 28.77,
+        "E": 51.66,
+        "resource": 33.97,
+        "NEAR_A": 59.02
+      },
+      "subPillars": {
+        "R_KCCI": 21.51,
+        "R3_integratedCare": 21.43,
+        "E3": 71.14,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 49,
+        "per10k": 11.14,
+        "specialPrograms": 5
+      },
+      "rank": 150,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36630",
+      "regionName": "함평군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.08,
+        "R": 19.6,
+        "A": 28.77,
+        "E": 52.31,
+        "resource": 33.56,
+        "NEAR_A": 59.02
+      },
+      "subPillars": {
+        "R_KCCI": 21.95,
+        "R3_integratedCare": 16.07,
+        "E3": 75.03,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 40,
+        "per10k": 14.29,
+        "specialPrograms": 0
+      },
+      "rank": 151,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "38590",
+      "regionName": "거창군",
+      "sido": "경남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.65,
+        "R": 17.55,
+        "A": 37.69,
+        "E": 39.76,
+        "resource": 31.67,
+        "NEAR_A": 58.84
+      },
+      "subPillars": {
+        "R_KCCI": 27.27,
+        "R3_integratedCare": 2.98,
+        "E3": 38.89,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 18,
+        "per10k": 3.0,
+        "specialPrograms": 12
+      },
+      "rank": 152,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36510",
+      "regionName": "담양군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.21,
+        "R": 22.41,
+        "A": 28.77,
+        "E": 48.99,
+        "resource": 33.39,
+        "NEAR_A": 58.79
+      },
+      "subPillars": {
+        "R_KCCI": 17.51,
+        "R3_integratedCare": 29.76,
+        "E3": 55.11,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 63,
+        "per10k": 14.32,
+        "specialPrograms": 16
+      },
+      "rank": 153,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36420",
+      "regionName": "무안군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 47.28,
+        "R": 18.69,
+        "A": 30.72,
+        "E": 47.66,
+        "resource": 32.36,
+        "NEAR_A": 58.72
+      },
+      "subPillars": {
+        "R_KCCI": 21.22,
+        "R3_integratedCare": 14.88,
+        "E3": 59.49,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 38,
+        "per10k": 4.18,
+        "specialPrograms": 4
+      },
+      "rank": 154,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "34020",
+      "regionName": "공주시",
+      "sido": "충남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 46.58,
+        "R": 28.08,
+        "A": 33.09,
+        "E": 34.53,
+        "resource": 31.9,
+        "NEAR_A": 58.61
+      },
+      "subPillars": {
+        "R_KCCI": 24.98,
+        "R3_integratedCare": 32.74,
+        "E3": 49.42,
+        "E3b_localCurrency": 45.0
+      },
+      "integratedCare": {
+        "totalServices": 68,
+        "per10k": 6.67,
+        "specialPrograms": 5
+      },
+      "rank": 155,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "35530",
+      "regionName": "무주군",
+      "sido": "전북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.52,
+        "R": 10.93,
+        "A": 26.98,
+        "E": 55.83,
+        "resource": 31.25,
+        "NEAR_A": 58.49
+      },
+      "subPillars": {
+        "R_KCCI": 15.44,
+        "R3_integratedCare": 4.17,
+        "E3": 66.61,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 20,
+        "per10k": 8.7,
+        "specialPrograms": 9
+      },
+      "rank": 156,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32590",
+      "regionName": "인제군",
+      "sido": "강원",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.46,
+        "R": 26.21,
+        "A": 30.55,
+        "E": 36.87,
+        "resource": 31.21,
+        "NEAR_A": 58.48
+      },
+      "subPillars": {
+        "R_KCCI": 24.24,
+        "R3_integratedCare": 29.17,
+        "E3": 53.86,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 62,
+        "per10k": 20.67,
+        "specialPrograms": 8
+      },
+      "rank": 157,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36610",
+      "regionName": "영암군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.33,
+        "R": 21.29,
+        "A": 28.77,
+        "E": 49.21,
+        "resource": 33.09,
+        "NEAR_A": 58.42
+      },
+      "subPillars": {
+        "R_KCCI": 17.24,
+        "R3_integratedCare": 27.38,
+        "E3": 56.4,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 59,
+        "per10k": 11.57,
+        "specialPrograms": 21
+      },
+      "rank": 158,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36560",
+      "regionName": "보성군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.17,
+        "R": 19.22,
+        "A": 28.77,
+        "E": 50.74,
+        "resource": 32.91,
+        "NEAR_A": 58.32
+      },
+      "subPillars": {
+        "R_KCCI": 20.53,
+        "R3_integratedCare": 17.26,
+        "E3": 65.6,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 42,
+        "per10k": 12.35,
+        "specialPrograms": 9
+      },
+      "rank": 159,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36530",
+      "regionName": "구례군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 48.47,
+        "R": 16.19,
+        "A": 28.77,
+        "E": 51.82,
+        "resource": 32.26,
+        "NEAR_A": 58.02
+      },
+      "subPillars": {
+        "R_KCCI": 15.87,
+        "R3_integratedCare": 16.67,
+        "E3": 72.08,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 41,
+        "per10k": 17.83,
+        "specialPrograms": 5
+      },
+      "rank": 160,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32560",
+      "regionName": "철원군",
+      "sido": "강원",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 46.01,
+        "R": 24.8,
+        "A": 30.55,
+        "E": 37.65,
+        "resource": 31.0,
+        "NEAR_A": 57.99
+      },
+      "subPillars": {
+        "R_KCCI": 24.27,
+        "R3_integratedCare": 25.6,
+        "E3": 58.52,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 56,
+        "per10k": 13.66,
+        "specialPrograms": 18
+      },
+      "rank": 161,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32580",
+      "regionName": "양구군",
+      "sido": "강원",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.35,
+        "R": 23.48,
+        "A": 30.55,
+        "E": 37.64,
+        "resource": 30.56,
+        "NEAR_A": 57.88
+      },
+      "subPillars": {
+        "R_KCCI": 23.65,
+        "R3_integratedCare": 23.21,
+        "E3": 58.51,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 52,
+        "per10k": 24.76,
+        "specialPrograms": 14
+      },
+      "rank": 162,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32550",
+      "regionName": "정선군",
+      "sido": "강원",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.93,
+        "R": 23.63,
+        "A": 30.55,
+        "E": 37.79,
+        "resource": 30.66,
+        "NEAR_A": 57.69
+      },
+      "subPillars": {
+        "R_KCCI": 19.94,
+        "R3_integratedCare": 29.17,
+        "E3": 59.36,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 62,
+        "per10k": 17.71,
+        "specialPrograms": 15
+      },
+      "rank": 163,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32600",
+      "regionName": "고성군",
+      "sido": "강원",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.61,
+        "R": 24.45,
+        "A": 30.55,
+        "E": 36.25,
+        "resource": 30.42,
+        "NEAR_A": 57.61
+      },
+      "subPillars": {
+        "R_KCCI": 23.29,
+        "R3_integratedCare": 26.19,
+        "E3": 50.14,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 57,
+        "per10k": 21.11,
+        "specialPrograms": 14
+      },
+      "rank": 164,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36550",
+      "regionName": "고흥군",
+      "sido": "전남",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 51.08,
+        "R": 19.19,
+        "A": 28.77,
+        "E": 51.24,
+        "resource": 33.07,
+        "NEAR_A": 57.53
+      },
+      "subPillars": {
+        "R_KCCI": 22.06,
+        "R3_integratedCare": 14.88,
+        "E3": 68.62,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 38,
+        "per10k": 6.33,
+        "specialPrograms": 6
+      },
+      "rank": 165,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "34030",
+      "regionName": "보령시",
+      "sido": "충남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 45.97,
+        "R": 19.42,
+        "A": 34.94,
+        "E": 36.72,
+        "resource": 30.36,
+        "NEAR_A": 57.38
+      },
+      "subPillars": {
+        "R_KCCI": 22.05,
+        "R3_integratedCare": 15.48,
+        "E3": 48.64,
+        "E3b_localCurrency": 45.0
+      },
+      "integratedCare": {
+        "totalServices": 39,
+        "per10k": 4.06,
+        "specialPrograms": 7
+      },
+      "rank": 166,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32540",
+      "regionName": "평창군",
+      "sido": "강원",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 46.13,
+        "R": 23.37,
+        "A": 30.55,
+        "E": 37.25,
+        "resource": 30.39,
+        "NEAR_A": 57.33
+      },
+      "subPillars": {
+        "R_KCCI": 19.9,
+        "R3_integratedCare": 28.57,
+        "E3": 56.12,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 61,
+        "per10k": 15.64,
+        "specialPrograms": 13
+      },
+      "rank": 167,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36060",
+      "regionName": "광양시",
+      "sido": "전남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 41.47,
+        "R": 17.33,
+        "A": 28.64,
+        "E": 37.86,
+        "resource": 27.94,
+        "NEAR_A": 57.21
+      },
+      "subPillars": {
+        "R_KCCI": 19.76,
+        "R3_integratedCare": 13.69,
+        "E3": 56.49,
+        "E3b_localCurrency": 78.0
+      },
+      "integratedCare": {
+        "totalServices": 36,
+        "per10k": 2.34,
+        "specialPrograms": 9
+      },
+      "rank": 168,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "21010",
+      "regionName": "중구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 54.96,
+        "R": 20.73,
+        "A": 43.69,
+        "E": 39.39,
+        "resource": 34.6,
+        "NEAR_A": 57.12
+      },
+      "subPillars": {
+        "R_KCCI": 19.46,
+        "R3_integratedCare": 22.62,
+        "E3": 15.54,
+        "E3b_localCurrency": 15.0
+      },
+      "integratedCare": {
+        "totalServices": 51,
+        "per10k": 13.08,
+        "specialPrograms": 0
+      },
+      "rank": 169,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36040",
+      "regionName": "나주시",
+      "sido": "전남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 52.01,
+        "R": 28.84,
+        "A": 29.64,
+        "E": 40.29,
+        "resource": 32.92,
+        "NEAR_A": 56.92
+      },
+      "subPillars": {
+        "R_KCCI": 25.44,
+        "R3_integratedCare": 33.93,
+        "E3": 52.79,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 70,
+        "per10k": 6.03,
+        "specialPrograms": 16
+      },
+      "rank": 170,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "38030",
+      "regionName": "진주시",
+      "sido": "경남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 48.3,
+        "R": 29.1,
+        "A": 36.56,
+        "E": 27.32,
+        "resource": 31.0,
+        "NEAR_A": 56.85
+      },
+      "subPillars": {
+        "R_KCCI": 27.08,
+        "R3_integratedCare": 32.14,
+        "E3": 28.12,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 67,
+        "per10k": 1.95,
+        "specialPrograms": 0
+      },
+      "rank": 171,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "34060",
+      "regionName": "논산시",
+      "sido": "충남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 47.91,
+        "R": 24.44,
+        "A": 30.39,
+        "E": 37.42,
+        "resource": 30.75,
+        "NEAR_A": 56.79
+      },
+      "subPillars": {
+        "R_KCCI": 30.41,
+        "R3_integratedCare": 15.48,
+        "E3": 45.61,
+        "E3b_localCurrency": 45.0
+      },
+      "integratedCare": {
+        "totalServices": 39,
+        "per10k": 3.55,
+        "specialPrograms": 14
+      },
+      "rank": 172,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32610",
+      "regionName": "양양군",
+      "sido": "강원",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 45.75,
+        "R": 20.82,
+        "A": 30.55,
+        "E": 37.08,
+        "resource": 29.48,
+        "NEAR_A": 56.61
+      },
+      "subPillars": {
+        "R_KCCI": 21.6,
+        "R3_integratedCare": 19.64,
+        "E3": 55.1,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 46,
+        "per10k": 16.43,
+        "specialPrograms": 10
+      },
+      "rank": 173,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32510",
+      "regionName": "홍천군",
+      "sido": "강원",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 46.89,
+        "R": 22.16,
+        "A": 30.55,
+        "E": 36.46,
+        "resource": 29.72,
+        "NEAR_A": 56.28
+      },
+      "subPillars": {
+        "R_KCCI": 22.65,
+        "R3_integratedCare": 21.43,
+        "E3": 51.38,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 49,
+        "per10k": 7.31,
+        "specialPrograms": 8
+      },
+      "rank": 174,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37050",
+      "regionName": "구미시",
+      "sido": "경북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 43.29,
+        "R": 23.78,
+        "A": 36.35,
+        "E": 23.47,
+        "resource": 27.87,
+        "NEAR_A": 56.22
+      },
+      "subPillars": {
+        "R_KCCI": 17.41,
+        "R3_integratedCare": 33.33,
+        "E3": 30.1,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 69,
+        "per10k": 1.69,
+        "specialPrograms": 15
+      },
+      "rank": 175,
+      "quadrant": "III",
+      "quadrantLabel": "일반저욕구형 (저욕구·자원부족)"
+    },
+    {
+      "regionCode": "32320",
+      "regionName": "횡성군",
+      "sido": "강원",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 56.35,
+        "R": 26.5,
+        "A": 36.36,
+        "E": 39.92,
+        "resource": 34.26,
+        "NEAR_A": 56.09
+      },
+      "subPillars": {
+        "R_KCCI": 26.31,
+        "R3_integratedCare": 26.79,
+        "E3": 59.88,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 58,
+        "per10k": 12.34,
+        "specialPrograms": 24
+      },
+      "rank": 176,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32020",
+      "regionName": "원주시",
+      "sido": "강원",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 47.58,
+        "R": 24.66,
+        "A": 39.37,
+        "E": 25.58,
+        "resource": 29.87,
+        "NEAR_A": 56.08
+      },
+      "subPillars": {
+        "R_KCCI": 23.25,
+        "R3_integratedCare": 26.79,
+        "E3": 44.21,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 58,
+        "per10k": 1.6,
+        "specialPrograms": 9
+      },
+      "rank": 177,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32530",
+      "regionName": "영월군",
+      "sido": "강원",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 46.21,
+        "R": 18.18,
+        "A": 30.55,
+        "E": 38.73,
+        "resource": 29.16,
+        "NEAR_A": 56.05
+      },
+      "subPillars": {
+        "R_KCCI": 18.4,
+        "R3_integratedCare": 17.86,
+        "E3": 65.05,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 43,
+        "per10k": 11.94,
+        "specialPrograms": 12
+      },
+      "rank": 178,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "33030",
+      "regionName": "제천시",
+      "sido": "충북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 44.06,
+        "R": 17.05,
+        "A": 35.88,
+        "E": 30.87,
+        "resource": 27.93,
+        "NEAR_A": 55.9
+      },
+      "subPillars": {
+        "R_KCCI": 25.24,
+        "R3_integratedCare": 4.76,
+        "E3": 45.63,
+        "E3b_localCurrency": 50.0
+      },
+      "integratedCare": {
+        "totalServices": 21,
+        "per10k": 1.62,
+        "specialPrograms": 5
+      },
+      "rank": 179,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37390",
+      "regionName": "칠곡군",
+      "sido": "경북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 47.65,
+        "R": 20.04,
+        "A": 32.96,
+        "E": 35.3,
+        "resource": 29.43,
+        "NEAR_A": 55.61
+      },
+      "subPillars": {
+        "R_KCCI": 19.91,
+        "R3_integratedCare": 20.24,
+        "E3": 29.83,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 47,
+        "per10k": 4.31,
+        "specialPrograms": 6
+      },
+      "rank": 180,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32010",
+      "regionName": "춘천시",
+      "sido": "강원",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 49.05,
+        "R": 26.5,
+        "A": 35.75,
+        "E": 26.71,
+        "resource": 29.65,
+        "NEAR_A": 55.13
+      },
+      "subPillars": {
+        "R_KCCI": 25.52,
+        "R3_integratedCare": 27.98,
+        "E3": 48.81,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 60,
+        "per10k": 2.09,
+        "specialPrograms": 16
+      },
+      "rank": 181,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "38050",
+      "regionName": "통영시",
+      "sido": "경남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 46.44,
+        "R": 20.28,
+        "A": 33.32,
+        "E": 31.42,
+        "resource": 28.34,
+        "NEAR_A": 55.12
+      },
+      "subPillars": {
+        "R_KCCI": 19.91,
+        "R3_integratedCare": 20.83,
+        "E3": 34.97,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 48,
+        "per10k": 3.97,
+        "specialPrograms": 12
+      },
+      "rank": 182,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37560",
+      "regionName": "청도군",
+      "sido": "경북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.81,
+        "R": 22.99,
+        "A": 28.77,
+        "E": 38.16,
+        "resource": 29.97,
+        "NEAR_A": 55.07
+      },
+      "subPillars": {
+        "R_KCCI": 18.48,
+        "R3_integratedCare": 29.76,
+        "E3": 54.45,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 63,
+        "per10k": 16.15,
+        "specialPrograms": 33
+      },
+      "rank": 183,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "38060",
+      "regionName": "사천시",
+      "sido": "경남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 47.9,
+        "R": 20.03,
+        "A": 36.1,
+        "E": 30.53,
+        "resource": 28.88,
+        "NEAR_A": 54.93
+      },
+      "subPillars": {
+        "R_KCCI": 26.23,
+        "R3_integratedCare": 10.71,
+        "E3": 34.47,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 31,
+        "per10k": 2.84,
+        "specialPrograms": 10
+      },
+      "rank": 184,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37600",
+      "regionName": "예천군",
+      "sido": "경북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.69,
+        "R": 21.83,
+        "A": 28.77,
+        "E": 38.27,
+        "resource": 29.62,
+        "NEAR_A": 54.77
+      },
+      "subPillars": {
+        "R_KCCI": 22.09,
+        "R3_integratedCare": 21.43,
+        "E3": 55.07,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 49,
+        "per10k": 9.07,
+        "specialPrograms": 9
+      },
+      "rank": 185,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37530",
+      "regionName": "청송군",
+      "sido": "경북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 48.3,
+        "R": 18.29,
+        "A": 28.77,
+        "E": 39.18,
+        "resource": 28.74,
+        "NEAR_A": 54.59
+      },
+      "subPillars": {
+        "R_KCCI": 22.94,
+        "R3_integratedCare": 11.31,
+        "E3": 60.54,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 32,
+        "per10k": 13.91,
+        "specialPrograms": 11
+      },
+      "rank": 186,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37610",
+      "regionName": "봉화군",
+      "sido": "경북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 48.41,
+        "R": 18.32,
+        "A": 28.77,
+        "E": 38.43,
+        "resource": 28.51,
+        "NEAR_A": 54.3
+      },
+      "subPillars": {
+        "R_KCCI": 16.26,
+        "R3_integratedCare": 21.43,
+        "E3": 56.06,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 49,
+        "per10k": 17.5,
+        "specialPrograms": 18
+      },
+      "rank": 187,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37100",
+      "regionName": "경산시",
+      "sido": "경북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 50.83,
+        "R": 20.87,
+        "A": 38.44,
+        "E": 29.36,
+        "resource": 29.56,
+        "NEAR_A": 54.14
+      },
+      "subPillars": {
+        "R_KCCI": 21.69,
+        "R3_integratedCare": 19.64,
+        "E3": 36.12,
+        "E3b_localCurrency": 45.5
+      },
+      "integratedCare": {
+        "totalServices": 46,
+        "per10k": 1.74,
+        "specialPrograms": 14
+      },
+      "rank": 188,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37540",
+      "regionName": "영양군",
+      "sido": "경북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 47.88,
+        "R": 15.82,
+        "A": 28.77,
+        "E": 38.78,
+        "resource": 27.79,
+        "NEAR_A": 53.85
+      },
+      "subPillars": {
+        "R_KCCI": 14.46,
+        "R3_integratedCare": 17.86,
+        "E3": 58.17,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 43,
+        "per10k": 28.67,
+        "specialPrograms": 6
+      },
+      "rank": 189,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "35040",
+      "regionName": "정읍시",
+      "sido": "전북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 55.76,
+        "R": 28.29,
+        "A": 19.37,
+        "E": 46.96,
+        "resource": 31.54,
+        "NEAR_A": 53.66
+      },
+      "subPillars": {
+        "R_KCCI": 24.53,
+        "R3_integratedCare": 33.93,
+        "E3": 60.24,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 70,
+        "per10k": 7.0,
+        "specialPrograms": 10
+      },
+      "rank": 190,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36030",
+      "regionName": "순천시",
+      "sido": "전남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 47.45,
+        "R": 18.34,
+        "A": 27.79,
+        "E": 35.86,
+        "resource": 27.33,
+        "NEAR_A": 53.61
+      },
+      "subPillars": {
+        "R_KCCI": 20.25,
+        "R3_integratedCare": 15.48,
+        "E3": 49.62,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 39,
+        "per10k": 1.42,
+        "specialPrograms": 7
+      },
+      "rank": 191,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32030",
+      "regionName": "강릉시",
+      "sido": "강원",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 51.78,
+        "R": 33.4,
+        "A": 28.19,
+        "E": 26.39,
+        "resource": 29.33,
+        "NEAR_A": 53.43
+      },
+      "subPillars": {
+        "R_KCCI": 26.71,
+        "R3_integratedCare": 43.45,
+        "E3": 46.95,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 86,
+        "per10k": 4.15,
+        "specialPrograms": 30
+      },
+      "rank": 192,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32060",
+      "regionName": "속초시",
+      "sido": "강원",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 46.47,
+        "R": 22.79,
+        "A": 30.27,
+        "E": 26.13,
+        "resource": 26.39,
+        "NEAR_A": 53.16
+      },
+      "subPillars": {
+        "R_KCCI": 18.53,
+        "R3_integratedCare": 29.17,
+        "E3": 42.74,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 62,
+        "per10k": 7.65,
+        "specialPrograms": 16
+      },
+      "rank": 193,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37520",
+      "regionName": "의성군",
+      "sido": "경북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 50.71,
+        "R": 18.88,
+        "A": 28.77,
+        "E": 37.77,
+        "resource": 28.47,
+        "NEAR_A": 53.12
+      },
+      "subPillars": {
+        "R_KCCI": 22.34,
+        "R3_integratedCare": 13.69,
+        "E3": 52.1,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 36,
+        "per10k": 7.35,
+        "specialPrograms": 16
+      },
+      "rank": 194,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "21040",
+      "regionName": "영도구",
+      "sido": "부산",
+      "type": "구",
+      "issuer": false,
+      "scores": {
+        "N": 53.08,
+        "R": 17.45,
+        "A": 34.59,
+        "E": 36.5,
+        "resource": 29.51,
+        "NEAR_A": 52.97
+      },
+      "subPillars": {
+        "R_KCCI": 21.93,
+        "R3_integratedCare": 10.71,
+        "E3": 23.65,
+        "E3b_localCurrency": 15.0
+      },
+      "integratedCare": {
+        "totalServices": 31,
+        "per10k": 2.95,
+        "specialPrograms": 0
+      },
+      "rank": 195,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37630",
+      "regionName": "울릉군",
+      "sido": "경북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 47.29,
+        "R": 12.31,
+        "A": 28.77,
+        "E": 38.41,
+        "resource": 26.5,
+        "NEAR_A": 52.85
+      },
+      "subPillars": {
+        "R_KCCI": 19.33,
+        "R3_integratedCare": 1.79,
+        "E3": 55.95,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 16,
+        "per10k": 20.0,
+        "specialPrograms": 11
+      },
+      "rank": 196,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37620",
+      "regionName": "울진군",
+      "sido": "경북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.58,
+        "R": 16.59,
+        "A": 28.77,
+        "E": 37.55,
+        "resource": 27.64,
+        "NEAR_A": 52.85
+      },
+      "subPillars": {
+        "R_KCCI": 20.91,
+        "R3_integratedCare": 10.12,
+        "E3": 50.76,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 30,
+        "per10k": 6.67,
+        "specialPrograms": 11
+      },
+      "rank": 197,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32040",
+      "regionName": "동해시",
+      "sido": "강원",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 46.85,
+        "R": 25.64,
+        "A": 27.26,
+        "E": 25.67,
+        "resource": 26.19,
+        "NEAR_A": 52.76
+      },
+      "subPillars": {
+        "R_KCCI": 18.52,
+        "R3_integratedCare": 36.31,
+        "E3": 46.07,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 74,
+        "per10k": 8.41,
+        "specialPrograms": 23
+      },
+      "rank": 198,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37550",
+      "regionName": "영덕군",
+      "sido": "경북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.37,
+        "R": 14.75,
+        "A": 28.77,
+        "E": 36.8,
+        "resource": 26.77,
+        "NEAR_A": 52.09
+      },
+      "subPillars": {
+        "R_KCCI": 18.63,
+        "R3_integratedCare": 8.93,
+        "E3": 46.28,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 28,
+        "per10k": 8.48,
+        "specialPrograms": 4
+      },
+      "rank": 199,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37570",
+      "regionName": "고령군",
+      "sido": "경북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 48.47,
+        "R": 13.62,
+        "A": 28.77,
+        "E": 35.76,
+        "resource": 26.05,
+        "NEAR_A": 51.81
+      },
+      "subPillars": {
+        "R_KCCI": 18.74,
+        "R3_integratedCare": 5.95,
+        "E3": 40.01,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 23,
+        "per10k": 8.21,
+        "specialPrograms": 8
+      },
+      "rank": 200,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36010",
+      "regionName": "목포시",
+      "sido": "전남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 50.34,
+        "R": 16.36,
+        "A": 27.4,
+        "E": 36.71,
+        "resource": 26.82,
+        "NEAR_A": 51.66
+      },
+      "subPillars": {
+        "R_KCCI": 16.15,
+        "R3_integratedCare": 16.67,
+        "E3": 47.08,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 41,
+        "per10k": 1.94,
+        "specialPrograms": 9
+      },
+      "rank": 201,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "35030",
+      "regionName": "익산시",
+      "sido": "전북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 52.42,
+        "R": 17.73,
+        "A": 22.53,
+        "E": 43.22,
+        "resource": 27.83,
+        "NEAR_A": 51.62
+      },
+      "subPillars": {
+        "R_KCCI": 21.22,
+        "R3_integratedCare": 12.5,
+        "E3": 48.71,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 34,
+        "per10k": 1.26,
+        "specialPrograms": 6
+      },
+      "rank": 202,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37580",
+      "regionName": "성주군",
+      "sido": "경북",
+      "type": "군",
+      "issuer": true,
+      "scores": {
+        "N": 49.14,
+        "R": 14.09,
+        "A": 28.77,
+        "E": 35.49,
+        "resource": 26.12,
+        "NEAR_A": 51.55
+      },
+      "subPillars": {
+        "R_KCCI": 21.5,
+        "R3_integratedCare": 2.98,
+        "E3": 38.41,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 18,
+        "per10k": 4.39,
+        "specialPrograms": 7
+      },
+      "rank": 203,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "35050",
+      "regionName": "남원시",
+      "sido": "전북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 54.53,
+        "R": 17.75,
+        "A": 22.3,
+        "E": 43.82,
+        "resource": 27.96,
+        "NEAR_A": 50.69
+      },
+      "subPillars": {
+        "R_KCCI": 20.86,
+        "R3_integratedCare": 13.1,
+        "E3": 52.36,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 35,
+        "per10k": 4.61,
+        "specialPrograms": 9
+      },
+      "rank": 204,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "38080",
+      "regionName": "밀양시",
+      "sido": "경남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 55.81,
+        "R": 19.41,
+        "A": 32.71,
+        "E": 32.11,
+        "resource": 28.07,
+        "NEAR_A": 50.17
+      },
+      "subPillars": {
+        "R_KCCI": 24.42,
+        "R3_integratedCare": 11.9,
+        "E3": 34.28,
+        "E3b_localCurrency": 25.0
+      },
+      "integratedCare": {
+        "totalServices": 33,
+        "per10k": 3.24,
+        "specialPrograms": 8
+      },
+      "rank": 205,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "35060",
+      "regionName": "김제시",
+      "sido": "전북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 56.82,
+        "R": 23.12,
+        "A": 13.58,
+        "E": 47.23,
+        "resource": 27.98,
+        "NEAR_A": 49.57
+      },
+      "subPillars": {
+        "R_KCCI": 27.82,
+        "R3_integratedCare": 16.07,
+        "E3": 59.44,
+        "E3b_localCurrency": 60.0
+      },
+      "integratedCare": {
+        "totalServices": 40,
+        "per10k": 5.13,
+        "specialPrograms": 10
+      },
+      "rank": 206,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "36020",
+      "regionName": "여수시",
+      "sido": "전남",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 51.47,
+        "R": 15.39,
+        "A": 20.77,
+        "E": 39.02,
+        "resource": 25.06,
+        "NEAR_A": 49.33
+      },
+      "subPillars": {
+        "R_KCCI": 17.71,
+        "R3_integratedCare": 11.9,
+        "E3": 58.17,
+        "E3b_localCurrency": 78.0
+      },
+      "integratedCare": {
+        "totalServices": 33,
+        "per10k": 1.22,
+        "specialPrograms": 13
+      },
+      "rank": 207,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32070",
+      "regionName": "삼척시",
+      "sido": "강원",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 52.28,
+        "R": 22.31,
+        "A": 23.09,
+        "E": 28.69,
+        "resource": 24.7,
+        "NEAR_A": 48.56
+      },
+      "subPillars": {
+        "R_KCCI": 24.08,
+        "R3_integratedCare": 19.64,
+        "E3": 61.53,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 46,
+        "per10k": 7.67,
+        "specialPrograms": 9
+      },
+      "rank": 208,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37030",
+      "regionName": "김천시",
+      "sido": "경북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 52.92,
+        "R": 17.86,
+        "A": 26.4,
+        "E": 26.62,
+        "resource": 23.62,
+        "NEAR_A": 47.16
+      },
+      "subPillars": {
+        "R_KCCI": 25.0,
+        "R3_integratedCare": 7.14,
+        "E3": 39.5,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 25,
+        "per10k": 1.81,
+        "specialPrograms": 8
+      },
+      "rank": 209,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "32050",
+      "regionName": "태백시",
+      "sido": "강원",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 51.95,
+        "R": 16.89,
+        "A": 17.69,
+        "E": 30.29,
+        "resource": 21.62,
+        "NEAR_A": 45.65
+      },
+      "subPillars": {
+        "R_KCCI": 15.45,
+        "R3_integratedCare": 19.05,
+        "E3": 72.68,
+        "E3b_localCurrency": 55.0
+      },
+      "integratedCare": {
+        "totalServices": 45,
+        "per10k": 11.84,
+        "specialPrograms": 9
+      },
+      "rank": 210,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37020",
+      "regionName": "경주시",
+      "sido": "경북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 57.42,
+        "R": 15.74,
+        "A": 25.01,
+        "E": 29.31,
+        "resource": 23.35,
+        "NEAR_A": 44.64
+      },
+      "subPillars": {
+        "R_KCCI": 18.69,
+        "R3_integratedCare": 11.31,
+        "E3": 33.58,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 32,
+        "per10k": 1.3,
+        "specialPrograms": 10
+      },
+      "rank": 211,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37090",
+      "regionName": "문경시",
+      "sido": "경북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 58.92,
+        "R": 22.05,
+        "A": 18.3,
+        "E": 27.1,
+        "resource": 22.48,
+        "NEAR_A": 43.03
+      },
+      "subPillars": {
+        "R_KCCI": 26.04,
+        "R3_integratedCare": 16.07,
+        "E3": 45.13,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 40,
+        "per10k": 5.97,
+        "specialPrograms": 5
+      },
+      "rank": 212,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37060",
+      "regionName": "영주시",
+      "sido": "경북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 54.62,
+        "R": 17.59,
+        "A": 17.91,
+        "E": 25.21,
+        "resource": 20.24,
+        "NEAR_A": 42.93
+      },
+      "subPillars": {
+        "R_KCCI": 19.79,
+        "R3_integratedCare": 14.29,
+        "E3": 39.14,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 37,
+        "per10k": 3.74,
+        "specialPrograms": 6
+      },
+      "rank": 213,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37070",
+      "regionName": "영천시",
+      "sido": "경북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 58.71,
+        "R": 15.54,
+        "A": 22.46,
+        "E": 28.33,
+        "resource": 22.11,
+        "NEAR_A": 42.75
+      },
+      "subPillars": {
+        "R_KCCI": 25.5,
+        "R3_integratedCare": 0.6,
+        "E3": 39.14,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 14,
+        "per10k": 1.41,
+        "specialPrograms": 2
+      },
+      "rank": 214,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37040",
+      "regionName": "안동시",
+      "sido": "경북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 56.41,
+        "R": 14.7,
+        "A": 21.77,
+        "E": 26.36,
+        "resource": 20.94,
+        "NEAR_A": 42.74
+      },
+      "subPillars": {
+        "R_KCCI": 18.55,
+        "R3_integratedCare": 8.93,
+        "E3": 46.56,
+        "E3b_localCurrency": 45.5
+      },
+      "integratedCare": {
+        "totalServices": 28,
+        "per10k": 1.84,
+        "specialPrograms": 11
+      },
+      "rank": 215,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    },
+    {
+      "regionCode": "37080",
+      "regionName": "상주시",
+      "sido": "경북",
+      "type": "시",
+      "issuer": true,
+      "scores": {
+        "N": 60.99,
+        "R": 21.2,
+        "A": 16.45,
+        "E": 27.87,
+        "resource": 21.84,
+        "NEAR_A": 41.34
+      },
+      "subPillars": {
+        "R_KCCI": 23.43,
+        "R3_integratedCare": 17.86,
+        "E3": 44.52,
+        "E3b_localCurrency": 35.0
+      },
+      "integratedCare": {
+        "totalServices": 43,
+        "per10k": 4.67,
+        "specialPrograms": 11
+      },
+      "rank": 216,
+      "quadrant": "IV",
+      "quadrantLabel": "돌봄위기형 ★ (고욕구·자원부족)"
+    }
+  ]
+}

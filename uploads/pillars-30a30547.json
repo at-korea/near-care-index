@@ -1,0 +1,83 @@
+{
+  "N": {
+    "code": "N",
+    "name": "Needs",
+    "koreanName": "욕구·필요",
+    "color": "#5E60CE",
+    "question": "누가 얼마나 돌봄이 필요한가",
+    "direction": "higher means more demand",
+    "penalizedInComposite": true,
+    "composite_weight": -0.6,
+    "indicators": [
+      "D1",
+      "D3",
+      "D4",
+      "Dx"
+    ]
+  },
+  "R": {
+    "code": "R",
+    "name": "Resources",
+    "koreanName": "자원·공급역량",
+    "color": "#06A877",
+    "composite_weight": 0.45,
+    "question": "어떤 돌봄 자원이 (공식+비공식+통합돌봄) 얼마나 있는가",
+    "direction": "higher means more resources",
+    "subPillars": {
+      "R_KCCI": {
+        "weight": 0.5,
+        "desc": "기존 KCCI v0.5 (S+R)/2 평균"
+      },
+      "R3_integratedCare": {
+        "weight": 0.5,
+        "desc": "통합돌봄 사업 수 (보건복지부 stats.json)"
+      }
+    }
+  },
+  "A": {
+    "code": "A",
+    "name": "Access",
+    "koreanName": "접근·접근성",
+    "color": "#E8801E",
+    "composite_weight": 0.3,
+    "question": "필요한 사람이 자원에 닿을 수 있는가",
+    "direction": "higher means better access",
+    "indicators": [
+      "A1",
+      "A2",
+      "A4",
+      "A6"
+    ]
+  },
+  "E": {
+    "code": "E",
+    "name": "Engagement",
+    "koreanName": "결속·지역참여",
+    "color": "#C44569",
+    "composite_weight": 0.25,
+    "question": "지역사회가 신뢰·참여·민관협력으로 함께 작동하는가",
+    "direction": "higher means more engagement",
+    "subPillars": {
+      "E3a": {
+        "desc": "비영리·협동조합 사업체 비율 (시군구)",
+        "weight": 0.6
+      },
+      "E3b": {
+        "desc": "지역사랑상품권 발행여부·발행액",
+        "weight": 0.4
+      }
+    },
+    "indicators": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ]
+  },
+  "composite": {
+    "name": "NEAR_A",
+    "formula": "clip( 0.45*R + 0.30*A + 0.25*E - 0.6*N + 50, 0, 100 )",
+    "description": "v0.7 가중치판. R 자원에 가장 큰 비중(0.45). N 페널티 -0.6 강화."
+  }
+}

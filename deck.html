@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>NEAR Care Index — 정책 발표</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&family=IBM+Plex+Serif:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --inkSoft: #3a3a3a;
+    --muted: #6b6b6b;
+    --paper: #FAF7F0;
+    --line: #e5e5e5;
+    --N: #5E60CE;
+    --E: #C44569;
+    --A: #E8801E;
+    --R: #06A877;
+    --II: #4E8CFF;
+    --III: #9CA3AF;
+    --IV: #FF5A4E;
+    --yellow: #FFD23F;
+    --display: 'IBM Plex Serif', 'Gowun Batang', serif;
+    --body: 'IBM Plex Sans KR', system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #111; font-family: var(--body); }
+  deck-stage section {
+    background: var(--paper);
+    color: var(--ink);
+    padding: 80px 96px;
+    overflow: hidden;
+  }
+  h1, h2, h3 { font-family: var(--display); font-weight: 300; letter-spacing: -1.5px; line-height: 1.05; margin: 0; }
+  h1 { font-size: 132px; }
+  h2 { font-size: 84px; }
+  h3 { font-size: 48px; }
+  p { font-family: var(--body); font-size: 24px; line-height: 1.55; color: var(--inkSoft); margin: 0; }
+  .small { font-size: 16px; color: var(--muted); }
+  .mono { font-family: 'IBM Plex Mono', monospace; }
+  .eyebrow { font-family: var(--body); font-size: 24px; font-weight: 600; letter-spacing: 2.5px; text-transform: uppercase; color: var(--muted); }
+  .pill { display: inline-flex; align-items: center; gap: 6px; background: #fff; border: 1.5px solid var(--ink); border-radius: 999px; padding: 6px 16px; font-size: 14px; font-weight: 600; }
+  .pill.yellow { background: var(--yellow); }
+  .pill.dark { background: var(--ink); color: #fff; border-color: var(--ink); }
+
+  /* Slide layouts */
+  .full { display: flex; flex-direction: column; justify-content: center; height: 100%; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; height: 100%; }
+  .grid-2-tight { display: grid; grid-template-columns: 1.4fr 1fr; gap: 48px; align-items: center; height: 100%; }
+  .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+  .footer { position: absolute; bottom: 32px; left: 96px; right: 96px; display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); letter-spacing: 0.5px; font-family: var(--body); }
+
+  /* Title slide */
+  .title-mega { font-size: 200px; font-family: var(--display); font-weight: 300; letter-spacing: -8px; line-height: 0.85; }
+  .title-mega .hl { background: var(--yellow); padding: 0 18px; border: 4px solid var(--ink); display: inline-block; transform: rotate(-1deg); }
+
+  /* Pillar card */
+  .p-card { padding: 28px; border-radius: 18px; color: #fff; }
+  .p-card .letter { font-family: var(--display); font-size: 110px; font-weight: 300; line-height: 0.9; }
+  .p-card .label { font-family: var(--display); font-size: 32px; font-weight: 300; margin-top: 4px; }
+  .p-card .desc { font-size: 14px; line-height: 1.5; margin-top: 14px; opacity: 0.95; }
+  .p-card .score { font-family: var(--display); font-size: 56px; font-weight: 300; margin-top: 18px; }
+
+  /* Quadrant grid */
+  .quad-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .quad { border: 2px solid; border-radius: 14px; padding: 22px; background: #fff; position: relative; }
+  .quad .code { font-family: var(--display); font-size: 64px; font-weight: 300; line-height: 1; }
+  .quad .name { font-size: 20px; font-weight: 600; margin-top: 4px; }
+  .quad .note { font-size: 13px; color: var(--muted); margin-top: 4px; }
+  .quad .stat { display: flex; align-items: baseline; gap: 12px; margin-top: 14px; }
+  .quad .stat .n { font-family: var(--display); font-size: 56px; font-weight: 300; line-height: 1; }
+  .quad .stat .pct { font-size: 14px; color: var(--muted); }
+
+  /* Bar chart */
+  .bar-row { display: grid; grid-template-columns: 80px 1fr 80px; align-items: center; gap: 16px; margin: 8px 0; font-family: var(--body); font-size: 16px; }
+  .bar-track { height: 28px; background: #f0f0f0; border-radius: 4px; overflow: hidden; }
+  .bar-fill { height: 100%; }
+
+  /* Rank list */
+  .rank-row { display: grid; grid-template-columns: 50px 1fr 80px 80px; align-items: center; gap: 12px; padding: 10px 14px; border-bottom: 1px solid var(--line); font-size: 16px; }
+  .rank-row.top { background: rgba(255,210,63,0.18); border-radius: 8px; }
+  .rank-row.bottom { background: rgba(255,90,78,0.08); border-radius: 8px; }
+  .rank-row .num { font-family: var(--display); font-size: 28px; font-weight: 300; color: var(--muted); }
+
+  /* Section divider */
+  .section-bg { background: var(--ink); color: #fff; }
+  .section-bg .eyebrow { color: rgba(255,255,255,0.6); }
+  .section-bg .num-large { font-family: var(--display); font-size: 320px; font-weight: 300; line-height: 0.85; letter-spacing: -12px; }
+
+  /* Quadrant scatter */
+  svg.scatter { width: 100%; height: 100%; }
+  svg.scatter .axis { stroke: var(--ink); stroke-width: 1; }
+  svg.scatter .label { font-family: var(--body); font-size: 11px; fill: var(--muted); }
+  svg.scatter .quad-label { font-family: var(--display); font-size: 20px; font-weight: 300; fill-opacity: 0.4; }
+</style>
+</head>
+<body>
+<deck-stage>
+
+  <!-- 01 TITLE -->
+  <section data-screen-label="01 표지">
+    <div class="full" style="position: relative;">
+      <div style="display: flex; gap: 12px; margin-bottom: 32px;">
+        <span class="pill yellow" style="font-size: 24px; padding: 8px 20px;">NEAR Care Index v0.7</span>
+        <span class="pill" style="font-size: 24px; padding: 8px 20px;">정책 발표 · 2026</span>
+      </div>
+      <div class="title-mega">
+        가까운 돌봄,<br>
+        <span class="hl">가능한 돌봄</span>.
+      </div>
+      <p style="font-size: 28px; max-width: 900px; margin-top: 40px; line-height: 1.4;">
+        전국 <b>229개 시군구</b>의 돌봄역량을<br>
+        <b style="color: var(--N);">N</b>·<b style="color: var(--E);">E</b>·<b style="color: var(--A);">A</b>·<b style="color: var(--R);">R</b> 4축으로 진단하고,<br>
+        4사분면으로 정책 우선순위를 분류합니다.
+      </p>
+      <div style="position: absolute; bottom: 0; left: 0; display: flex; gap: 32px; font-size: 24px; color: var(--muted);">
+        <div><b style="color: var(--ink);">Korea Care Capacity Index</b> · at-korea 연구팀</div>
+        <div>2026.05 · 통합돌봄 본사업 결합</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 문제 제기 -->
+  <section data-screen-label="02 문제">
+    <div class="grid-2-tight">
+      <div>
+        <div class="eyebrow" style="margin-bottom: 16px;">왜 지금인가</div>
+        <h2 style="margin-bottom: 32px;">초고령사회,<br>그러나 돌봄은<br>지역마다 다르다.</h2>
+        <p style="max-width: 600px;">
+          2025년 한국은 65세 이상 인구 <b>20%</b>를 넘어
+          <b>초고령사회</b>에 진입했습니다.
+          그러나 돌봄이 가장 절실한 곳에 자원이 가장 적게 분포한
+          <b>역(逆)배분</b>의 구조가 광범위하게 관찰됩니다.
+        </p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 16px;">
+        <div style="background: #fff; border: 2px solid var(--ink); padding: 28px; border-radius: 14px; box-shadow: 6px 6px 0 var(--ink);">
+          <div class="eyebrow" style="margin-bottom: 6px;">초고령사회</div>
+          <div style="font-family: var(--display); font-size: 110px; font-weight: 300; line-height: 1;">20.3<span style="font-size: 40px;">%</span></div>
+          <div style="font-size: 24px; color: var(--muted); margin-top: 8px;">65세 이상 인구 비중 (2025, 통계청)</div>
+        </div>
+        <div style="background: var(--IV); color: #fff; padding: 28px; border-radius: 14px;">
+          <div class="eyebrow" style="margin-bottom: 6px; color: rgba(255,255,255,0.7);">돌봄위기형 시군구</div>
+          <div style="font-family: var(--display); font-size: 110px; font-weight: 300; line-height: 1;">89<span style="font-size: 40px;">개</span></div>
+          <div style="font-size: 24px; opacity: 0.95; margin-top: 8px;">고욕구 + 자원부족 (전체의 38.9%)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 SECTION DIVIDER -->
+  <section data-screen-label="03 섹션 — 모델" class="section-bg">
+    <div class="full">
+      <div class="eyebrow">PART 01 · METHODOLOGY</div>
+      <h1 style="color: #fff; font-size: 180px; margin-top: 16px;">방법론.</h1>
+      <p style="color: rgba(255,255,255,0.75); margin-top: 24px; max-width: 800px;">
+        N·E·A·R 4축, 4사분면, 그리고 통합돌봄 본사업 결합.
+      </p>
+    </div>
+  </section>
+
+  <!-- 04 NEAR 4축 -->
+  <section data-screen-label="04 NEAR 4축">
+    <div class="full">
+      <div class="eyebrow">04 · NEAR Framework</div>
+      <h2 style="margin: 12px 0 8px;">네 개의 돌봄 축.</h2>
+      <p class="small mono" style="margin-bottom: 32px;">NEAR_A = clip( (R + A + E)/3 − 0.5 × N + 50, 0, 100 )</p>
+      <div class="grid-4" style="flex: 1;">
+        <div class="p-card" style="background: var(--N);">
+          <div class="letter">N</div>
+          <div class="label">Needs · 욕구</div>
+          <div class="desc">누가 얼마나 돌봄이 필요한가 — 고령·독거·장애·1인가구</div>
+          <div class="score">23.5<span style="font-size: 16px; opacity: 0.7;">/100</span></div>
+          <div class="small" style="opacity: 0.85; color: rgba(255,255,255,0.85);">↑ 높을수록 부담 (페널티)</div>
+        </div>
+        <div class="p-card" style="background: var(--E);">
+          <div class="letter">E</div>
+          <div class="label">Engagement · 결속</div>
+          <div class="desc">지역사회가 함께 작동하는가 — 신뢰·시민참여·협동조합·지역화폐</div>
+          <div class="score">47.9<span style="font-size: 16px; opacity: 0.7;">/100</span></div>
+          <div class="small" style="opacity: 0.85; color: rgba(255,255,255,0.85);">사회자본 지표</div>
+        </div>
+        <div class="p-card" style="background: var(--A);">
+          <div class="letter">A</div>
+          <div class="label">Access · 접근</div>
+          <div class="desc">필요한 사람이 자원에 닿을 수 있는가 — 119·소방·노후주택·디지털</div>
+          <div class="score">62.6<span style="font-size: 16px; opacity: 0.7;">/100</span></div>
+          <div class="small" style="opacity: 0.85; color: rgba(255,255,255,0.85);">↑ 높을수록 접근 용이</div>
+        </div>
+        <div class="p-card" style="background: var(--R);">
+          <div class="letter">R</div>
+          <div class="label">Resources · 자원</div>
+          <div class="desc">어떤 자원이 얼마나 있는가 — 시설+가족+통합돌봄</div>
+          <div class="score">28.3<span style="font-size: 16px; opacity: 0.7;">/100</span></div>
+          <div class="small" style="opacity: 0.85; color: rgba(255,255,255,0.85);">R = 0.6·KCCI + 0.4·통합돌봄</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 4사분면 -->
+  <section data-screen-label="05 4사분면">
+    <div class="full">
+      <div class="eyebrow">05 · Quadrant Classification</div>
+      <h2 style="margin: 12px 0 24px;">4사분면 분류.</h2>
+      <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 48px; flex: 1; align-items: center;">
+        <div>
+          <svg viewBox="0 0 400 400" class="scatter">
+            <line x1="200" y1="20" x2="200" y2="380" class="axis" stroke-dasharray="4 4"/>
+            <line x1="20" y1="200" x2="380" y2="200" class="axis" stroke-dasharray="4 4"/>
+            <text x="20" y="14" class="quad-label">II 안정자원</text>
+            <text x="270" y="14" class="quad-label">I 균형선진</text>
+            <text x="20" y="394" class="quad-label">III 일반저욕구</text>
+            <text x="280" y="394" class="quad-label" style="fill: var(--IV); fill-opacity: 0.8;">IV 돌봄위기 ★</text>
+            <text x="200" y="395" class="label" text-anchor="middle">→ 욕구 N</text>
+            <text x="14" y="200" class="label" transform="rotate(-90, 14, 200)" text-anchor="middle">↑ 자원 R</text>
+            <!-- scatter dots -->
+            <circle cx="100" cy="80" r="5" fill="var(--II)" opacity="0.6"/>
+            <circle cx="120" cy="120" r="5" fill="var(--II)" opacity="0.6"/>
+            <circle cx="80" cy="100" r="5" fill="var(--II)" opacity="0.6"/>
+            <circle cx="150" cy="160" r="5" fill="var(--II)" opacity="0.6"/>
+            <circle cx="110" cy="90" r="5" fill="var(--II)" opacity="0.6"/>
+            <circle cx="280" cy="120" r="5" fill="var(--R)" opacity="0.6"/>
+            <circle cx="320" cy="100" r="5" fill="var(--R)" opacity="0.6"/>
+            <circle cx="260" cy="150" r="5" fill="var(--R)" opacity="0.6"/>
+            <circle cx="100" cy="280" r="5" fill="var(--III)" opacity="0.5"/>
+            <circle cx="140" cy="320" r="5" fill="var(--III)" opacity="0.5"/>
+            <circle cx="80" cy="300" r="5" fill="var(--III)" opacity="0.5"/>
+            <circle cx="280" cy="290" r="6" fill="var(--IV)"/>
+            <circle cx="320" cy="320" r="6" fill="var(--IV)"/>
+            <circle cx="260" cy="280" r="6" fill="var(--IV)"/>
+            <circle cx="300" cy="350" r="6" fill="var(--IV)"/>
+            <circle cx="340" cy="300" r="6" fill="var(--IV)"/>
+            <circle cx="270" cy="310" r="6" fill="var(--IV)"/>
+            <circle cx="310" cy="280" r="6" fill="var(--IV)"/>
+          </svg>
+        </div>
+        <div class="quad-grid">
+          <div class="quad" style="border-color: var(--R);">
+            <div class="code" style="color: var(--R);">I</div>
+            <div class="name">균형돌봄선진형</div>
+            <div class="note">고욕구 · 풍부자원</div>
+            <div class="stat"><div class="n">26</div><div class="pct">시군구 · 11.4%</div></div>
+          </div>
+          <div class="quad" style="border-color: var(--II);">
+            <div class="code" style="color: var(--II);">II</div>
+            <div class="name">안정자원풍부형</div>
+            <div class="note">저욕구 · 풍부자원</div>
+            <div class="stat"><div class="n">89</div><div class="pct">시군구 · 38.9%</div></div>
+          </div>
+          <div class="quad" style="border-color: var(--III);">
+            <div class="code" style="color: var(--III);">III</div>
+            <div class="name">일반저욕구형</div>
+            <div class="note">저욕구 · 자원부족</div>
+            <div class="stat"><div class="n">25</div><div class="pct">시군구 · 10.9%</div></div>
+          </div>
+          <div class="quad" style="border-color: var(--IV); background: rgba(255,90,78,0.06);">
+            <div class="code" style="color: var(--IV);">IV ★</div>
+            <div class="name">돌봄위기형</div>
+            <div class="note">고욕구 · 자원부족</div>
+            <div class="stat"><div class="n" style="color: var(--IV);">89</div><div class="pct">시군구 · 38.9%</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 데이터 출처 -->
+  <section data-screen-label="06 데이터 출처">
+    <div class="full">
+      <div class="eyebrow">06 · Data Sources</div>
+      <h2 style="margin: 12px 0 32px;">6개 기관, 30+ 지표.</h2>
+      <div style="display: grid; grid-template-columns: 240px 1fr; row-gap: 16px; column-gap: 32px; font-size: 18px; line-height: 1.55; border-top: 1.5px solid var(--ink); padding-top: 16px;">
+        <div style="font-weight: 600;">KOSIS 통계청</div>
+        <div style="color: var(--inkSoft);">인구·고령·독거 (D1~D8) · 시설·재정·요양 (S2·S4·Sx·S6) · 119·소방·노후주택 (A1·A2·A4) · 지방재정·자활 (R3·R4·R5)</div>
+
+        <div style="font-weight: 600; border-top: 1px solid var(--line); padding-top: 16px;">국민건강보험공단</div>
+        <div style="color: var(--inkSoft); border-top: 1px solid var(--line); padding-top: 16px;">장기요양 등급자 (D6) · 장기요양기관 수 (S6)</div>
+
+        <div style="font-weight: 600; border-top: 1px solid var(--line); padding-top: 16px;">한국행정연구원</div>
+        <div style="color: var(--inkSoft); border-top: 1px solid var(--line); padding-top: 16px;">사회통합실태조사 — 신뢰·시민참여 (E1·E2)</div>
+
+        <div style="font-weight: 600; border-top: 1px solid var(--line); padding-top: 16px;">행정안전부</div>
+        <div style="color: var(--inkSoft); border-top: 1px solid var(--line); padding-top: 16px;">외국인주민 (E4) · 지역사랑상품권 발행 시군구 (E3b)</div>
+
+        <div style="font-weight: 600; border-top: 1px solid var(--line); padding-top: 16px;">NIA 한국지능정보사회진흥원</div>
+        <div style="color: var(--inkSoft); border-top: 1px solid var(--line); padding-top: 16px;">디지털정보화수준 (A6)</div>
+
+        <div style="font-weight: 600; border-top: 1px solid var(--line); padding-top: 16px; color: var(--R);">보건복지부 ★</div>
+        <div style="color: var(--inkSoft); border-top: 1px solid var(--line); padding-top: 16px;">의료·요양 통합돌봄 본사업 시군구별 사업 현황 (2026.03) — R pillar 강화 (v0.7: R_KCCI 0.5 + 통합돌봄 0.5) 신규)</div>
+      </div>
+      <p class="small" style="margin-top: 24px;">시군구 단위 결합·표준화·합성은 본 연구팀 수행. 일부 지표는 시도 단위 broadcast 포함 (방법론 부록).</p>
+    </div>
+  </section>
+
+  <!-- 07 SECTION 결과 -->
+  <section data-screen-label="07 섹션 — 결과" class="section-bg">
+    <div class="full">
+      <div class="eyebrow">PART 02 · FINDINGS</div>
+      <h1 style="color: #fff; font-size: 180px; margin-top: 16px;">결과.</h1>
+      <p style="color: rgba(255,255,255,0.75); margin-top: 24px; max-width: 800px;">
+        229개 시군구 · 4사분면 · 그리고 89개의 위기.
+      </p>
+    </div>
+  </section>
+
+  <!-- 08 평균 NEAR_A -->
+  <section data-screen-label="08 NEAR_A 분포">
+    <div class="grid-2">
+      <div>
+        <div class="eyebrow" style="margin-bottom: 16px;">전국 평균</div>
+        <h2>NEAR_A<br><b style="font-weight: 600; color: var(--R);">71.8</b> 점.</h2>
+        <p style="margin-top: 24px; max-width: 500px;">
+          229개 시군구 평균은 71.8점이지만,
+          1위 <b>시흥시 92.4</b>와 최하위 <b>상주시 42.1</b> 사이에는
+          <b>50.3점 격차</b>가 존재합니다.
+        </p>
+        <div style="display: flex; gap: 16px; margin-top: 32px;">
+          <div style="background: var(--yellow); border: 2px solid var(--ink); padding: 18px 28px; border-radius: 12px; box-shadow: 4px 4px 0 var(--ink);">
+            <div style="font-size: 16px; font-weight: 600; color: var(--inkSoft);">최고</div>
+            <div style="font-family: var(--display); font-size: 56px; font-weight: 300; line-height: 1.1;">92.4</div>
+            <div style="font-size: 18px; color: var(--inkSoft);">시흥시 (경기)</div>
+          </div>
+          <div style="background: var(--IV); color: #fff; padding: 18px 28px; border-radius: 12px;">
+            <div style="font-size: 16px; opacity: 0.85; font-weight: 600;">최저</div>
+            <div style="font-family: var(--display); font-size: 56px; font-weight: 300; line-height: 1.1;">42.1</div>
+            <div style="font-size: 18px; opacity: 0.9;">상주시 (경북)</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <!-- 시도별 평균 막대 -->
+        <div class="eyebrow" style="margin-bottom: 16px;">시도별 평균 NEAR_A</div>
+        <div>
+          <div class="bar-row"><div>경기</div><div class="bar-track"><div class="bar-fill" style="width: 92%; background: var(--R);"></div></div><div><b>85.2</b></div></div>
+          <div class="bar-row"><div>서울</div><div class="bar-track"><div class="bar-fill" style="width: 87%; background: var(--R);"></div></div><div><b>80.5</b></div></div>
+          <div class="bar-row"><div>세종</div><div class="bar-track"><div class="bar-fill" style="width: 87%; background: var(--R);"></div></div><div><b>80.0</b></div></div>
+          <div class="bar-row"><div>대전</div><div class="bar-track"><div class="bar-fill" style="width: 82%; background: var(--II);"></div></div><div><b>76.2</b></div></div>
+          <div class="bar-row"><div>광주</div><div class="bar-track"><div class="bar-fill" style="width: 80%; background: var(--II);"></div></div><div><b>74.5</b></div></div>
+          <div class="bar-row"><div>인천</div><div class="bar-track"><div class="bar-fill" style="width: 78%; background: var(--II);"></div></div><div><b>72.8</b></div></div>
+          <div class="bar-row"><div>전남</div><div class="bar-track"><div class="bar-fill" style="width: 65%; background: var(--A);"></div></div><div><b>60.4</b></div></div>
+          <div class="bar-row"><div>강원</div><div class="bar-track"><div class="bar-fill" style="width: 64%; background: var(--A);"></div></div><div><b>59.7</b></div></div>
+          <div class="bar-row"><div>경북</div><div class="bar-track"><div class="bar-fill" style="width: 60%; background: var(--IV);"></div></div><div><b>55.6</b></div></div>
+        </div>
+        <p class="small" style="margin-top: 12px;">수도권·세종 vs 비수도권 도(道) 단위 격차가 뚜렷.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 09 Top10 / Bottom10 -->
+  <section data-screen-label="09 Top·Bottom">
+    <div class="full">
+      <div class="eyebrow">09 · National Ranking</div>
+      <h2 style="margin: 12px 0 24px;">Top 5 vs Bottom 5.</h2>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; flex: 1;">
+        <div>
+          <div class="pill yellow" style="margin-bottom: 12px;">Top 5 · 균형돌봄선진</div>
+          <div class="rank-row top"><div class="num">1</div><div><b>시흥시</b> 경기 · II</div><div></div><div><b style="color: var(--R);">92.4</b></div></div>
+          <div class="rank-row"><div class="num">2</div><div><b>과천시</b> 경기 · II</div><div></div><div><b>90.6</b></div></div>
+          <div class="rank-row"><div class="num">3</div><div><b>오산시</b> 경기 · II</div><div></div><div><b>89.3</b></div></div>
+          <div class="rank-row"><div class="num">4</div><div><b>용인시</b> 경기 · II</div><div></div><div><b>89.1</b></div></div>
+          <div class="rank-row"><div class="num">5</div><div><b>양주시</b> 경기 · II</div><div></div><div><b>88.4</b></div></div>
+          <p class="small" style="margin-top: 12px;">상위 5개 모두 경기도. 안정자원풍부형(II) 사분면 집중.</p>
+        </div>
+        <div>
+          <div class="pill" style="background: var(--IV); color: #fff; border-color: var(--IV); margin-bottom: 12px;">Bottom 5 · 돌봄위기 ★</div>
+          <div class="rank-row bottom"><div class="num" style="color: var(--IV);">229</div><div><b>상주시</b> 경북 · IV</div><div></div><div><b style="color: var(--IV);">42.1</b></div></div>
+          <div class="rank-row"><div class="num">228</div><div><b>안동시</b> 경북 · IV</div><div></div><div><b>42.7</b></div></div>
+          <div class="rank-row"><div class="num">227</div><div><b>영천시</b> 경북 · IV</div><div></div><div><b>43.0</b></div></div>
+          <div class="rank-row"><div class="num">226</div><div><b>경주시</b> 경북 · IV</div><div></div><div><b>43.9</b></div></div>
+          <div class="rank-row"><div class="num">225</div><div><b>문경시</b> 경북 · IV</div><div></div><div><b>44.0</b></div></div>
+          <p class="small" style="margin-top: 12px;">하위 5개 모두 경북. 고령·인구감소·자원부족이 중첩.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10 사례: 상주시 분해 -->
+  <section data-screen-label="10 사례 — 상주시">
+    <div class="full">
+      <div class="eyebrow">10 · Case Study · 돌봄위기형</div>
+      <h2 style="margin: 12px 0 8px;">경북 상주시.</h2>
+      <p class="small" style="margin-bottom: 32px;">전국 229위 · NEAR_A 42.1 · IV 돌봄위기형</p>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; flex: 1;">
+        <div>
+          <div class="eyebrow" style="margin-bottom: 12px;">N·E·A·R 분해</div>
+          <div class="bar-row"><div><b style="color: var(--N);">N</b> 욕구</div><div class="bar-track"><div class="bar-fill" style="width: 78%; background: var(--N);"></div></div><div><b>78.4</b></div></div>
+          <div class="bar-row"><div><b style="color: var(--E);">E</b> 결속</div><div class="bar-track"><div class="bar-fill" style="width: 38%; background: var(--E);"></div></div><div><b>38.2</b></div></div>
+          <div class="bar-row"><div><b style="color: var(--A);">A</b> 접근</div><div class="bar-track"><div class="bar-fill" style="width: 41%; background: var(--A);"></div></div><div><b>41.0</b></div></div>
+          <div class="bar-row"><div><b style="color: var(--R);">R</b> 자원</div><div class="bar-track"><div class="bar-fill" style="width: 22%; background: var(--R);"></div></div><div><b>22.1</b></div></div>
+          <p class="small" style="margin-top: 16px;">고령·독거 비중 매우 높음 → N 페널티 큼.<br>R(자원)이 22점으로 전국 최하위권.</p>
+        </div>
+        <div>
+          <div class="eyebrow" style="margin-bottom: 12px;">진단</div>
+          <div style="background: #fff; border: 2px solid var(--IV); border-radius: 14px; padding: 24px;">
+            <div style="font-family: var(--display); font-size: 32px; font-weight: 300; line-height: 1.2;">
+              "필요는 가장 크고,<br>자원은 가장 적은 곳."
+            </div>
+            <div style="margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 16px; line-height: 1.6; color: var(--inkSoft);">
+              <b>통합돌봄 본사업 1순위 후보.</b><br>
+              ① 장기요양기관 확충 (S6 보강)<br>
+              ② 만명당 통합돌봄 사업수 ↑<br>
+              ③ 협동조합·지역화폐 등 E pillar 활성화<br>
+              ④ 119·디지털접근 (A pillar) 단기 개선
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11 통합돌봄 결합 -->
+  <section data-screen-label="11 통합돌봄 결합">
+    <div class="grid-2">
+      <div>
+        <div class="eyebrow" style="margin-bottom: 16px;">v0.7 가중치판 핵심 변경</div>
+        <h2>통합돌봄<br>본사업,<br>R 점수에<br>녹였다.</h2>
+        <p style="margin-top: 24px; max-width: 520px;">
+          2026년 3월 기준 <b>21개 시군구</b>에서 시범 운영 중인
+          <b>의료·요양 통합돌봄 본사업</b>의 사업수·만명당 사업수·특화프로그램 수를
+          R(자원) pillar에 결합했습니다.
+        </p>
+        <div class="mono small" style="margin-top: 24px; padding: 16px; background: #fff; border: 1.5px solid var(--ink); border-radius: 8px;">
+          R = 0.5 × R_KCCI &nbsp;+&nbsp; 0.5 × IC_total_norm
+        </div>
+      </div>
+      <div style="background: var(--R); color: #fff; padding: 48px; border-radius: 18px; box-shadow: 8px 8px 0 var(--ink);">
+        <div class="eyebrow" style="color: rgba(255,255,255,0.7);">2026.03 통합돌봄 본사업</div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 32px;">
+          <div>
+            <div style="font-family: var(--display); font-size: 88px; font-weight: 300; line-height: 1;">21</div>
+            <div style="font-size: 18px; opacity: 0.9; margin-top: 6px;">시범 시군구</div>
+          </div>
+          <div>
+            <div style="font-family: var(--display); font-size: 88px; font-weight: 300; line-height: 1;">10.9k</div>
+            <div style="font-size: 18px; opacity: 0.9; margin-top: 6px;">전국 사업 건수</div>
+          </div>
+          <div>
+            <div style="font-family: var(--display); font-size: 88px; font-weight: 300; line-height: 1;">47.6</div>
+            <div style="font-size: 18px; opacity: 0.9; margin-top: 6px;">시군구 평균 사업수</div>
+          </div>
+          <div>
+            <div style="font-family: var(--display); font-size: 88px; font-weight: 300; line-height: 1;">0.4</div>
+            <div style="font-size: 18px; opacity: 0.9; margin-top: 6px;">R 결합 가중치</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12 SECTION 정책 -->
+  <section data-screen-label="12 섹션 — 정책" class="section-bg">
+    <div class="full">
+      <div class="eyebrow">PART 03 · POLICY</div>
+      <h1 style="color: #fff; font-size: 180px; margin-top: 16px;">시사점.</h1>
+      <p style="color: rgba(255,255,255,0.75); margin-top: 24px; max-width: 800px;">
+        무엇을, 어디에, 어떻게 우선 배치할 것인가.
+      </p>
+    </div>
+  </section>
+
+  <!-- 13 정책 권장 -->
+  <section data-screen-label="13 정책 권장">
+    <div class="full">
+      <div class="eyebrow">13 · Policy Recommendations</div>
+      <h2 style="margin: 12px 0 32px;">사분면별 처방.</h2>
+      <div class="quad-grid" style="grid-template-columns: 1fr 1fr; flex: 1;">
+        <div class="quad" style="border-color: var(--R);">
+          <div style="display: flex; align-items: baseline; gap: 12px;">
+            <div class="code" style="color: var(--R);">I</div>
+            <div>
+              <div class="name">균형돌봄선진형</div>
+              <div class="note">26개 · 고욕구·풍부자원</div>
+            </div>
+          </div>
+          <p style="margin-top: 16px; font-size: 17px; line-height: 1.55; color: var(--inkSoft);">
+            <b>모범사례 발굴 → 거점화.</b> 인근 IV 시군구를 위한
+            <b>광역 돌봄 컨소시엄 허브</b>로 활용. 노하우·인력·플랫폼 공유.
+          </p>
+        </div>
+        <div class="quad" style="border-color: var(--II);">
+          <div style="display: flex; align-items: baseline; gap: 12px;">
+            <div class="code" style="color: var(--II);">II</div>
+            <div>
+              <div class="name">안정자원풍부형</div>
+              <div class="note">89개 · 저욕구·풍부자원</div>
+            </div>
+          </div>
+          <p style="margin-top: 16px; font-size: 17px; line-height: 1.55; color: var(--inkSoft);">
+            <b>현 자원 유지 + 미래 고령화 대비.</b>
+            10년 뒤 N 상승 시뮬레이션 기반 <b>예방적 인프라 확충</b>.
+          </p>
+        </div>
+        <div class="quad" style="border-color: var(--III);">
+          <div style="display: flex; align-items: baseline; gap: 12px;">
+            <div class="code" style="color: var(--III);">III</div>
+            <div>
+              <div class="name">일반저욕구형</div>
+              <div class="note">25개 · 저욕구·자원부족</div>
+            </div>
+          </div>
+          <p style="margin-top: 16px; font-size: 17px; line-height: 1.55; color: var(--inkSoft);">
+            <b>기본 모니터링 + 예방적 투자.</b>
+            지표 변동 추세 관찰, 인구구조 변화에 선제 대응.
+          </p>
+        </div>
+        <div class="quad" style="border-color: var(--IV); background: rgba(255,90,78,0.05);">
+          <div style="display: flex; align-items: baseline; gap: 12px;">
+            <div class="code" style="color: var(--IV);">IV ★</div>
+            <div>
+              <div class="name" style="color: var(--IV);">돌봄위기형 · 즉시 개입</div>
+              <div class="note">89개 · 고욕구·자원부족</div>
+            </div>
+          </div>
+          <p style="margin-top: 16px; font-size: 17px; line-height: 1.55; color: var(--inkSoft);">
+            <b>통합돌봄 본사업 1순위 배치.</b> 21개 → <b>89개로 확대</b>.
+            장기요양기관·디지털·E pillar 동시 보강. <b>3년 단위 재진단</b>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 14 핵심 메시지 -->
+  <section data-screen-label="14 핵심 메시지">
+    <div class="full" style="justify-content: center; align-items: center; text-align: center;">
+      <div class="eyebrow" style="margin-bottom: 24px;">Key takeaway</div>
+      <div style="font-family: var(--display); font-size: 110px; font-weight: 300; line-height: 1.05; letter-spacing: -3px; max-width: 1400px;">
+        돌봄위기형(IV) <b style="color: var(--IV);">89개 시군구</b>에<br>
+        <span style="background: var(--yellow); padding: 0 16px; border: 3px solid var(--ink); display: inline-block; transform: rotate(-1deg); margin-top: 8px;">통합돌봄 본사업을</span><br>
+        우선 배치해야 한다.
+      </div>
+      <p style="font-size: 22px; margin-top: 48px; max-width: 900px; color: var(--muted);">
+        21개 → 89개 확대. R 결합 + N·E·A 동반 보강. 3년 단위 NEAR 재진단.
+      </p>
+    </div>
+  </section>
+
+  <!-- 15 데모 / 마무리 -->
+  <section data-screen-label="15 데모 안내">
+    <div class="full">
+      <div class="eyebrow">15 · Live Demo & Repository</div>
+      <h2 style="margin: 12px 0 32px;">함께 살펴봅시다.</h2>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; flex: 1; align-items: stretch;">
+        <div style="background: #fff; border: 2px solid var(--ink); border-radius: 18px; padding: 36px; box-shadow: 6px 6px 0 var(--ink); display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="pill yellow">hi-fi 프로토타입</div>
+            <h3 style="margin: 16px 0 8px;">CARE.INDEX</h3>
+            <p style="font-size: 17px;">
+              <b>홈 · 상세 · 비교 · 진단 · 지자체 콘솔</b><br>
+              229개 시군구의 N·E·A·R 점수와 사분면을<br>
+              실시간 탐색할 수 있는 인터랙티브 대시보드.
+            </p>
+          </div>
+          <div class="mono small" style="margin-top: 24px; padding: 12px 16px; background: var(--paper); border-radius: 8px;">
+            https://at-korea.github.io/near-care-index/
+          </div>
+        </div>
+        <div style="background: var(--ink); color: #fff; border-radius: 18px; padding: 36px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="pill dark" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.3);">GitHub Repository</div>
+            <h3 style="margin: 16px 0 8px; color: #fff;">near-care-index</h3>
+            <p style="font-size: 17px; color: rgba(255,255,255,0.85);">
+              데이터 · 컴포넌트 · 방법론 · 코드북 일체 공개.<br>
+              MIT License. 인용 시 v0.7 · 2026.05 명시.
+            </p>
+          </div>
+          <div class="mono small" style="margin-top: 24px; padding: 12px 16px; background: rgba(255,255,255,0.08); border-radius: 8px; color: rgba(255,255,255,0.9);">
+            github.com/at-korea/near-care-index
+          </div>
+        </div>
+      </div>
+      <div style="display: flex; justify-content: space-between; margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 18px; color: var(--muted);">
+        <div><b style="color: var(--ink); font-size: 24px;">감사합니다.</b> &nbsp; NEAR Care Index v0.7 · 229 시군구 · 2026.05</div>
+        <div style="font-style: italic;">at-korea (2026). Korea Community Care Capacity Research.</div>
+      </div>
+    </div>
+  </section>
+
+</deck-stage>
+
+<script src="deck-stage.js"></script>
+</body>
+</html>
